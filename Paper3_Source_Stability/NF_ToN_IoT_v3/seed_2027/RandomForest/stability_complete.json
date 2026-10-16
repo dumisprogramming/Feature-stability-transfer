@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T06:41:25.967943+00:00",
+  "dataset": "NF_ToN_IoT_v3",
+  "environmental_summary": {
+    "groups": 21,
+    "mean_spearman": 0.027466290184977024,
+    "mean_top10_jaccard": 0.21473785195589706,
+    "median_spearman": 0.007244465261622991,
+    "pairs": 210,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "RandomForest",
+  "pairwise_stability_sha256": "2972a86a18ff4876e5463594df12b8749dfb8a89b0d70cbb304f1bdc5e8b3bf5",
+  "permutation_importance_sha256": "fd4c1b392542e8673657f33dfc9d60727634b373751a02232f017ad9a551f9e3",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 21,
+    "mean_spearman": 0.8369542397038107,
+    "mean_top10_jaccard": 0.5926406926406927,
+    "median_spearman": 0.8405684693413185,
+    "pairs": 210,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2027,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.4986795156987293,
+  "warning_scores": {
+    "dataset": "NF_ToN_IoT_v3",
+    "environmental_groups": 21,
+    "environmental_instability": 0.972533709815023,
+    "environmental_pairs": 210,
+    "environmental_stability": 0.027466290184977024,
+    "environmental_top10_jaccard": 0.21473785195589706,
+    "mean_environmental_baseline_ba": 0.8691904761904762,
+    "mean_sampling_baseline_ba": 0.8691904761904764,
+    "model": "RandomForest",
+    "sampling_environment_gap": 0.8094879495188336,
+    "sampling_groups": 21,
+    "sampling_pairs": 210,
+    "sampling_stability": 0.8369542397038107,
+    "sampling_top10_jaccard": 0.5926406926406927,
+    "seed": 2027,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T06:41:43.484103+00:00",
+  "dataset": "NF_ToN_IoT_v3",
+  "environmental_summary": {
+    "groups": 21,
+    "mean_spearman": 0.12818068930316182,
+    "mean_top10_jaccard": 0.2525306159759942,
+    "median_spearman": 0.12513670791639545,
+    "pairs": 210,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "LogisticRegression",
+  "pairwise_stability_sha256": "49039c2093c38b654c997cae4542a8ab8fc14ad65048a772d1fa0957e1ddc13f",
+  "permutation_importance_sha256": "13dfb10b54545582057a31c964f83054348f75b195130bd5a081e884dbae39d0",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 21,
+    "mean_spearman": 0.9118807538077728,
+    "mean_top10_jaccard": 0.7296925296925297,
+    "median_spearman": 0.9147041601495254,
+    "pairs": 210,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2028,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.4714122205262926,
+  "warning_scores": {
+    "dataset": "NF_ToN_IoT_v3",
+    "environmental_groups": 21,
+    "environmental_instability": 0.8718193106968382,
+    "environmental_pairs": 210,
+    "environmental_stability": 0.12818068930316182,
+    "environmental_top10_jaccard": 0.2525306159759942,
+    "mean_environmental_baseline_ba": 0.729404761904762,
+    "mean_sampling_baseline_ba": 0.7294047619047617,
+    "model": "LogisticRegression",
+    "sampling_environment_gap": 0.7837000645046109,
+    "sampling_groups": 21,
+    "sampling_pairs": 210,
+    "sampling_stability": 0.9118807538077728,
+    "sampling_top10_jaccard": 0.7296925296925297,
+    "seed": 2028,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

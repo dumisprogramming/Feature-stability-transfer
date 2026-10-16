@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T06:23:43.988700+00:00",
+  "dataset": "NF_ToN_IoT_v3",
+  "environmental_summary": {
+    "groups": 21,
+    "mean_spearman": 0.17531752438508727,
+    "mean_top10_jaccard": 0.3303592303481733,
+    "median_spearman": 0.1730824265560772,
+    "pairs": 210,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "XGBoost",
+  "pairwise_stability_sha256": "07267bddd896a57766b4557a6b6db936b874c34d1071dbde7727c6bb137798e3",
+  "permutation_importance_sha256": "240a470ebdb407e2de752ac1a769692e8af0ed1a126ed82b565251b2df754904",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 21,
+    "mean_spearman": 0.7722906160351437,
+    "mean_top10_jaccard": 0.6273583559297845,
+    "median_spearman": 0.7819474550616139,
+    "pairs": 210,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2027,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.594551146030426,
+  "warning_scores": {
+    "dataset": "NF_ToN_IoT_v3",
+    "environmental_groups": 21,
+    "environmental_instability": 0.8246824756149127,
+    "environmental_pairs": 210,
+    "environmental_stability": 0.17531752438508727,
+    "environmental_top10_jaccard": 0.3303592303481733,
+    "mean_environmental_baseline_ba": 0.8656904761904763,
+    "mean_sampling_baseline_ba": 0.8656904761904762,
+    "model": "XGBoost",
+    "sampling_environment_gap": 0.5969730916500564,
+    "sampling_groups": 21,
+    "sampling_pairs": 210,
+    "sampling_stability": 0.7722906160351437,
+    "sampling_top10_jaccard": 0.6273583559297845,
+    "seed": 2027,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

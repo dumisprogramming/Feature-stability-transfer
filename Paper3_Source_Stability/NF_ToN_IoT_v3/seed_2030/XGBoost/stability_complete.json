@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T07:37:01.253992+00:00",
+  "dataset": "NF_ToN_IoT_v3",
+  "environmental_summary": {
+    "groups": 21,
+    "mean_spearman": 0.14851198010801975,
+    "mean_top10_jaccard": 0.34209713288660654,
+    "median_spearman": 0.15121829188604158,
+    "pairs": 210,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "XGBoost",
+  "pairwise_stability_sha256": "2f76b78c43bc6e2aae6d22aafc525d3e3d41f870a1b6505f3f37aaa4f2b62361",
+  "permutation_importance_sha256": "c5ebc3aa08b24b48d8078e38276bed76f4fbe95fe017997aa55e8bea53179225",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 21,
+    "mean_spearman": 0.7145991199329729,
+    "mean_top10_jaccard": 0.5761571761571762,
+    "median_spearman": 0.7122485327524787,
+    "pairs": 210,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2030,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.4868527948856354,
+  "warning_scores": {
+    "dataset": "NF_ToN_IoT_v3",
+    "environmental_groups": 21,
+    "environmental_instability": 0.8514880198919803,
+    "environmental_pairs": 210,
+    "environmental_stability": 0.14851198010801975,
+    "environmental_top10_jaccard": 0.34209713288660654,
+    "mean_environmental_baseline_ba": 0.8696071428571428,
+    "mean_sampling_baseline_ba": 0.8696071428571429,
+    "model": "XGBoost",
+    "sampling_environment_gap": 0.5660871398249532,
+    "sampling_groups": 21,
+    "sampling_pairs": 210,
+    "sampling_stability": 0.7145991199329729,
+    "sampling_top10_jaccard": 0.5761571761571762,
+    "seed": 2030,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

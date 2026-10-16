@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T07:06:05.121748+00:00",
+  "dataset": "NF_ToN_IoT_v3",
+  "environmental_summary": {
+    "groups": 21,
+    "mean_spearman": 0.14717737808792447,
+    "mean_top10_jaccard": 0.24350491147262485,
+    "median_spearman": 0.1383658571008379,
+    "pairs": 210,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "LogisticRegression",
+  "pairwise_stability_sha256": "85f559bdcf0888a64c59e5cb8356cd4e96bf37be1d71a3c33b9d9938537e2c11",
+  "permutation_importance_sha256": "75e427663c8c0cfb7cd64dad742c49235b19714153daacbc6603652e16e68a2c",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 21,
+    "mean_spearman": 0.9217612083665786,
+    "mean_top10_jaccard": 0.6764267478553192,
+    "median_spearman": 0.9249269575571113,
+    "pairs": 210,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2029,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.4831030154120641,
+  "warning_scores": {
+    "dataset": "NF_ToN_IoT_v3",
+    "environmental_groups": 21,
+    "environmental_instability": 0.8528226219120756,
+    "environmental_pairs": 210,
+    "environmental_stability": 0.14717737808792447,
+    "environmental_top10_jaccard": 0.24350491147262485,
+    "mean_environmental_baseline_ba": 0.7228452380952382,
+    "mean_sampling_baseline_ba": 0.722845238095238,
+    "model": "LogisticRegression",
+    "sampling_environment_gap": 0.7745838302786541,
+    "sampling_groups": 21,
+    "sampling_pairs": 210,
+    "sampling_stability": 0.9217612083665786,
+    "sampling_top10_jaccard": 0.6764267478553192,
+    "seed": 2029,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}
