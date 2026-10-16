@@ -1,0 +1,75 @@
+{
+  "all_negative_results_retained": true,
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "amendment_A3_confirmatory_analysis_seal_sha256": "dd48b05318d8369ece3a98ca341774c30d7521e2aa655f1742271b104fca148b",
+  "artifact": "paper3_final_results_seal",
+  "artifacts": {
+    "confirmatory_association_results": {
+      "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/Paper3_DataSet/Paper3_Final_Evaluation/confirmatory_association_results.csv",
+      "rows": 3,
+      "sha256": "8a33016ceed18a6eb8f68094cba66cc634c7b5c79facf2889ca827c4be836da4"
+    },
+    "direction_model_summary_36": {
+      "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/Paper3_DataSet/Paper3_Final_Evaluation/direction_model_summary_36.csv",
+      "rows": 36,
+      "sha256": "f86c6027e1b819775fcc50a5010eaec40635a146bb0a34901e101a647e62ae1d"
+    },
+    "final_analysis_summary": {
+      "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/Paper3_DataSet/Paper3_Final_Evaluation/final_analysis_summary.json",
+      "sha256": "66d1dd2629f08d11f0c49dccaa4e8d77742d5d37f421706c41e2d24b6bf2181b"
+    },
+    "loso_model_scores": {
+      "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/Paper3_DataSet/Paper3_Final_Evaluation/loso_model_scores.csv",
+      "rows": 6,
+      "sha256": "49873e2e3ecfef943c253ef9c5f739e85367631487f89113c75e919368d826e3"
+    },
+    "loso_oof_predictions": {
+      "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/Paper3_DataSet/Paper3_Final_Evaluation/loso_oof_predictions.csv",
+      "rows": 360,
+      "sha256": "f61defe1cbe218f034e9c69068d669417ff62156d20fd596334dbff7cd67069d"
+    },
+    "source_model_confirmatory_units_12": {
+      "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/Paper3_DataSet/Paper3_Final_Evaluation/source_model_confirmatory_units_12.csv",
+      "rows": 12,
+      "sha256": "4081ef7d8f6a2c1c9012f2cdf8d563e6776cdd364fe747319c68b82ab87ad3f2"
+    },
+    "source_seed_model_primary_units_60": {
+      "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/Paper3_DataSet/Paper3_Final_Evaluation/source_seed_model_primary_units_60.csv",
+      "rows": 60,
+      "sha256": "9477309be686e32d365ae78fc1c98213ebe95497bac0e1fdcece55f6bfc78a56"
+    },
+    "target_metrics_all_180": {
+      "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/Paper3_DataSet/Paper3_Final_Evaluation/target_metrics_all_180.csv",
+      "rows": 180,
+      "sha256": "0f997deebc76fe4ad3ba0fc693622a13abc43573e93e41da05e707438e1595b7"
+    },
+    "transfer_analysis_all_180": {
+      "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/Paper3_DataSet/Paper3_Final_Evaluation/transfer_analysis_all_180.csv",
+      "rows": 180,
+      "sha256": "440ea72799ad3bf26ccb8e55d7896b2682ba8ec02deeb39a0190361d95599de6"
+    }
+  },
+  "direction_index_seal_sha256": "ffd64bd8a98b1a6d8bd23eecb2f96113307f11e27837a1c467487df652cc7d7c",
+  "evaluated_job_label_associations": 14400000,
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "final_evaluation_script_sha256": "ef9b7b01a25a1efa72160bbf4a03f264a391b20fa52b9e87fc9d59a4d028734e",
+  "parent_amendment_A2_sha256": "2217078acfa10700f4fae29c6f32f171ce7a4e2ecb22d22ce5eabb6087e5aa5e",
+  "parent_protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "pre_label_target_prediction_seal_sha256": "7e9898212fda48e756b061529f46e9ca0d5c80512b2dc43c7da87f698ce7c618",
+  "prediction_jobs_evaluated": 180,
+  "seal_sha256": "a31524383c4ecbaffa8cf344219f3cf79525e2a271d3764ea0954386e9fd0c4a",
+  "software_versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "python": "3.13.15",
+    "scikit_learn": "1.6.1",
+    "scipy": "1.16.3"
+  },
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "source_stability_seal_sha256": "3ec5641ed96a462ce2c76765b6b4483a1e48cad11d79981feb7afd1c43449340",
+  "status": "FINAL_TARGET_EVALUATION_SEALED",
+  "target_adaptation_performed": false,
+  "target_candidate_panel_seal_sha256": "084427a57c884ccb4ecdc4298975e5ff59f4ca632ecdedf24c62edb82c4b2df1",
+  "target_thresholds_changed": false,
+  "unique_target_label_rows_read": 400000
+}

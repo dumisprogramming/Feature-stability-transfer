@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the research manuscript and identify the exact repository version used."
+type: software
+title: "Source-side feature stability and cross-dataset NIDS degradation research materials"
+authors:
+  - family-names: Bakhtiar
+    given-names: S. M. Bahauddin
+    orcid: "https://orcid.org/0009-0000-5180-367X"
+abstract: "Frozen protocols, saved results, audits and result-level analysis tools for a four-dataset network intrusion detection transfer study. Full raw-data reproduction is not yet supported."

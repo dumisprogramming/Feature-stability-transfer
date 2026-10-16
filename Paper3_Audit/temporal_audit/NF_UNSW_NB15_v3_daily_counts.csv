@@ -1,0 +1,4 @@
+period_type,period,benign,attack,total,eligible
+calendar_day,2015-01-22,1078112,17462,1095574,True
+calendar_day,2015-01-23,39778,0,39778,False
+calendar_day,2015-02-18,1119841,110231,1230072,True

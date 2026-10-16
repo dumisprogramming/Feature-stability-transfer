@@ -1,0 +1,906 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "details": {
+    "NF_BoT_IoT_v3": {
+      "2027": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4630,
+            "label_1": 4630,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.3411447084233261,
+            "rows": 9260
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 10000,
+            "label_1": 10000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.6271,
+            "rows": 20000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4773,
+            "label_1": 4773,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.33668552273203434,
+            "rows": 9546
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 22871,
+            "label_1": 22871,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.33336976957719383,
+            "rows": 45742
+          }
+        },
+        "problems": []
+      },
+      "2028": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4644,
+            "label_1": 4644,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.3449612403100775,
+            "rows": 9288
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 10000,
+            "label_1": 10000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.62625,
+            "rows": 20000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4780,
+            "label_1": 4780,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.3353556485355649,
+            "rows": 9560
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 22926,
+            "label_1": 22926,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.3327662915467155,
+            "rows": 45852
+          }
+        },
+        "problems": []
+      },
+      "2029": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4656,
+            "label_1": 4656,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.3431056701030928,
+            "rows": 9312
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 10000,
+            "label_1": 10000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.62705,
+            "rows": 20000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4771,
+            "label_1": 4771,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.33661706141270176,
+            "rows": 9542
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 22817,
+            "label_1": 22817,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.33275627821361264,
+            "rows": 45634
+          }
+        },
+        "problems": []
+      },
+      "2030": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4651,
+            "label_1": 4651,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.3419694689314126,
+            "rows": 9302
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 10000,
+            "label_1": 10000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.62605,
+            "rows": 20000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4769,
+            "label_1": 4769,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.33780666806458376,
+            "rows": 9538
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 22868,
+            "label_1": 22868,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.3329324820710163,
+            "rows": 45736
+          }
+        },
+        "problems": []
+      },
+      "2031": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4632,
+            "label_1": 4632,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.34013385146804836,
+            "rows": 9264
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 10000,
+            "label_1": 10000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.62825,
+            "rows": 20000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4778,
+            "label_1": 4778,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.33507743825868563,
+            "rows": 9556
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 22917,
+            "label_1": 22917,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.33368241916481217,
+            "rows": 45834
+          }
+        },
+        "problems": []
+      }
+    },
+    "NF_CSE_CIC_IDS2018_v3": {
+      "2027": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4699,
+            "label_1": 4699,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 9398
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 26000,
+            "label_1": 26000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 52000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4780,
+            "label_1": 4780,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 9560
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [
+              "FTP_COMMAND_RET_CODE"
+            ],
+            "infinite_values": 0,
+            "label_0": 23332,
+            "label_1": 23332,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 46664
+          }
+        },
+        "problems": []
+      },
+      "2028": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4722,
+            "label_1": 4722,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 9444
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 26000,
+            "label_1": 26000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 52000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4754,
+            "label_1": 4754,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 9508
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [
+              "FTP_COMMAND_RET_CODE"
+            ],
+            "infinite_values": 0,
+            "label_0": 23300,
+            "label_1": 23300,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 46600
+          }
+        },
+        "problems": []
+      },
+      "2029": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4701,
+            "label_1": 4701,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 9402
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 26000,
+            "label_1": 26000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 52000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4755,
+            "label_1": 4755,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 9510
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [
+              "FTP_COMMAND_RET_CODE"
+            ],
+            "infinite_values": 0,
+            "label_0": 23310,
+            "label_1": 23310,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 46620
+          }
+        },
+        "problems": []
+      },
+      "2030": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4701,
+            "label_1": 4701,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 9402
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 26000,
+            "label_1": 26000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 52000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4765,
+            "label_1": 4765,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 9530
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [
+              "FTP_COMMAND_RET_CODE"
+            ],
+            "infinite_values": 0,
+            "label_0": 23292,
+            "label_1": 23292,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 46584
+          }
+        },
+        "problems": []
+      },
+      "2031": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4694,
+            "label_1": 4694,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 9388
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 26000,
+            "label_1": 26000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 52000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4779,
+            "label_1": 4779,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 9558
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [
+              "FTP_COMMAND_RET_CODE"
+            ],
+            "infinite_values": 0,
+            "label_0": 23342,
+            "label_1": 23342,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 46684
+          }
+        },
+        "problems": []
+      }
+    },
+    "NF_ToN_IoT_v3": {
+      "2027": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4321,
+            "label_1": 4321,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 8642
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 42000,
+            "label_1": 42000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 84000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4336,
+            "label_1": 4336,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 8672
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 21504,
+            "label_1": 21504,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 43008
+          }
+        },
+        "problems": []
+      },
+      "2028": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4343,
+            "label_1": 4343,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 8686
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 42000,
+            "label_1": 42000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 84000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4331,
+            "label_1": 4331,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 8662
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 21531,
+            "label_1": 21531,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 43062
+          }
+        },
+        "problems": []
+      },
+      "2029": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4337,
+            "label_1": 4337,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 8674
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 42000,
+            "label_1": 42000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 84000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4329,
+            "label_1": 4329,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 8658
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 21491,
+            "label_1": 21491,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 42982
+          }
+        },
+        "problems": []
+      },
+      "2030": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4330,
+            "label_1": 4330,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 8660
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 42000,
+            "label_1": 42000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 84000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4318,
+            "label_1": 4318,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 8636
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 21485,
+            "label_1": 21485,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 42970
+          }
+        },
+        "problems": []
+      },
+      "2031": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4324,
+            "label_1": 4324,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 8648
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 42000,
+            "label_1": 42000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 84000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4344,
+            "label_1": 4344,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 8688
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 21494,
+            "label_1": 21494,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.0,
+            "rows": 42988
+          }
+        },
+        "problems": []
+      }
+    },
+    "NF_UNSW_NB15_v3": {
+      "2027": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4729,
+            "label_1": 4729,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.13861281454853033,
+            "rows": 9458
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 8000,
+            "label_1": 8000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.167625,
+            "rows": 16000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4773,
+            "label_1": 4773,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.1421537816886654,
+            "rows": 9546
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 23152,
+            "label_1": 23152,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.13074464409122322,
+            "rows": 46304
+          }
+        },
+        "problems": []
+      },
+      "2028": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4701,
+            "label_1": 4701,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.1465645607317592,
+            "rows": 9402
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 8000,
+            "label_1": 8000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.1605,
+            "rows": 16000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4812,
+            "label_1": 4812,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.13923524522028263,
+            "rows": 9624
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 23229,
+            "label_1": 23229,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.1312368160489044,
+            "rows": 46458
+          }
+        },
+        "problems": []
+      },
+      "2029": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4732,
+            "label_1": 4732,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.14655536770921387,
+            "rows": 9464
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 8000,
+            "label_1": 8000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.1661875,
+            "rows": 16000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4827,
+            "label_1": 4827,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.13849181686347628,
+            "rows": 9654
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 23229,
+            "label_1": 23229,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.13112919195832795,
+            "rows": 46458
+          }
+        },
+        "problems": []
+      },
+      "2030": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4728,
+            "label_1": 4728,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.141497461928934,
+            "rows": 9456
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 8000,
+            "label_1": 8000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.1655625,
+            "rows": 16000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4759,
+            "label_1": 4759,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.1394200462281992,
+            "rows": 9518
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 23233,
+            "label_1": 23233,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.13093444669220505,
+            "rows": 46466
+          }
+        },
+        "problems": []
+      },
+      "2031": {
+        "gate_pass": true,
+        "partition_details": {
+          "calibration": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4706,
+            "label_1": 4706,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.13238419039524013,
+            "rows": 9412
+          },
+          "environment": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 8000,
+            "label_1": 8000,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.17025,
+            "rows": 16000
+          },
+          "source_test": {
+            "balanced": true,
+            "infinite_values": 0,
+            "label_0": 4801,
+            "label_1": 4801,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.14819829202249532,
+            "rows": 9602
+          },
+          "train": {
+            "all_missing_features": [],
+            "balanced": true,
+            "constant_features": [],
+            "infinite_values": 0,
+            "label_0": 23205,
+            "label_1": 23205,
+            "labels_valid": true,
+            "maximum_missing_fraction": 0.12997198879551822,
+            "rows": 46410
+          }
+        },
+        "problems": []
+      }
+    }
+  },
+  "problems": [],
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6"
+}

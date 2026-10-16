@@ -1,0 +1,1455 @@
+{
+  "scope": "Package snapshot; does not replace historical experimental seals",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 405,
+      "sha256": "5a52e0f98fde1a495f98d0669611a511727eb17571b240c3260669db74b46ce6"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 538,
+      "sha256": "227b25b9cedfb69589369b95c00cef84e354f34e2eb50d60e7ca13f6844c0e7f"
+    },
+    {
+      "path": "Paper3_Audit/dataset_inventory_audit.json",
+      "bytes": 9619,
+      "sha256": "564b3d47f843bbcaf8c337cfa55d203590cd62af5e312a68357423ee3b7ce9d9"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_BoT_IoT_v3_6hour_counts.csv",
+      "bytes": 614,
+      "sha256": "3b9a05091210d285373e0efc85ba43baf729e34792d6cc366f6e64137da90f91"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_BoT_IoT_v3_audit.json",
+      "bytes": 723,
+      "sha256": "3b7f62a4cf814afdd1dfade56790a675ea58cf6ad78128b9bb19691c28719f27"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_BoT_IoT_v3_daily_counts.csv",
+      "bytes": 333,
+      "sha256": "9981c52b026d91c466c96a1b3bfa6ef1bbc81c6c92623ccd8af842036efe9d03"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_CSE_CIC_IDS2018_v3_6hour_counts.csv",
+      "bytes": 1605,
+      "sha256": "e3bb5407570093fdea2213d543677c9f4af588307e72b6e65322b84df9463862"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_CSE_CIC_IDS2018_v3_audit.json",
+      "bytes": 1100,
+      "sha256": "9f111b9392a0df97713d13a58c8a10555eecda2525c38372bc5e19e9f72af4f4"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_CSE_CIC_IDS2018_v3_daily_counts.csv",
+      "bytes": 601,
+      "sha256": "6797bd673d0481aca79fd90d2b740a94663d853eed15d00f3d4af7f8b429dd67"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_ToN_IoT_v3_6hour_counts.csv",
+      "bytes": 1333,
+      "sha256": "fec7a6619e45be436c78f3080dccfc24acc407abf96483c5dd41904dad476f5e"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_ToN_IoT_v3_audit.json",
+      "bytes": 840,
+      "sha256": "22a952db103c244af163e494deb853e518e79fdab5c4dc12f9ddc1fe4105863f"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_ToN_IoT_v3_daily_counts.csv",
+      "bytes": 412,
+      "sha256": "b7dfe7436869fe33f19589aa1502e6c820cf0355a8e4a4f99cc7dd0bab1b6d54"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_UNSW_NB15_v3_6hour_counts.csv",
+      "bytes": 441,
+      "sha256": "85dbc49c6b06e31154193c52dac46a66618b12e4d6de22888b9e805579205dfd"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_UNSW_NB15_v3_audit.json",
+      "bytes": 836,
+      "sha256": "aefe581e7de21f9010485429824772c7ed6e0a694c71c283afee2ed603147285"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/NF_UNSW_NB15_v3_daily_counts.csv",
+      "bytes": 195,
+      "sha256": "ae7adc0c023f433d5493d544a86eba20dea8e641e42ea3843b5e8846df3c7097"
+    },
+    {
+      "path": "Paper3_Audit/temporal_audit/combined_temporal_audit.csv",
+      "bytes": 351,
+      "sha256": "28d6d00fdaca6449f9e00207d2b0419c53d047490b4064892525aa4b46f0bb61"
+    },
+    {
+      "path": "Paper3_Code/paper3_direction_indices.py",
+      "bytes": 19413,
+      "sha256": "63b09be42a731251845f12cdac118f6fafaf3c0930cc228c0b5e2986b232c648"
+    },
+    {
+      "path": "Paper3_Code/paper3_final_target_evaluation.py",
+      "bytes": 50840,
+      "sha256": "ef9b7b01a25a1efa72160bbf4a03f264a391b20fa52b9e87fc9d59a4d028734e"
+    },
+    {
+      "path": "Paper3_Code/paper3_label_blind_target_predictions.py",
+      "bytes": 28571,
+      "sha256": "bdf16dab915ea5994d9917b89f6902fcf20905ee8a07e5991eeda45a300265cb"
+    },
+    {
+      "path": "Paper3_Code/paper3_target_candidate_panels.py",
+      "bytes": 15099,
+      "sha256": "dbdcaf66771631c61a3cc9b297c9aa53c636ac2bbbc4c58c6a5915b7cf0480f5"
+    },
+    {
+      "path": "Paper3_Code/source_stages/00_dataset_inventory.py",
+      "bytes": 3859,
+      "sha256": "5dd91c6e0dd3a29f154e0593ebfd52ac2cc0edb6e49c12ff51a3157bb114a44f"
+    },
+    {
+      "path": "Paper3_Code/source_stages/01_temporal_audit.py",
+      "bytes": 10465,
+      "sha256": "30d61078aa67ed46bf62faa1d13831d4045419f0fcbe9376cccdbfdc8e12692d"
+    },
+    {
+      "path": "Paper3_Code/source_stages/02_historical_protocol_freeze.py",
+      "bytes": 7011,
+      "sha256": "a90954edace3f2126d3b1483bd78983e335029844b3732e322d12fff6c45a3e4"
+    },
+    {
+      "path": "Paper3_Code/source_stages/03_partition_indices.py",
+      "bytes": 18868,
+      "sha256": "63d0fafe3d0a45dd88c988156b83ea3a141cdcc0004917e4188a957ef13ee049"
+    },
+    {
+      "path": "Paper3_Code/source_stages/04_feature_materialization.py",
+      "bytes": 19172,
+      "sha256": "13d74685e6ddac4677dc220d276151d8865af0381c08b6c41a38d0657ddd25c3"
+    },
+    {
+      "path": "Paper3_Code/source_stages/05_duplicate_group_sanitization.py",
+      "bytes": 19583,
+      "sha256": "42adaf63d81eb93d416b7f6f981d4c054a24a5c5152c8f9d03090a0ab67d4976"
+    },
+    {
+      "path": "Paper3_Code/source_stages/06_pretraining_gate.py",
+      "bytes": 10445,
+      "sha256": "87d0921c2ab6fd896c8c58c11947400de576ae9b7cbecaf6497008a636f0f5d6"
+    },
+    {
+      "path": "Paper3_Code/source_stages/07_source_training_calibration.py",
+      "bytes": 25451,
+      "sha256": "3100a4087ce3be3143f07cb523b9578b9dec963830a4ee58cc0778b31e620680"
+    },
+    {
+      "path": "Paper3_Code/source_stages/08_source_feature_stability.py",
+      "bytes": 31040,
+      "sha256": "efb5f2c2c4658011f83fff1726c28041d3485cc6b1bc8a1f8aabf9a30d1eac05"
+    },
+    {
+      "path": "Paper3_Code/source_stages/09_target_plan_freeze.py",
+      "bytes": 7876,
+      "sha256": "a9e5f86cc66b9360f3e5d746ffd3b938c4ed24857648fb1204c3819b84404396"
+    },
+    {
+      "path": "Paper3_Code/source_stages/10_target_readonly_preflight.py",
+      "bytes": 3281,
+      "sha256": "7ad0301ed69a381c930fb32e94dde1c83a652d0f103e7bde0b2b883e41b12e80"
+    },
+    {
+      "path": "Paper3_Final_Evaluation/confirmatory_association_results.csv",
+      "bytes": 682,
+      "sha256": "8a33016ceed18a6eb8f68094cba66cc634c7b5c79facf2889ca827c4be836da4"
+    },
+    {
+      "path": "Paper3_Final_Evaluation/direction_model_summary_36.csv",
+      "bytes": 19257,
+      "sha256": "f86c6027e1b819775fcc50a5010eaec40635a146bb0a34901e101a647e62ae1d"
+    },
+    {
+      "path": "Paper3_Final_Evaluation/final_analysis_summary.json",
+      "bytes": 5408,
+      "sha256": "66d1dd2629f08d11f0c49dccaa4e8d77742d5d37f421706c41e2d24b6bf2181b"
+    },
+    {
+      "path": "Paper3_Final_Evaluation/final_results_seal.json",
+      "bytes": 4314,
+      "sha256": "fd31b032fe2f47b5ac7f70805a5ed2389d42da936d7102d6809229ac9485e6be"
+    },
+    {
+      "path": "Paper3_Final_Evaluation/loso_model_scores.csv",
+      "bytes": 739,
+      "sha256": "49873e2e3ecfef943c253ef9c5f739e85367631487f89113c75e919368d826e3"
+    },
+    {
+      "path": "Paper3_Final_Evaluation/loso_oof_predictions.csv",
+      "bytes": 41719,
+      "sha256": "f61defe1cbe218f034e9c69068d669417ff62156d20fd596334dbff7cd67069d"
+    },
+    {
+      "path": "Paper3_Final_Evaluation/source_model_confirmatory_units_12.csv",
+      "bytes": 2225,
+      "sha256": "4081ef7d8f6a2c1c9012f2cdf8d563e6776cdd364fe747319c68b82ab87ad3f2"
+    },
+    {
+      "path": "Paper3_Final_Evaluation/source_seed_model_primary_units_60.csv",
+      "bytes": 12854,
+      "sha256": "9477309be686e32d365ae78fc1c98213ebe95497bac0e1fdcece55f6bfc78a56"
+    },
+    {
+      "path": "Paper3_Final_Evaluation/target_metrics_all_180.csv",
+      "bytes": 43971,
+      "sha256": "0f997deebc76fe4ad3ba0fc693622a13abc43573e93e41da05e707438e1595b7"
+    },
+    {
+      "path": "Paper3_Final_Evaluation/transfer_analysis_all_180.csv",
+      "bytes": 83190,
+      "sha256": "440ea72799ad3bf26ccb8e55d7896b2682ba8ec02deeb39a0190361d95599de6"
+    },
+    {
+      "path": "Paper3_Manuscript_Tables.xlsx",
+      "bytes": 96992,
+      "sha256": "6315cf1632399cfc0e258496a93e59752c4a43679853ccf322c3aeeb963d6cb2"
+    },
+    {
+      "path": "Paper3_Pretraining_Audit/pretraining_gate_details.json",
+      "bytes": 26324,
+      "sha256": "eb8053763b61386158a14833bd1fffd7ce29d491b377c56db48ff215e90a30a1"
+    },
+    {
+      "path": "Paper3_Pretraining_Audit/pretraining_gate_summary.csv",
+      "bytes": 1564,
+      "sha256": "834e3f8710ce121afc7a211e856cc8e7cbd037871f669dd0aa404998710320f2"
+    },
+    {
+      "path": "Paper3_Protocol/amendment_A1_duplicate_group_disjoint.json",
+      "bytes": 1870,
+      "sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47"
+    },
+    {
+      "path": "Paper3_Protocol/amendment_A1_duplicate_group_disjoint.sha256",
+      "bytes": 64,
+      "sha256": "0233be1d70f3409ba6cdaf64ab00d512c8aa89fc9353152d7a4683937306c45b"
+    },
+    {
+      "path": "Paper3_Protocol/amendment_A2_target_evaluation_plan.json",
+      "bytes": 4425,
+      "sha256": "2217078acfa10700f4fae29c6f32f171ce7a4e2ecb22d22ce5eabb6087e5aa5e"
+    },
+    {
+      "path": "Paper3_Protocol/amendment_A2_target_evaluation_plan.sha256",
+      "bytes": 64,
+      "sha256": "3244f8b1137f321c0a71864e8b97c374c01e5247b4744efbcfa4c967f3bea197"
+    },
+    {
+      "path": "Paper3_Protocol/amendment_A3_confirmatory_analysis_plan.json",
+      "bytes": 3967,
+      "sha256": "cbb13f6d63a9b556348effb5e635dda3a08603ce5f7deac354bfdc983e883648"
+    },
+    {
+      "path": "Paper3_Protocol/paper3_protocol_frozen_v1.json",
+      "bytes": 4977,
+      "sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488"
+    },
+    {
+      "path": "Paper3_Protocol/paper3_protocol_frozen_v1.sha256",
+      "bytes": 65,
+      "sha256": "7bae191330c9211c42a250f074ea038d3b4d119d4159b077505ac2ae49138951"
+    },
+    {
+      "path": "Paper3_Protocol/pre_modelling_feature_overlap_audit.csv",
+      "bytes": 5638,
+      "sha256": "5fbf248a1b1fd4e4ac1400de74ff0c61ed4847954fac3be4034b432d62a59256"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 5851,
+      "sha256": "7aab0451d4cb0f86e7320f3a5a9c729abc92cb7e15775d7673e8d663cfa00806"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/LogisticRegression/permutation_importance.parquet",
+      "bytes": 19598,
+      "sha256": "191ab8feea9d66df5f60a11d70bd5d6576b8a98e35f4d000dff1951bf393b49e"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/LogisticRegression/stability_complete.json",
+      "bytes": 2007,
+      "sha256": "79384b98e2d683e4907d0742fba369a51cc60754020332d25f51b40f255f26db"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/RandomForest/pairwise_stability.parquet",
+      "bytes": 5817,
+      "sha256": "eeeb11572288d3edf43c2ea3eab69c59cd1072b8935190001db9942fab0c7dc6"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/RandomForest/permutation_importance.parquet",
+      "bytes": 16147,
+      "sha256": "ba19fd920d0bd4368b33321b0f7cc9141b7671fb850e9f94b8f573b5f713e227"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/RandomForest/stability_complete.json",
+      "bytes": 1996,
+      "sha256": "e568ca7676cdaf5b3fd359a70de2a501db37c7bcfa80c7b792648d69ee1fae1c"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/XGBoost/pairwise_stability.parquet",
+      "bytes": 5809,
+      "sha256": "8672083933e45064407e41c75a2d72870b4665769c92494b3158210bf070bca7"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/XGBoost/permutation_importance.parquet",
+      "bytes": 16716,
+      "sha256": "930eb0ad2a88bdd29d070214fd36f2c52cf7800a3a8d1e7f4da4acfd9f8bd863"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/XGBoost/stability_complete.json",
+      "bytes": 1987,
+      "sha256": "ade709dc6be2166e82704fbede1ebede387e400ce920a12877f8009abb0e8af8"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 5848,
+      "sha256": "be02e0d3aaa16cb28039879373f2aa8a8469ec3f4726902469eeb5a3ebfe65c8"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/LogisticRegression/permutation_importance.parquet",
+      "bytes": 19360,
+      "sha256": "6aa1d65b3bee9801013d35a8ece4e8b998ac393db940322e3aa34bc5152b4f4c"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/LogisticRegression/stability_complete.json",
+      "bytes": 1997,
+      "sha256": "c4c4cef0644b8769b1e9534d4ad9e5546235efa8deccdb3d18576e666915bcb1"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/RandomForest/pairwise_stability.parquet",
+      "bytes": 5838,
+      "sha256": "7afc5f11241f32bbcf718c12fb8727ae7b3813ef3f70e07f720a2ff394ab1dba"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/RandomForest/permutation_importance.parquet",
+      "bytes": 15798,
+      "sha256": "236c60d3c4731e87a7c2aa19fddedf4129abde59f65b38197a3cb7d754e25fc1"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/RandomForest/stability_complete.json",
+      "bytes": 2011,
+      "sha256": "b942e9d1eb00c6d8d7e9bf7bae44d9297295528e9c3a890b69dd1f5182334f23"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/XGBoost/pairwise_stability.parquet",
+      "bytes": 5806,
+      "sha256": "7a5bfd67f13b0f1406716f81b75411c5065152d6bbe5dc1b6a51ae2f492d109f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/XGBoost/permutation_importance.parquet",
+      "bytes": 16358,
+      "sha256": "f52129695d748e001ced2d1f65abcd214764ac59084ec6f08d0e8e5b0e080337"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/XGBoost/stability_complete.json",
+      "bytes": 1999,
+      "sha256": "6f8b6dc5326deaef968aed6790c37d56b41168986fd67333a275bc980accab9a"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 5861,
+      "sha256": "39a7cadb27c85b1660e4dcf176e4e0fc306f6be1059aa7d65ebbc8167619429f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/LogisticRegression/permutation_importance.parquet",
+      "bytes": 19752,
+      "sha256": "614d4194e12c620d82a249e5dc9c34adbe86a276c3605bdd6fcedb0159f1e6b0"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/LogisticRegression/stability_complete.json",
+      "bytes": 2004,
+      "sha256": "9806580c8988c007349fa2542996bea2b7afdb7778d07f70f2d96a3bbb8a4ac0"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/RandomForest/pairwise_stability.parquet",
+      "bytes": 5841,
+      "sha256": "29ed7a614d7004884337bf936334acd6f21c0c99d86ea1afd6280a3fffd25278"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/RandomForest/permutation_importance.parquet",
+      "bytes": 16770,
+      "sha256": "8731ee9af223bbbff0a0cf4b1b2472e8fe4229867afeef3889e29dde21460a13"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/RandomForest/stability_complete.json",
+      "bytes": 1981,
+      "sha256": "ed56a5b37a838dcdf061e6b00a4b6e0a5f234ea7233e9953ccc66e8e77ce9d7f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/XGBoost/pairwise_stability.parquet",
+      "bytes": 5816,
+      "sha256": "b346280790a59cbcd7d87663db5c2eb8b874c8136fd1bb16f25d5fdf6f144731"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/XGBoost/permutation_importance.parquet",
+      "bytes": 16703,
+      "sha256": "5a9e3ee118a34d96e556abab4cbb2633aab1b3930a6019ade351c03dc903dce9"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/XGBoost/stability_complete.json",
+      "bytes": 1996,
+      "sha256": "e8de67a3b5d5d0512e0b968a0a9c5572b9b1fc9367eaf7219f79333842d981b7"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 5859,
+      "sha256": "1d6e2ab46d79e3b7f8873a073d08674d5a5d626f8140a669005d27a0d6ea6075"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/LogisticRegression/permutation_importance.parquet",
+      "bytes": 19626,
+      "sha256": "431b9d39e58bdf0e96ca6768f055b29ecb81644081649e8aeb4f2d195497c1bf"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/LogisticRegression/stability_complete.json",
+      "bytes": 2019,
+      "sha256": "5f43397f28a0e0f146c207325aa8e9a8b411d3d73e162c8271a71bf4f996dd8e"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/RandomForest/pairwise_stability.parquet",
+      "bytes": 5829,
+      "sha256": "f5784bda79187e2951d2377842c0d81c08c48e0b25008d84e26ebe43d080ea16"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/RandomForest/permutation_importance.parquet",
+      "bytes": 15928,
+      "sha256": "0f3e0061952d02be25973a372f178cd13ef85e5b38c462743f73eb1f2cdb9361"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/RandomForest/stability_complete.json",
+      "bytes": 1998,
+      "sha256": "abbd43712fdd20500e64795fa5760d9d1bb0c8d97acea4de5a7f077222bd8b8e"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/XGBoost/pairwise_stability.parquet",
+      "bytes": 5796,
+      "sha256": "ee5754463d097ab4740ca03fc8e67ab013172598e4054508d0d593d3b99b64f9"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/XGBoost/permutation_importance.parquet",
+      "bytes": 16124,
+      "sha256": "02bdc399131c97e51f4216fdd7cb77d91c552a90267be990dd2a698f1cf27fce"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/XGBoost/stability_complete.json",
+      "bytes": 1979,
+      "sha256": "fc96e9c2d108daaac914874a017b25c81a637f0186dead3a4f761ba27ed356a7"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 5861,
+      "sha256": "5a6ba01a7bb06527ff04ab6bdf44a678c452631ef0c588eb0602f55fbc23dd23"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/LogisticRegression/permutation_importance.parquet",
+      "bytes": 19925,
+      "sha256": "1c90440ea5d67b889b1ceb58fd7c96fef6101b4d40e079382afa2a58928b58b5"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/LogisticRegression/stability_complete.json",
+      "bytes": 2018,
+      "sha256": "49f30ef82064841e00be595383cd4d9a9d40827179e098d01d7b5cf357f051e8"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/RandomForest/pairwise_stability.parquet",
+      "bytes": 5821,
+      "sha256": "59eb61bdcf6728644c8e4263f3624cca458e008f1217a7b19028ea11a4142af6"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/RandomForest/permutation_importance.parquet",
+      "bytes": 15947,
+      "sha256": "26333f12bfe310ed8284a87b4eefdd085b2fb7ab0455959096c830f80cf71dfc"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/RandomForest/stability_complete.json",
+      "bytes": 2010,
+      "sha256": "e68abaa809f70325c419d5fa618c6cafc02c534e24ce95807287cbd86e44b2b8"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/XGBoost/pairwise_stability.parquet",
+      "bytes": 5804,
+      "sha256": "eda9ac1670871e9b732236fc488697a0bc3a0d9d6d23a4db3c2d1713d25a62e6"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/XGBoost/permutation_importance.parquet",
+      "bytes": 16448,
+      "sha256": "3d273467a950d69ebc7c5c8ee069dd32f4515b2204b5079add62a3bf056f3c59"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/XGBoost/stability_complete.json",
+      "bytes": 1989,
+      "sha256": "3cfdd49d5fc362f599fe753e458a513901de2a344acce6e5b14ffc2b8f01e987"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 7391,
+      "sha256": "d627d408b0a293c50815061c261dcac72d487daa83da14eb33cf1716d4b96800"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/LogisticRegression/permutation_importance.parquet",
+      "bytes": 32285,
+      "sha256": "ea96574168548f031b9658afe6edd771b8e332c30fa8f8b9d5d91e1f390a2087"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/LogisticRegression/stability_complete.json",
+      "bytes": 2042,
+      "sha256": "912441a081779dc1f0b24e11df2c73bf8aabb150b01652c494de3cd9bb53ba0d"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/RandomForest/pairwise_stability.parquet",
+      "bytes": 7450,
+      "sha256": "ec158571c9f9fda5ad035a993fcf6f3b970c429597b43fdd555892b145e614f7"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/RandomForest/permutation_importance.parquet",
+      "bytes": 16884,
+      "sha256": "9e5fe2ca5a7b93b0f6a557803abeaf3a06600ac0ae031511a59f97e785157d96"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/RandomForest/stability_complete.json",
+      "bytes": 2015,
+      "sha256": "7ff062fbbf41bdcc26974d406701142a7bbfbae03e2edd69815fc37784dc6109"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/XGBoost/pairwise_stability.parquet",
+      "bytes": 7367,
+      "sha256": "0c0bcffb2295f084ecfc0595c20690baabb31235bbdc6cc074c0cd0c3ba26ec4"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/XGBoost/permutation_importance.parquet",
+      "bytes": 20511,
+      "sha256": "872696a37b2c4c6bbf8cf11b95eb53e14dfb0b0d386919c9aa587e53eac1a684"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/XGBoost/stability_complete.json",
+      "bytes": 2007,
+      "sha256": "c2493ee2d883a072f1070d91a435b38a4acaa250e5391ec4f4d2e722fcc457bc"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 7365,
+      "sha256": "de558d8d60f3edf96a346d303b72c760ecdf63c4743787f66ea703dcebaac254"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/LogisticRegression/permutation_importance.parquet",
+      "bytes": 32267,
+      "sha256": "f5c0302b450ef7f16e689bb75665c67416b52d1909f019ce22bd6e4bd26c023d"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/LogisticRegression/stability_complete.json",
+      "bytes": 2008,
+      "sha256": "19ccf296e6480d7c74faab3104a7b51fcf555758de748070fa62e5ccf52f1e4d"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/RandomForest/pairwise_stability.parquet",
+      "bytes": 7469,
+      "sha256": "fbb47a69e4c0f81eab1e6ab6ab72a3775c2dbbb065c333291dff7a03437ae972"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/RandomForest/permutation_importance.parquet",
+      "bytes": 16902,
+      "sha256": "3a06015c669c52e1ae68f3c1924f55834e0eddce089cd5b15805709bdcd2809c"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/RandomForest/stability_complete.json",
+      "bytes": 2037,
+      "sha256": "73d9683df0ec968b5b641c839bc460fcc133a5f4043648883b9e1ec11918fa1e"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/XGBoost/pairwise_stability.parquet",
+      "bytes": 7361,
+      "sha256": "7a8b7c827aa9d38ec029eecfe0c491a25ef9bad7fad6b35c08ade014797c972c"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/XGBoost/permutation_importance.parquet",
+      "bytes": 20245,
+      "sha256": "740da418cc53bd8fda0697aeab12f83e3953f32126db63bd28fc8482def3f670"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/XGBoost/stability_complete.json",
+      "bytes": 2020,
+      "sha256": "fe6b14a47efa4412f8cdf5b66c730983e5ce44b0703cfd0777e84cc08fc1ae8e"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 7403,
+      "sha256": "43373eed99809a3af35cea54d1afccfc176ea208acad870171790ac7adb4cbe3"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/LogisticRegression/permutation_importance.parquet",
+      "bytes": 32488,
+      "sha256": "05bc49a5f389d788300eba8dac811246d73a8b6a3aa2523ce84bafc9e4a01531"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/LogisticRegression/stability_complete.json",
+      "bytes": 2035,
+      "sha256": "4b541afb472e1ecbe408c80e50de31d7689fb0e86738f971eac1173808905be0"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/RandomForest/pairwise_stability.parquet",
+      "bytes": 7469,
+      "sha256": "311c72006ab053904c345ea564c187ba1053dee4f491efe3f29991e14864d406"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/RandomForest/permutation_importance.parquet",
+      "bytes": 17691,
+      "sha256": "356a676ce36e0fee5bb3d6567678b055d7e49847f044f86bc010f57a3e0bd0ef"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/RandomForest/stability_complete.json",
+      "bytes": 2032,
+      "sha256": "6ffb51daac479b963ddf952a2655bbede7dc1f6ac7a2f3b64f32d9a304e97b8f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/XGBoost/pairwise_stability.parquet",
+      "bytes": 7401,
+      "sha256": "f9996832332452714ecb077aec0f911dceb2bfe455f30343bae81bde08ac992a"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/XGBoost/permutation_importance.parquet",
+      "bytes": 20473,
+      "sha256": "642ec686bdbb102aa800326175affd003b49398f92842ab558bc529c0e303453"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/XGBoost/stability_complete.json",
+      "bytes": 2021,
+      "sha256": "4da79d3d8671af0a762647b025fc6bacf934a5a482fa4aa45008c9445fa2e93c"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 7404,
+      "sha256": "84d34ede9d35c783bdabac6f0058cde6a2b74ef8f1a20cdb18557cd97a09c871"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/LogisticRegression/permutation_importance.parquet",
+      "bytes": 31542,
+      "sha256": "7b44523090cb44cf5834f1ab5b379f5023f7d57af930d18c78bc9b7ea0c0d0e2"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/LogisticRegression/stability_complete.json",
+      "bytes": 2040,
+      "sha256": "c0a1ac4497a2cd866d15a518606c76c2277fd7ee940261eb820e2cd1ecdce07a"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/RandomForest/pairwise_stability.parquet",
+      "bytes": 7469,
+      "sha256": "2b7873712cdb0c0c60b3056559306475a35571044dfcbc4a8029792f450c956f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/RandomForest/permutation_importance.parquet",
+      "bytes": 18579,
+      "sha256": "d97405a9ac8b1003682ce7242d003cb36af24fef73b1d7a88a362b5b19a88756"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/RandomForest/stability_complete.json",
+      "bytes": 2030,
+      "sha256": "4b6950074e4e7400a5e8ef2e189d9a6577c2f445ff48d56075d1b78d145e36d9"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/XGBoost/pairwise_stability.parquet",
+      "bytes": 7382,
+      "sha256": "084dd5285e6e29e89b536d4bf91b110ec2351f2c2c2c47986ef182e128c433da"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/XGBoost/permutation_importance.parquet",
+      "bytes": 21236,
+      "sha256": "482f95fd277f222d2556fc8a6c9f099ea7494346584c4d6befb09baba5ba9c00"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/XGBoost/stability_complete.json",
+      "bytes": 2018,
+      "sha256": "8ede8694e7ad722ef3e000b961cd5414cf352f508f87e7df57c827c0a6f21548"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 7381,
+      "sha256": "e642c12c94c25c8d0eecf4b4bb687a23224c366ad4bd9afed1d4f2021226e28d"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/LogisticRegression/permutation_importance.parquet",
+      "bytes": 32577,
+      "sha256": "9852ae1ea92f30d23bd21d5ce285bb822376dbb27abb07af22b7d88b4d89cad0"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/LogisticRegression/stability_complete.json",
+      "bytes": 2039,
+      "sha256": "f8bb672921861b42d0140edf43083516934cb7479a501205640a05b94645ccde"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/RandomForest/pairwise_stability.parquet",
+      "bytes": 7469,
+      "sha256": "b18c82e5d10fe42de04ce0bc717da9449997acca4d83c348a23a8559819d1ead"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/RandomForest/permutation_importance.parquet",
+      "bytes": 16995,
+      "sha256": "dd6afa5771341da58fe1704f6e42131c2d2b3e110c16d9cf587ac443f41505ab"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/RandomForest/stability_complete.json",
+      "bytes": 2033,
+      "sha256": "1d21452e0b87ffdaf11449211c56c7fcfb24ec61b0035b776b20cec587238fc3"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/XGBoost/pairwise_stability.parquet",
+      "bytes": 7376,
+      "sha256": "484f59e29ebe9116db4e37576c69ae5c0ad4a4a3e5479e003f0deabef8a2caee"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/XGBoost/permutation_importance.parquet",
+      "bytes": 20583,
+      "sha256": "4df253b98bd6a777a0c55d84c9948741ab0a42211a9722ab9846e6388a2eb90b"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/XGBoost/stability_complete.json",
+      "bytes": 2017,
+      "sha256": "854da84f25e000be02ab469654ef545760279bca9e79d034a66acc1b5f573b9c"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 10068,
+      "sha256": "c4dfbca247212202f4629bbf5bda63aedc342803bb5db0fecf779adc985c9bd3"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/LogisticRegression/permutation_importance.parquet",
+      "bytes": 38950,
+      "sha256": "bad8ad68d3d17e09092a47563755b7fa996072254e03100b9e6c88ea15943d14"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/LogisticRegression/stability_complete.json",
+      "bytes": 2028,
+      "sha256": "711d84f5a1d198c214d87badbf6f82e683a52cb81c8c28b2f8445b5a4acccc94"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/RandomForest/pairwise_stability.parquet",
+      "bytes": 10052,
+      "sha256": "2972a86a18ff4876e5463594df12b8749dfb8a89b0d70cbb304f1bdc5e8b3bf5"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/RandomForest/permutation_importance.parquet",
+      "bytes": 27298,
+      "sha256": "fd4c1b392542e8673657f33dfc9d60727634b373751a02232f017ad9a551f9e3"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/RandomForest/stability_complete.json",
+      "bytes": 2023,
+      "sha256": "da32462bd21379b0eeffa6b88040d48f53e8b717e90ccec3cea47b1dc1a732db"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/XGBoost/pairwise_stability.parquet",
+      "bytes": 10029,
+      "sha256": "07267bddd896a57766b4557a6b6db936b874c34d1071dbde7727c6bb137798e3"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/XGBoost/permutation_importance.parquet",
+      "bytes": 30979,
+      "sha256": "240a470ebdb407e2de752ac1a769692e8af0ed1a126ed82b565251b2df754904"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/XGBoost/stability_complete.json",
+      "bytes": 2007,
+      "sha256": "41823ca49190737662dd4cd438b69fe68b12cd76bd81ee7ed0de21e0b52b07d1"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 10079,
+      "sha256": "49039c2093c38b654c997cae4542a8ab8fc14ad65048a772d1fa0957e1ddc13f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/LogisticRegression/permutation_importance.parquet",
+      "bytes": 39600,
+      "sha256": "13dfb10b54545582057a31c964f83054348f75b195130bd5a081e884dbae39d0"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/LogisticRegression/stability_complete.json",
+      "bytes": 2030,
+      "sha256": "821b6e0e1db33b9d67dd1ff8a335d0bb0baabe01f05947d4f946d19854e0648f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/RandomForest/pairwise_stability.parquet",
+      "bytes": 10036,
+      "sha256": "23c5d002b224abd71f612bc61aabb62de365c67f8672074dcb57b2dc656f5c42"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/RandomForest/permutation_importance.parquet",
+      "bytes": 26907,
+      "sha256": "c70aeb13fad44723d1a900c1c7d03e30adae42b051fc9efcfb8de676073ae669"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/RandomForest/stability_complete.json",
+      "bytes": 2019,
+      "sha256": "71d99ff669dce9957f38cc5b54df35e2cceb76bb1b80659a64bf1b51478e1a41"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/XGBoost/pairwise_stability.parquet",
+      "bytes": 10017,
+      "sha256": "b36eb6df48ea6cbb8288151a8ac1f37fa0553407ec95bac7f89230a33bfc7e2b"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/XGBoost/permutation_importance.parquet",
+      "bytes": 31410,
+      "sha256": "8e92b37e00a6ea7529d0475111e0847ec564c6505d6424df9c2f9ebe045c7f32"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/XGBoost/stability_complete.json",
+      "bytes": 2005,
+      "sha256": "3ec0af334bac68e6dac4d235a7801975ac5dcf96ea87366c5fab6f2a5ea1bfa0"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 10056,
+      "sha256": "85f559bdcf0888a64c59e5cb8356cd4e96bf37be1d71a3c33b9d9938537e2c11"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/LogisticRegression/permutation_importance.parquet",
+      "bytes": 39725,
+      "sha256": "75e427663c8c0cfb7cd64dad742c49235b19714153daacbc6603652e16e68a2c"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/LogisticRegression/stability_complete.json",
+      "bytes": 2031,
+      "sha256": "f5cfe1ffd8b68562447a5c40b281ebcfb237a2e43fc186197d063bac66853517"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/RandomForest/pairwise_stability.parquet",
+      "bytes": 10047,
+      "sha256": "7590ea023df5328e18824b39f0bf095b8093509cdc29f90579a171e237c13798"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/RandomForest/permutation_importance.parquet",
+      "bytes": 28183,
+      "sha256": "a6167af07b13802e9f906e337aeacfe83c07084d2ced6adb2d04f5ae3e8efd47"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/RandomForest/stability_complete.json",
+      "bytes": 2017,
+      "sha256": "2635179b01e1576426e9b338d1c98ed96fa27860e8fb00fc35dde7943e3b4c1d"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/XGBoost/pairwise_stability.parquet",
+      "bytes": 9997,
+      "sha256": "589b160667ab5878c99b6b84144b4c33ff887a0c1549b977ca05a8f1e3029754"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/XGBoost/permutation_importance.parquet",
+      "bytes": 31002,
+      "sha256": "5f54cd884f4801fbd95816bd8e962c9567860291eab879de1c8b6deaba765a36"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/XGBoost/stability_complete.json",
+      "bytes": 2009,
+      "sha256": "4599fb92df0d2f8d95d025b17d7ffa6abdaf33a0d9b33f0306fd1a84d454b0d8"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 10058,
+      "sha256": "f86be59b1ab50a957ea00e8ed439d58cf664c0814ae9cea01c0b212fcdd8e822"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/LogisticRegression/permutation_importance.parquet",
+      "bytes": 37656,
+      "sha256": "d2abb14efb7f341b4caf86d35694172869fcbd011fe763a8588b1d4018057317"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/LogisticRegression/stability_complete.json",
+      "bytes": 2029,
+      "sha256": "4df6d77762c190fcd9d8c440b07dea6b21a8c465507cf58443b0a77ae165a718"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/RandomForest/pairwise_stability.parquet",
+      "bytes": 10045,
+      "sha256": "3987ff62d54fb27eeb472cb984a8365b20e07f20cdc15bf31e83528fe6c2249f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/RandomForest/permutation_importance.parquet",
+      "bytes": 27258,
+      "sha256": "4c73eb8d5ce386f8dd1a3ab10af75b8bc1fdd73d71bdd932c8248527bb96327c"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/RandomForest/stability_complete.json",
+      "bytes": 2019,
+      "sha256": "6738f13039d7d45382260d32832cc40832e3bc175f5ba2e02203a6ca1d28227f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/XGBoost/pairwise_stability.parquet",
+      "bytes": 10018,
+      "sha256": "2f76b78c43bc6e2aae6d22aafc525d3e3d41f870a1b6505f3f37aaa4f2b62361"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/XGBoost/permutation_importance.parquet",
+      "bytes": 31121,
+      "sha256": "c5ebc3aa08b24b48d8078e38276bed76f4fbe95fe017997aa55e8bea53179225"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/XGBoost/stability_complete.json",
+      "bytes": 2011,
+      "sha256": "32601e0ad5393bea341d8b5dacf3f2b95699c5576337374f2f34f7e76d91a42a"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 10045,
+      "sha256": "07bf098ced2341fbe91ad8570486866fd63fdec6a7df34ab8c045c15bb7a1760"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/LogisticRegression/permutation_importance.parquet",
+      "bytes": 40041,
+      "sha256": "322ce6f2d5ac6acd4025e13f65cc7ee81665f9a3d1d1bfb4eb3fb1cf8ac28f13"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/LogisticRegression/stability_complete.json",
+      "bytes": 2030,
+      "sha256": "1252863a524b35de28bc0396e04fd292a8eea2a85d139502fcebd61cb7adfacd"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/RandomForest/pairwise_stability.parquet",
+      "bytes": 10052,
+      "sha256": "91dd8f6ace2c7d26195ab7528a1446ab87c8bd4ff11c5994c86925f6acaa0b28"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/RandomForest/permutation_importance.parquet",
+      "bytes": 26447,
+      "sha256": "914c5888f09d75d7f03ae606dd5fbc4b290381edfaa70074af5e776728bcc9be"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/RandomForest/stability_complete.json",
+      "bytes": 2017,
+      "sha256": "13fcb0a083b170a435d81ab5495d09c9ef2221c32e2f5909d51ed0873650eba6"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/XGBoost/pairwise_stability.parquet",
+      "bytes": 10011,
+      "sha256": "35e2419393d88419f0a0ae5689f5955b6c970b7925a33b185e1ecb190ac1166e"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/XGBoost/permutation_importance.parquet",
+      "bytes": 30693,
+      "sha256": "dd9772cb07618e990bf242d8e3a120edc9a9d842b1d541ab90eca778f67ded9a"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/XGBoost/stability_complete.json",
+      "bytes": 2009,
+      "sha256": "5a689871cdb36ee11cda609210a7b4c4f4a65ee230d38eeb8e2b870cffc4b64f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 5779,
+      "sha256": "2db80c83a5191f4e09b82c8eab98bc0d207c3d53ce812b30670b23280b2f68e3"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/LogisticRegression/permutation_importance.parquet",
+      "bytes": 16580,
+      "sha256": "75e61ecce0de74df00d74b8069a14b397ea994e8fa8d94fdf62bbcb63fdd9b10"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/LogisticRegression/stability_complete.json",
+      "bytes": 2021,
+      "sha256": "37c3e9e7cc313631b5d9c80c79c151ed2730e373376dce88e7db6c1c35692d9d"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/RandomForest/pairwise_stability.parquet",
+      "bytes": 5759,
+      "sha256": "84f68c1c75086018327e32cb5aa3c4bb107fb5f8f7ccd0406fab51216cde4e91"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/RandomForest/permutation_importance.parquet",
+      "bytes": 14396,
+      "sha256": "231bfe57e8f616590c2aaf6b363438c11c40519c39e699090917cee8c5913801"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/RandomForest/stability_complete.json",
+      "bytes": 2008,
+      "sha256": "f16ca399f47fe9de2553c8f2992c152bfa76200bb620b5a3f8bea77f00504c56"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/XGBoost/pairwise_stability.parquet",
+      "bytes": 5746,
+      "sha256": "87afc58fe51e6e64346859353e8e02b314d698e1682a76622b57e28c061e4f73"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/XGBoost/permutation_importance.parquet",
+      "bytes": 11889,
+      "sha256": "14e14f9b682fa03873cf77d40d7a0dbc9ba39502fc15f0a85999a876e12ce8b2"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/XGBoost/stability_complete.json",
+      "bytes": 2003,
+      "sha256": "95375be59f0702dca44a074d04e4135796b58049535561a6aaa2c3f790df82f2"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 5779,
+      "sha256": "9ec0cf0cf8f491b04e8c971add73152f605f2eeae74572a6afda14e184602912"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/LogisticRegression/permutation_importance.parquet",
+      "bytes": 16065,
+      "sha256": "1ad8a2e6fa3ae11f12f79779d3d2ee69f75f1e565f1e7bd9dbcdf3879cb1e09f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/LogisticRegression/stability_complete.json",
+      "bytes": 2012,
+      "sha256": "d9428091022b9bccc1f394027d31615d4fdcd1b0c55fca2bb5d39a2ad720d659"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/RandomForest/pairwise_stability.parquet",
+      "bytes": 5706,
+      "sha256": "778543e852a4d14fa5a6f4a099f6747b3c37f19949a03c4da5f40a71fd9df6f4"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/RandomForest/permutation_importance.parquet",
+      "bytes": 11678,
+      "sha256": "1a2dc7dd7854c09eb2134f9e9ad30e61608bfb27d12be1a0b11591b1166bef9f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/RandomForest/stability_complete.json",
+      "bytes": 1951,
+      "sha256": "420100c12c8818b7ba4d9cc0a548d909f22646354a04434d7eb20f1021382e17"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/XGBoost/pairwise_stability.parquet",
+      "bytes": 5772,
+      "sha256": "d01da15ef468b5e9f03b8bb58e5386f49c2a0b73791bfb28db3a918e2dd24b37"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/XGBoost/permutation_importance.parquet",
+      "bytes": 11914,
+      "sha256": "d5142d306e5ca76e543d293ff0e8726e189cb9b94ff470964d1901e554efdf07"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/XGBoost/stability_complete.json",
+      "bytes": 1999,
+      "sha256": "b1754462578bbb1814353c52e0ffaa466034fd3a92c9c39675813791743fc744"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 5789,
+      "sha256": "272d661359e83011ceafe46be8425d3ff796198f265540557acb3da5196f0a4c"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/LogisticRegression/permutation_importance.parquet",
+      "bytes": 16673,
+      "sha256": "c082e2f7a2e1e893ed28ddc25197e171d893688f8c887ad28813a67e8de1278c"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/LogisticRegression/stability_complete.json",
+      "bytes": 2019,
+      "sha256": "db76abf72f30c986f504f5e15f670aa670d50472342f026ea38301c4edb224f1"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/RandomForest/pairwise_stability.parquet",
+      "bytes": 5759,
+      "sha256": "542dc6880163c1ea146c4b15cd5e4ff8d5a8d7fe8de50e76539aae74d2b09dc3"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/RandomForest/permutation_importance.parquet",
+      "bytes": 13135,
+      "sha256": "6d9a40781333338016b40ddb50434921d197773403c04535e1a0ae0d3d65ce5f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/RandomForest/stability_complete.json",
+      "bytes": 2002,
+      "sha256": "3135a4718e1020a6541affdc0c8cafcdcdc02b1567fc25cfdfb6e442d408a483"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/XGBoost/pairwise_stability.parquet",
+      "bytes": 5742,
+      "sha256": "efa515560ce09316ded41f4468250f02fdcb3db9c268487ff8942fc8a856d701"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/XGBoost/permutation_importance.parquet",
+      "bytes": 12328,
+      "sha256": "5da377b5c050605418e80e59de28d4c8a2e7b6d76f16b5b98b148d5f4d2ac4eb"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/XGBoost/stability_complete.json",
+      "bytes": 2001,
+      "sha256": "f2bae5f8d330917c97d4e6d864a3dca490650c243eaa22e5ae7deb44aa743234"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 5779,
+      "sha256": "354228d67252172047478d480e5f41238a1b9fdbc7aeaa22208568d24bc3afb3"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/LogisticRegression/permutation_importance.parquet",
+      "bytes": 16417,
+      "sha256": "ffadd906afef031fb1015c8a95e2fb319704dbb9c66beaa8694cac0ddeb5ce36"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/LogisticRegression/stability_complete.json",
+      "bytes": 2011,
+      "sha256": "df9690eabcd890e2ebd0c064cba74fe445dab7bcc639aa8349b58a7d2914b3fd"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/RandomForest/pairwise_stability.parquet",
+      "bytes": 5716,
+      "sha256": "72df396855170ae2191bc70f66e6bee6a5cb3ed8d3c02a4e2a7d89f6e0d82ff8"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/RandomForest/permutation_importance.parquet",
+      "bytes": 11139,
+      "sha256": "e016469614c25742e378cf1a8b157a40f16658d5d43f5cdc55ad8eecbf1d466e"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/RandomForest/stability_complete.json",
+      "bytes": 2010,
+      "sha256": "996750214705a6fe501e0ad9129202851952a6783a5fbd4d2d2ac0fec1a4a28f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/XGBoost/pairwise_stability.parquet",
+      "bytes": 5687,
+      "sha256": "cc90f1ea1a3e67c10dfb02b4999bd912213d2f84474e8e6d63bc76e28f4ed8bd"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/XGBoost/permutation_importance.parquet",
+      "bytes": 11339,
+      "sha256": "0d263032b74a68bf1e7eae1c43f5d52d893743961490d72075d887fa2e558ac4"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/XGBoost/stability_complete.json",
+      "bytes": 1990,
+      "sha256": "dc56790f82571b7b37b4c359ef6b3fc0f8cbfc2994471e4d2189da2a46d6c9b4"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/LogisticRegression/pairwise_stability.parquet",
+      "bytes": 5789,
+      "sha256": "8acd5604e567afa380e60b0626e1dca887e07d1244a92283e05440c745c9b58f"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/LogisticRegression/permutation_importance.parquet",
+      "bytes": 16304,
+      "sha256": "c9a47f6e4c3f985a2edcd2f784a012e75af7a91466291b889e3aa01302151714"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/LogisticRegression/stability_complete.json",
+      "bytes": 2024,
+      "sha256": "a359ec7835c30c2657f59c4c6e92f96f1f96c829cd85bd357a3469e786191551"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/RandomForest/pairwise_stability.parquet",
+      "bytes": 5777,
+      "sha256": "4af62faa5b5e80b4e8d3fad1de722bfa45a4820866a69f3a31322087cffe8bed"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/RandomForest/permutation_importance.parquet",
+      "bytes": 11399,
+      "sha256": "e7f7a245e7bcbfbce55f736608114a44f15ebf6e6dacfb90fe65199d00a53f5b"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/RandomForest/stability_complete.json",
+      "bytes": 2017,
+      "sha256": "d18ed9dfc41f718b359b805e978ac18cfd6a5d946c59fbaa5070a4227e9803d8"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/XGBoost/pairwise_stability.parquet",
+      "bytes": 5760,
+      "sha256": "e5ce0abf4f04cde3c43be770e6fc31711953ce9654fef48d2e94bfd847fe059d"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/XGBoost/permutation_importance.parquet",
+      "bytes": 11647,
+      "sha256": "d747158f3e2e71bc37ef16fa85896c7878e95b5089c103fb7df8ac337b339644"
+    },
+    {
+      "path": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/XGBoost/stability_complete.json",
+      "bytes": 2005,
+      "sha256": "a3d48cbb58664ab85288096da8a778323fe90ef004befd7faa47cb6956dd3741"
+    },
+    {
+      "path": "Paper3_Source_Stability/source_only_stability_seal_manifest.json",
+      "bytes": 34845,
+      "sha256": "3ec5641ed96a462ce2c76765b6b4483a1e48cad11d79981feb7afd1c43449340"
+    },
+    {
+      "path": "Paper3_Source_Stability/source_only_stability_seal_manifest.sha256",
+      "bytes": 64,
+      "sha256": "bd564a588eb60c847daca7db38fc23048bdabfcb970ac5dc35506b4d665c1d6f"
+    },
+    {
+      "path": "Paper3_Source_Stability/source_only_warning_scores.csv",
+      "bytes": 12272,
+      "sha256": "5a945e9d618954cb15974ca2148221770623abb7a938659e703c3094fc46c501"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7934,
+      "sha256": "36e84a1d9321590d1814edb8d871b5297a71afcbaa90f3a9be585337ed136cf0"
+    },
+    {
+      "path": "docs/DATASETS.md",
+      "bytes": 1695,
+      "sha256": "411ac80da17cc202cbf92f625f6c37dd2790950b50c4e8ba9fdd56be2a803bdb"
+    },
+    {
+      "path": "docs/FIGURE_TABLE_MAP.md",
+      "bytes": 1157,
+      "sha256": "40349f7cea12bf83a2b89d747980d2a225965389b4e5f364c2ef6ee4ee679080"
+    },
+    {
+      "path": "docs/MISSING_FILES.md",
+      "bytes": 2253,
+      "sha256": "783514f3c566868842a538746d46bf6207e327d1473037f5534e44a42ae05b12"
+    },
+    {
+      "path": "docs/ORIGINAL_ENVIRONMENT.md",
+      "bytes": 1131,
+      "sha256": "d3df9a85fcd57169cb476bebfd76d835094f1e89701339f97f7f1d10a6a09ca3"
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "bytes": 1717,
+      "sha256": "b32138735c0f53d4640dfa098e1cd303378a07fd5362f0e2fb50dba61684b8ca"
+    },
+    {
+      "path": "docs/RECOVERED_SOURCE.md",
+      "bytes": 4652,
+      "sha256": "973c129952ebcbf4153f9235122e55518ab39003e96488e1eca3f67c87344507"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 3835,
+      "sha256": "aa80167e2d56465db83bbb8b149193a88a6ade9ad6a16f14938c5b6f3e65320d"
+    },
+    {
+      "path": "docs/RESULT_TABLES.md",
+      "bytes": 4916,
+      "sha256": "c57bec5274247ec11af6a01f8c7393ad509ff2bef65157fbf24127845eb84bad"
+    },
+    {
+      "path": "notebooks/Paper3_CompleteCode.ipynb",
+      "bytes": 593726,
+      "sha256": "ab1865315d875663a2b22b61f3c9f9765c0f9d2c5cac7229c1e6496224c89b16"
+    },
+    {
+      "path": "outputs/publication_assets/Figure_Captions_and_Table_Notes.md",
+      "bytes": 3511,
+      "sha256": "cdc98a1318b690f74586bfe574a69ffd6e899f2633d05f7a2eadd71b257bea89"
+    },
+    {
+      "path": "outputs/publication_assets/README.md",
+      "bytes": 1757,
+      "sha256": "026dc34575c9025cbc8866f471bdd870cc9403916cf1695fca0b7f72db32928e"
+    },
+    {
+      "path": "outputs/publication_assets/assets_manifest.json",
+      "bytes": 5071,
+      "sha256": "4ecaf58ada44b68360c6a5a03d598c885f36d839e9f0492505ef6ff96037b1e5"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_1_Transfer_Loss_Heatmaps.pdf",
+      "bytes": 18861,
+      "sha256": "6ab6110b3dc7b8302ba2ef7420c839f64e16bb6c2893619cf92a1e98bef3113f"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_1_Transfer_Loss_Heatmaps.png",
+      "bytes": 586503,
+      "sha256": "60ff1de8439315ca67e95a1776a1d9b62da56198eb8659bc79ec365aebc5090e"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_1_Transfer_Loss_Heatmaps.svg",
+      "bytes": 40067,
+      "sha256": "757846ebf7557eab10152e4fcbc72c4b89012ae7dce1377fd37a9f68befdac3f"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_2_Source_vs_Target_Balanced_Accuracy.pdf",
+      "bytes": 15630,
+      "sha256": "0310e2bee4158162ec5538c5177cf60915fc6e868a3852a96914eeabcadd6b3b"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_2_Source_vs_Target_Balanced_Accuracy.png",
+      "bytes": 352190,
+      "sha256": "2af123261a8ab53120194a7625a3209a778f234696cd28257898107d59806a20"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_2_Source_vs_Target_Balanced_Accuracy.svg",
+      "bytes": 22704,
+      "sha256": "780d95e0f77a9e2b571d94aa909069993b13fc9af96ff583036ec170db5bfc15"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_3_Stability_Warning_Associations.pdf",
+      "bytes": 25480,
+      "sha256": "4f3211b7eee1381759ae488211fd13639379f50e658951380409a1c81fcf9848"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_3_Stability_Warning_Associations.png",
+      "bytes": 404009,
+      "sha256": "e46cb423c41fe7fed22561ce5e6310cc156129e76502f835160e7eb90352569c"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_3_Stability_Warning_Associations.svg",
+      "bytes": 47809,
+      "sha256": "91e8aaa8fcaf25370708edb3a1a5f163cbbb45a2f0b55e6e0bf28218d133575e"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_4_LOSO_MAE_Comparison.pdf",
+      "bytes": 14224,
+      "sha256": "8a5dfa7a4c0d45001358dc4dd87917ffc7193699c0592161e5e4631e5007f31e"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_4_LOSO_MAE_Comparison.png",
+      "bytes": 330121,
+      "sha256": "c5ab4d4f472dc788aadedc7ef5cf144b8ad052be745f277786b1f1074c97df49"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_4_LOSO_MAE_Comparison.svg",
+      "bytes": 14564,
+      "sha256": "355714abf1e39a5f16459c5a3d799358d3213a41478978e47c27100cb3c6a9fb"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_5_Class_Recall_Imbalance.pdf",
+      "bytes": 15605,
+      "sha256": "32d169060eaabcb2b021a7d4c4396dd710cb71a214a05812687280bac2062217"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_5_Class_Recall_Imbalance.png",
+      "bytes": 423334,
+      "sha256": "f33e8eb5d16dd962a670e347042bb466a69d63aea68a658c78928776610bc489"
+    },
+    {
+      "path": "outputs/publication_assets/figures/Figure_5_Class_Recall_Imbalance.svg",
+      "bytes": 18510,
+      "sha256": "db3dd6edc50f908abbe58221e4c24fe47101bb5eb668b41da0d6b4b6302d8b9c"
+    },
+    {
+      "path": "outputs/publication_assets/paper3_build_publication_assets.py",
+      "bytes": 37568,
+      "sha256": "8b2241ea5791b7d5538a51ffe89f8bdd9fb394ccf8992db0c673b2a18c983fea"
+    },
+    {
+      "path": "outputs/publication_assets/paper3_workbook_payload.json",
+      "bytes": 204069,
+      "sha256": "0b28df75bdc2f0d8f999f67a5e902f32416138b014db57c7f1ba692b4fc7db72"
+    },
+    {
+      "path": "outputs/publication_assets/tables/Figure_3_Confirmatory_Units_12.csv",
+      "bytes": 1410,
+      "sha256": "d232dfe810f949ba7c2e4924cb1d49c18289faf28cc5141d70b8e01665cd0d55"
+    },
+    {
+      "path": "outputs/publication_assets/tables/Headline_Findings.csv",
+      "bytes": 453,
+      "sha256": "65271a8ebe6d674bbd122cc9bed86a4ee02368ac20b55c21af7cc052f12bd24b"
+    },
+    {
+      "path": "outputs/publication_assets/tables/Table_1_Experimental_Design.csv",
+      "bytes": 945,
+      "sha256": "abe3f9b8307a53b4776bfdec52c58ba23375f984cb2669da79fa830562596f4a"
+    },
+    {
+      "path": "outputs/publication_assets/tables/Table_2_Model_Performance.csv",
+      "bytes": 578,
+      "sha256": "308301808fa472417c16db70091ac11016c2a56150fb103ec660236d08063e2f"
+    },
+    {
+      "path": "outputs/publication_assets/tables/Table_3_Directional_Transfer.csv",
+      "bytes": 2513,
+      "sha256": "3cc1c8e9c24bc36f4eb11218c1ee2549fc55f7f6635ebf989c57faaa0b1baa9c"
+    },
+    {
+      "path": "outputs/publication_assets/tables/Table_4_Confirmatory_Associations.csv",
+      "bytes": 489,
+      "sha256": "9f479672b752726d0e835ed266d315a895785bf0a8ccfd51217b37b6b466b871"
+    },
+    {
+      "path": "outputs/publication_assets/tables/Table_5_LOSO_Validation.csv",
+      "bytes": 713,
+      "sha256": "2bf21d05217842252b091890e4f2d36d569872d8d1b9f97f556b7c94b60560eb"
+    },
+    {
+      "path": "outputs/publication_assets/tables/Table_S1_Direction_Model.csv",
+      "bytes": 6913,
+      "sha256": "dca82e00fb73e48699de378b78b66282a0cb45b77604578c555e3d36e584e72c"
+    },
+    {
+      "path": "outputs/reanalysis/recomputed_associations.csv",
+      "bytes": 682,
+      "sha256": "8a33016ceed18a6eb8f68094cba66cc634c7b5c79facf2889ca827c4be836da4"
+    },
+    {
+      "path": "outputs/reanalysis/recomputed_loso_predictions.csv",
+      "bytes": 41723,
+      "sha256": "07a73eca844e8e004982225b8ddd4973ca8373408f2888d87a6918e1ed13fe95"
+    },
+    {
+      "path": "outputs/reanalysis/recomputed_loso_scores.csv",
+      "bytes": 740,
+      "sha256": "2f1bc926c7fb29c2c0013f3ba8c3d20aba20421ca65e2feefe734926ec1ebf01"
+    },
+    {
+      "path": "outputs/reanalysis/recomputed_units_12.csv",
+      "bytes": 2225,
+      "sha256": "4081ef7d8f6a2c1c9012f2cdf8d563e6776cdd364fe747319c68b82ab87ad3f2"
+    },
+    {
+      "path": "outputs/reanalysis/recomputed_units_60.csv",
+      "bytes": 12854,
+      "sha256": "9477309be686e32d365ae78fc1c98213ebe95497bac0e1fdcece55f6bfc78a56"
+    },
+    {
+      "path": "outputs/reanalysis/reproduction_report.json",
+      "bytes": 3659,
+      "sha256": "12299f7480c643b2e0bd595e8abbe0923ecc86a0e2173078e842f683168a5dbd"
+    },
+    {
+      "path": "reports/artifact_verification.json",
+      "bytes": 28991,
+      "sha256": "942aa884f2ad4c097918cfb48d8781b0d65000324832c976794054cce326e598"
+    },
+    {
+      "path": "reports/notebook_source_map.json",
+      "bytes": 3872,
+      "sha256": "78ea7d0334e9b197820f09d6da87119f7dd0916dea3a4a2771edeb85e571ce83"
+    },
+    {
+      "path": "reports/package_validation.json",
+      "bytes": 602,
+      "sha256": "d3718fccba646cb3432d8c98d3a33a05eaa11f5ebc6f0e4abcef7c187fec233a"
+    },
+    {
+      "path": "reports/reanalysis_verification.json",
+      "bytes": 3659,
+      "sha256": "12299f7480c643b2e0bd595e8abbe0923ecc86a0e2173078e842f683168a5dbd"
+    },
+    {
+      "path": "reports/recovered_stability_verification.json",
+      "bytes": 134587,
+      "sha256": "0bfcd1380c63b1795d891ee7b38bba9f307c714a8bc69c759ad5b428e1767593"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 202,
+      "sha256": "232a18c9058c243f75d6da0a33f0bf029444a4aa40a12b549935ca906eb0ddf2"
+    },
+    {
+      "path": "tools/analysis_core.py",
+      "bytes": 11322,
+      "sha256": "73a5753acb92c919ccf61dc10979d9c9c58caccddbd25017114ba5d01891fe94"
+    },
+    {
+      "path": "tools/paper3_build_publication_assets.py",
+      "bytes": 37568,
+      "sha256": "8b2241ea5791b7d5538a51ffe89f8bdd9fb394ccf8992db0c673b2a18c983fea"
+    },
+    {
+      "path": "tools/reproduce_analysis.py",
+      "bytes": 5230,
+      "sha256": "3e9d4c661e5660d3cd087a91a0d1ef83011e74a9ed2017e1712456db4089b299"
+    },
+    {
+      "path": "tools/verify_artifacts.py",
+      "bytes": 3598,
+      "sha256": "aa1719fd12de865d63b7ca81fc58d55a958cc024fd189162e68bf82e6932e269"
+    },
+    {
+      "path": "tools/verify_recovered_stability.py",
+      "bytes": 3449,
+      "sha256": "9ccd2494c967e32fe2d3946640de1db64fdbde07d74b11edebe056c1af6fb507"
+    }
+  ]
+}

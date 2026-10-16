@@ -1,0 +1,7 @@
+period_type,period,benign,attack,total,eligible
+calendar_day,2018-05-15,13566,124302,137868,True
+calendar_day,2018-05-21,20451,781721,802172,True
+calendar_day,2018-05-22,14425,789109,803534,True
+calendar_day,2018-06-04,3146,15185072,15188218,True
+calendar_day,2018-06-18,148,140,288,False
+calendar_day,2018-06-19,253,1475,1728,False

@@ -1,0 +1,25 @@
+{
+  "dataset": "NF_BoT_IoT_v3",
+  "zip_file": "NF-BoT-IoT-v3.zip",
+  "csv_member": "d509c9db7490cf92_NFV3DATA-A11964_A11964/data/NF-BoT-IoT-v3.csv",
+  "total_rows": 16933808,
+  "benign_label_0": 51989,
+  "attack_label_1": 16881819,
+  "invalid_labels": 0,
+  "invalid_start_timestamps": 0,
+  "invalid_end_timestamps": 0,
+  "minimum_start_time": "2018-05-15T00:27:11.665000+00:00",
+  "maximum_start_time": "2018-06-19T04:17:13.932000+00:00",
+  "calendar_days": 6,
+  "eligible_calendar_days": 4,
+  "six_hour_blocks": 10,
+  "eligible_six_hour_blocks": 5,
+  "attack_category_counts": {
+    "DDoS": 7150882,
+    "Benign": 51989,
+    "DoS": 8034190,
+    "Reconnaissance": 1695132,
+    "Theft": 1615
+  },
+  "elapsed_minutes": 5.64
+}

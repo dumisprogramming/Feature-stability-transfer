@@ -1,0 +1,39 @@
+{
+  "amendment_id": "P3_A1_DUPLICATE_GROUP_DISJOINT",
+  "created_utc": "2026-09-04T03:35:50.698285+00:00",
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "model_results_seen_before_amendment": false,
+  "observed_maximum_pair_overlap": 1563,
+  "observed_total_across_pairs": 49390,
+  "parent_protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "primary_rule": {
+    "action": "When a feature signature occurs in more than one partition, retain it only in the highest-priority partition.",
+    "environment_samples": "Preserved to retain the previously frozen 2,000 observations per class per block.",
+    "group_definition": "Identical cleaned values across all 49 model predictors.",
+    "partition_precedence": [
+      "environment",
+      "source_test",
+      "calibration",
+      "train"
+    ],
+    "post_purge_balancing": "Training, calibration and source-test partitions are independently downsampled to equal benign and attack counts.",
+    "replacement": false,
+    "signature_method": "Pandas deterministic 64-bit row hash; collision probability is negligible at the audited sample sizes.",
+    "within_partition_multiplicity": "Retained in the primary analysis to preserve observed traffic frequency."
+  },
+  "reason": "The pre-modelling audit detected identical 49-feature signatures across source partitions.",
+  "target_results_seen_before_amendment": false,
+  "timing": "Created after data-quality auditing but before model training, feature-importance estimation, or cross-dataset evaluation.",
+  "unchanged_elements": [
+    "research question",
+    "four datasets",
+    "six-hour environmental unit",
+    "eligible blocks",
+    "models",
+    "five seeds",
+    "49 predictors",
+    "source-only warning scores",
+    "target-blind evaluation",
+    "primary outcome"
+  ]
+}

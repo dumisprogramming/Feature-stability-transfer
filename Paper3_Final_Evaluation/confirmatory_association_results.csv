@@ -1,0 +1,4 @@
+predictor,role,n_source_model_units,spearman_rho,bootstrap_95_ci_low,bootstrap_95_ci_high,finite_bootstrap_replicates,exact_one_sided_p,permutation_exceedances,permutations,holm_adjusted_p_primary_family,association_supported_at_0_05
+environmental_instability,primary,12,0.2937062937062937,-0.3142857142857142,0.7906512428347756,10000,0.43156828703703703,5966,13824,0.8631365740740741,False
+sampling_environment_gap,primary,12,0.034965034965034975,-0.5547899489595604,0.6823955647240834,10000,0.5164207175925926,7139,13824,0.8631365740740741,False
+sampling_instability,baseline,12,0.3356643356643357,-0.3357149303764827,0.8939929328621908,10000,0.6145109953703703,8495,13824,,False

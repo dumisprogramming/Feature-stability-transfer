@@ -1,0 +1,5 @@
+dataset,total_rows,benign,attack,invalid_labels,invalid_start_times,calendar_days,eligible_days,six_hour_blocks,eligible_6h_blocks
+NF_BoT_IoT_v3,16933808,51989,16881819,0,0,6,4,10,5
+NF_CSE_CIC_IDS2018_v3,20115529,17514626,2600903,0,0,11,9,28,13
+NF_ToN_IoT_v3,27520260,16792214,10728046,0,0,7,7,22,21
+NF_UNSW_NB15_v3,2365424,2237731,127693,0,0,3,2,7,4

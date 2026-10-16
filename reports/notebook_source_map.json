@@ -1,0 +1,95 @@
+{
+  "notebook": "notebooks/Paper3_CompleteCode.ipynb",
+  "uploaded_notebook_sha256": "ab1865315d875663a2b22b61f3c9f9765c0f9d2c5cac7229c1e6496224c89b16",
+  "cell_count": 20,
+  "stages": [
+    {
+      "cell_index_zero_based": 0,
+      "script": "Paper3_Code/source_stages/00_dataset_inventory.py",
+      "bytes": 3859,
+      "source_sha256": "5dd91c6e0dd3a29f154e0593ebfd52ac2cc0edb6e49c12ff51a3157bb114a44f",
+      "extraction": "Exact UTF-8 code cell source; no edits or added header"
+    },
+    {
+      "cell_index_zero_based": 1,
+      "script": "Paper3_Code/source_stages/01_temporal_audit.py",
+      "bytes": 10465,
+      "source_sha256": "30d61078aa67ed46bf62faa1d13831d4045419f0fcbe9376cccdbfdc8e12692d",
+      "extraction": "Exact UTF-8 code cell source; no edits or added header"
+    },
+    {
+      "cell_index_zero_based": 2,
+      "script": "Paper3_Code/source_stages/02_historical_protocol_freeze.py",
+      "bytes": 7011,
+      "source_sha256": "a90954edace3f2126d3b1483bd78983e335029844b3732e322d12fff6c45a3e4",
+      "extraction": "Exact UTF-8 code cell source; no edits or added header"
+    },
+    {
+      "cell_index_zero_based": 3,
+      "script": "Paper3_Code/source_stages/03_partition_indices.py",
+      "bytes": 18868,
+      "source_sha256": "63d0fafe3d0a45dd88c988156b83ea3a141cdcc0004917e4188a957ef13ee049",
+      "extraction": "Exact UTF-8 code cell source; no edits or added header"
+    },
+    {
+      "cell_index_zero_based": 4,
+      "script": "Paper3_Code/source_stages/04_feature_materialization.py",
+      "bytes": 19172,
+      "source_sha256": "13d74685e6ddac4677dc220d276151d8865af0381c08b6c41a38d0657ddd25c3",
+      "extraction": "Exact UTF-8 code cell source; no edits or added header"
+    },
+    {
+      "cell_index_zero_based": 5,
+      "script": "Paper3_Code/source_stages/05_duplicate_group_sanitization.py",
+      "bytes": 19583,
+      "source_sha256": "42adaf63d81eb93d416b7f6f981d4c054a24a5c5152c8f9d03090a0ab67d4976",
+      "extraction": "Exact UTF-8 code cell source; no edits or added header"
+    },
+    {
+      "cell_index_zero_based": 6,
+      "script": "Paper3_Code/source_stages/06_pretraining_gate.py",
+      "bytes": 10445,
+      "source_sha256": "87d0921c2ab6fd896c8c58c11947400de576ae9b7cbecaf6497008a636f0f5d6",
+      "extraction": "Exact UTF-8 code cell source; no edits or added header"
+    },
+    {
+      "cell_index_zero_based": 7,
+      "script": "Paper3_Code/source_stages/07_source_training_calibration.py",
+      "bytes": 25451,
+      "source_sha256": "3100a4087ce3be3143f07cb523b9578b9dec963830a4ee58cc0778b31e620680",
+      "extraction": "Exact UTF-8 code cell source; no edits or added header"
+    },
+    {
+      "cell_index_zero_based": 8,
+      "script": "Paper3_Code/source_stages/08_source_feature_stability.py",
+      "bytes": 31040,
+      "source_sha256": "efb5f2c2c4658011f83fff1726c28041d3485cc6b1bc8a1f8aabf9a30d1eac05",
+      "extraction": "Exact UTF-8 code cell source; no edits or added header"
+    },
+    {
+      "cell_index_zero_based": 9,
+      "script": "Paper3_Code/source_stages/09_target_plan_freeze.py",
+      "bytes": 7876,
+      "source_sha256": "a9e5f86cc66b9360f3e5d746ffd3b938c4ed24857648fb1204c3819b84404396",
+      "extraction": "Exact UTF-8 code cell source; no edits or added header"
+    },
+    {
+      "cell_index_zero_based": 10,
+      "script": "Paper3_Code/source_stages/10_target_readonly_preflight.py",
+      "bytes": 3281,
+      "source_sha256": "7ad0301ed69a381c930fb32e94dde1c83a652d0f103e7bde0b2b883e41b12e80",
+      "extraction": "Exact UTF-8 code cell source; no edits or added header"
+    }
+  ],
+  "excluded_upload": {
+    "name": "Untitled60.ipynb",
+    "reason": "Contains only the file-search code, not an experimental stage."
+  },
+  "saved_error_cells": [
+    {
+      "cell_index_zero_based": 15,
+      "error": "AssertionError",
+      "message": ""
+    }
+  ]
+}

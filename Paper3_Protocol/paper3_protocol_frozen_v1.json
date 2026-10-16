@@ -1,0 +1,158 @@
+{
+  "confirmatory_rules": {
+    "all_source_models_frozen_before_target_evaluation": true,
+    "all_source_warning_scores_frozen_before_target_evaluation": true,
+    "negative_and_null_results_reported": true,
+    "target_features_not_used_for_warning_construction": true,
+    "target_labels_not_used_for_warning_construction": true
+  },
+  "created_utc": "2026-09-04T03:05:17.851012+00:00",
+  "datasets": {
+    "NF_BoT_IoT_v3": {
+      "eligible_6h_blocks": 5,
+      "rows": 16933808
+    },
+    "NF_CSE_CIC_IDS2018_v3": {
+      "eligible_6h_blocks": 13,
+      "rows": 20115529
+    },
+    "NF_ToN_IoT_v3": {
+      "eligible_6h_blocks": 21,
+      "rows": 27520260
+    },
+    "NF_UNSW_NB15_v3": {
+      "eligible_6h_blocks": 4,
+      "rows": 2365424
+    }
+  },
+  "environment_definition": {
+    "block_operation": "floor timestamp to 6-hour boundary",
+    "calendar_day_analysis": "secondary_sensitivity",
+    "included_blocks": "all eligible blocks",
+    "minimum_attack_per_block": 2000,
+    "minimum_benign_per_block": 2000,
+    "primary_unit": "non_overlapping_6_hour_block",
+    "timestamp": "FLOW_START_MILLISECONDS",
+    "timezone": "UTC",
+    "total_eligible_blocks": 43
+  },
+  "feature_importance": {
+    "permutation_repeats": 3,
+    "primary_method": "permutation_importance",
+    "primary_stability_metric": "mean pairwise Spearman rank correlation",
+    "scoring": "balanced_accuracy",
+    "secondary_stability_metric": "top_10_Jaccard",
+    "shap_usage": "XGBoost verification only"
+  },
+  "features": {
+    "available_predictors": 53,
+    "excluded_from_models": [
+      "FLOW_START_MILLISECONDS",
+      "FLOW_END_MILLISECONDS",
+      "IPV4_SRC_ADDR",
+      "IPV4_DST_ADDR"
+    ],
+    "ip_address_usage": "excluded_completely",
+    "label_columns": [
+      "Label",
+      "Attack"
+    ],
+    "primary_predictor_count": 49,
+    "timestamp_usage": "environment_definition_only"
+  },
+  "models": {
+    "LogisticRegression": {
+      "class_weight": null,
+      "max_iter": 2000,
+      "solver": "liblinear"
+    },
+    "RandomForest": {
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 300,
+      "n_jobs": -1
+    },
+    "XGBoost": {
+      "colsample_bytree": 0.8,
+      "eval_metric": "logloss",
+      "learning_rate": 0.05,
+      "max_depth": 6,
+      "n_estimators": 600,
+      "objective": "binary:logistic",
+      "subsample": 0.8,
+      "tree_method": "hist"
+    }
+  },
+  "outcomes": {
+    "primary_transfer_failure": "source balanced accuracy - target balanced accuracy",
+    "secondary_metrics": [
+      "Macro F1",
+      "MCC",
+      "PR-AUC"
+    ],
+    "target_threshold": "Use frozen source-calibrated threshold without adaptation"
+  },
+  "preprocessing": {
+    "fit_using": "source_training_only",
+    "imputation": "source_training_median",
+    "infinite_values": "convert_to_missing",
+    "logistic_regression_scaling": "StandardScaler",
+    "target_adaptation": false,
+    "target_imputation_refitting": false,
+    "target_scaling_refitting": false,
+    "tree_model_scaling": "none"
+  },
+  "primary_question": "Does feature-importance stability across genuine source temporal environments predict cross-dataset failure better than stability across random source samples?",
+  "protocol_id": "P3_FEATURE_STABILITY_V1",
+  "robustness_checks": [
+    "calendar-day stability where sufficient",
+    "top-10 Jaccard stability",
+    "XGBoost SHAP verification",
+    "exact-feature-duplicate sensitivity audit"
+  ],
+  "sampling": {
+    "environment_sample_per_block": {
+      "attack": 2000,
+      "benign": 2000,
+      "replacement": false
+    },
+    "sampling_method": "deterministic_seeded_without_replacement",
+    "sampling_stability_control": "Use the same observations as the environmental samples, but randomly redistribute observations within each class into matched pseudo-blocks.",
+    "seeds": [
+      2027,
+      2028,
+      2029,
+      2030,
+      2031
+    ],
+    "source_calibration_per_class": 5000,
+    "source_test_per_class": 5000,
+    "source_training_per_class": 25000
+  },
+  "scope_separation": {
+    "artificial_feature_loss": false,
+    "new_deep_learning_architecture": false,
+    "selective_classification": false,
+    "semantic_feature_group_masking": false,
+    "target_domain_adaptation": false
+  },
+  "status": "FROZEN_BEFORE_MODELLING",
+  "task": {
+    "attack_label": 1,
+    "benign_label": 0,
+    "transfer_directions": 12,
+    "type": "binary_classification"
+  },
+  "threshold": {
+    "rule": "maximize balanced accuracy",
+    "selection_data": "source_calibration_only",
+    "target_recalibration": false,
+    "tie_break": "threshold closest to 0.5"
+  },
+  "warning_scores": {
+    "environmental_instability": "1 - environmental_stability",
+    "false_reassurance_gap": "sampling_stability - environmental_stability",
+    "interpretation": "Higher values indicate greater source-only warning risk."
+  },
+  "working_title": "Does Source-Side Feature Stability Warn of Cross-Dataset NIDS Failure?"
+}

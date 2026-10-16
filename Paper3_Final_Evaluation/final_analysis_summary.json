@@ -1,0 +1,153 @@
+{
+  "amendment_A3_confirmatory_analysis_seal_sha256": "dd48b05318d8369ece3a98ca341774c30d7521e2aa655f1742271b104fca148b",
+  "artifact": "paper3_final_analysis_summary",
+  "confirmatory_associations": [
+    {
+      "association_supported_at_0_05": false,
+      "bootstrap_95_ci_high": 0.7906512428347756,
+      "bootstrap_95_ci_low": -0.3142857142857142,
+      "exact_one_sided_p": 0.43156828703703703,
+      "finite_bootstrap_replicates": 10000,
+      "holm_adjusted_p_primary_family": 0.8631365740740741,
+      "n_source_model_units": 12,
+      "permutation_exceedances": 5966,
+      "permutations": 13824,
+      "predictor": "environmental_instability",
+      "role": "primary",
+      "spearman_rho": 0.2937062937062937
+    },
+    {
+      "association_supported_at_0_05": false,
+      "bootstrap_95_ci_high": 0.6823955647240834,
+      "bootstrap_95_ci_low": -0.5547899489595604,
+      "exact_one_sided_p": 0.5164207175925926,
+      "finite_bootstrap_replicates": 10000,
+      "holm_adjusted_p_primary_family": 0.8631365740740741,
+      "n_source_model_units": 12,
+      "permutation_exceedances": 7139,
+      "permutations": 13824,
+      "predictor": "sampling_environment_gap",
+      "role": "primary",
+      "spearman_rho": 0.034965034965034975
+    },
+    {
+      "association_supported_at_0_05": false,
+      "bootstrap_95_ci_high": 0.8939929328621908,
+      "bootstrap_95_ci_low": -0.3357149303764827,
+      "exact_one_sided_p": 0.6145109953703703,
+      "finite_bootstrap_replicates": 10000,
+      "holm_adjusted_p_primary_family": null,
+      "n_source_model_units": 12,
+      "permutation_exceedances": 8495,
+      "permutations": 13824,
+      "predictor": "sampling_instability",
+      "role": "baseline",
+      "spearman_rho": 0.3356643356643357
+    }
+  ],
+  "created_utc": "2026-09-04T12:20:18.899555+00:00",
+  "evaluated_job_label_associations": 14400000,
+  "global_descriptive_summary": {
+    "balanced_accuracy_loss": {
+      "max": 0.6938198221757322,
+      "mean": 0.3822412921278808,
+      "min": 0.09072755524861875,
+      "sd": 0.11340083460419267
+    },
+    "target_attack_recall": {
+      "max": 0.999425,
+      "mean": 0.4741144444444444,
+      "min": 0.000625,
+      "sd": 0.3164450281229142
+    },
+    "target_balanced_accuracy": {
+      "max": 0.879775,
+      "mean": 0.5900268055555555,
+      "min": 0.29381250000000003,
+      "sd": 0.11802176331121172
+    },
+    "target_benign_recall": {
+      "max": 0.991725,
+      "mean": 0.7059391666666667,
+      "min": 0.08015,
+      "sd": 0.23693295475636356
+    },
+    "target_macro_f1": {
+      "max": 0.8795494291293847,
+      "mean": 0.5470692987949807,
+      "min": 0.26073981985290307,
+      "sd": 0.1499036032202509
+    },
+    "target_mcc": {
+      "max": 0.7624109408399719,
+      "mean": 0.1887083040394081,
+      "min": -0.45510076514905945,
+      "sd": 0.2521209296545466
+    },
+    "target_pr_auc_attack": {
+      "max": 0.9567599256825958,
+      "mean": 0.6074323873084203,
+      "min": 0.33493095809699186,
+      "sd": 0.14927721783475342
+    }
+  },
+  "loso_scores": [
+    {
+      "mae_improvement_vs_sampling_baseline": 0.00575878559407017,
+      "oof_mae": 0.0615467479073499,
+      "oof_rmse": 0.07269829039365933,
+      "oof_spearman_rho": -0.688626021804888,
+      "oof_units": 60,
+      "specification": "mean_only"
+    },
+    {
+      "mae_improvement_vs_sampling_baseline": 0.007872233626814315,
+      "oof_mae": 0.05943329987460576,
+      "oof_rmse": 0.07064844047815223,
+      "oof_spearman_rho": -0.12266586624352467,
+      "oof_units": 60,
+      "specification": "model_only"
+    },
+    {
+      "mae_improvement_vs_sampling_baseline": -0.0004928411532643395,
+      "oof_mae": 0.06779837465468441,
+      "oof_rmse": 0.0786806451095295,
+      "oof_spearman_rho": -0.3048068908030009,
+      "oof_units": 60,
+      "specification": "model_plus_environmental_instability"
+    },
+    {
+      "mae_improvement_vs_sampling_baseline": -0.014849020663803711,
+      "oof_mae": 0.08215455416522378,
+      "oof_rmse": 0.09735369351315744,
+      "oof_spearman_rho": -0.3982772992497917,
+      "oof_units": 60,
+      "specification": "model_plus_primary_combined"
+    },
+    {
+      "mae_improvement_vs_sampling_baseline": -0.012039669835316291,
+      "oof_mae": 0.07934520333673636,
+      "oof_rmse": 0.09237426565376433,
+      "oof_spearman_rho": -0.40989163656571276,
+      "oof_units": 60,
+      "specification": "model_plus_sampling_environment_gap"
+    },
+    {
+      "mae_improvement_vs_sampling_baseline": 0.0,
+      "oof_mae": 0.06730553350142007,
+      "oof_rmse": 0.08171212663206182,
+      "oof_spearman_rho": -0.18816337871631011,
+      "oof_units": 60,
+      "specification": "model_plus_sampling_instability"
+    }
+  ],
+  "negative_results_reporting_rule": "All prespecified results are retained regardless of direction or statistical significance.",
+  "parent_amendment_A2_sha256": "2217078acfa10700f4fae29c6f32f171ce7a4e2ecb22d22ce5eabb6087e5aa5e",
+  "pre_label_target_prediction_seal_sha256": "7e9898212fda48e756b061529f46e9ca0d5c80512b2dc43c7da87f698ce7c618",
+  "prediction_jobs_evaluated": 180,
+  "scope_caution": "Inference is bounded to the four evaluated NetFlow-v3 datasets and three fixed model families; it is not universal deployment validation.",
+  "status": "PASS",
+  "target_adaptation_performed": false,
+  "threshold_changed_using_target_results": false,
+  "unique_target_label_rows_read": 400000
+}

@@ -1,0 +1,30 @@
+{
+  "dataset": "NF_ToN_IoT_v3",
+  "zip_file": "NF-ToN-IoT-v3.zip",
+  "csv_member": "02934b58528a226b_NFV3DATA-A11964_A11964/data/NF-ToN-IoT-v3.csv",
+  "total_rows": 27520260,
+  "benign_label_0": 16792214,
+  "attack_label_1": 10728046,
+  "invalid_labels": 0,
+  "invalid_start_timestamps": 0,
+  "invalid_end_timestamps": 0,
+  "minimum_start_time": "2019-04-23T14:09:50.618000+00:00",
+  "maximum_start_time": "2019-04-29T14:45:55.177000+00:00",
+  "calendar_days": 7,
+  "eligible_calendar_days": 7,
+  "six_hour_blocks": 22,
+  "eligible_six_hour_blocks": 21,
+  "attack_category_counts": {
+    "Benign": 16792214,
+    "scanning": 1358977,
+    "dos": 203456,
+    "injection": 381777,
+    "ddos": 4141256,
+    "password": 1594777,
+    "xss": 2834435,
+    "Backdoor": 203384,
+    "ransomware": 3971,
+    "mitm": 6013
+  },
+  "elapsed_minutes": 9.21
+}

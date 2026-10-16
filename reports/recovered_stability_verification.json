@@ -1,0 +1,3973 @@
+{
+  "status": "PASS",
+  "checks_passed": 793,
+  "checks_total": 793,
+  "scope": "Exact extraction and pairwise aggregation of saved importance values only; no model fitting or raw-data replay.",
+  "checks": [
+    {
+      "check": "Original notebook bytes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Code/source_stages/00_dataset_inventory.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Code/source_stages/01_temporal_audit.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Code/source_stages/02_historical_protocol_freeze.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Code/source_stages/03_partition_indices.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Code/source_stages/04_feature_materialization.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Code/source_stages/05_duplicate_group_sanitization.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Code/source_stages/06_pretraining_gate.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Code/source_stages/07_source_training_calibration.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Code/source_stages/08_source_feature_stability.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Code/source_stages/09_target_plan_freeze.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Code/source_stages/10_target_readonly_preflight.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "60 supplied model/seed records",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.5449693472458387; expected=0.5449693472458387"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.5649796747690996; expected=0.5649796747690996"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5847485847485847; expected=0.5847485847485847"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9304875104435334; expected=0.9304875104435334"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9319190540593614; expected=0.9319190540593614"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7909090909090909; expected=0.7909090909090909"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.3387799714037877; expected=0.3387799714037877"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.3405912478154469; expected=0.3405912478154469"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4886446886446887; expected=0.4886446886446887"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7380905916468297; expected=0.7380905916468297"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7333354061319193; expected=0.7333354061319193"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5624042624042624; expected=0.5624042624042624"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2027/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.31425727771528916; expected=0.31425727771528916"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.3883457798994501; expected=0.3883457798994501"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4067765567765568; expected=0.4067765567765568"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.8141206986494112; expected=0.8141206986494112"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8110690973492847; expected=0.8110690973492847"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7454545454545454; expected=0.7454545454545454"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2027/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.4864695396377498; expected=0.4864695396377498"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.546678620611805; expected=0.546678620611805"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5567765567765568; expected=0.5567765567765568"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9091806809422861; expected=0.9091806809422861"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9036166031509516; expected=0.9036166031509516"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.9272727272727274; expected=0.9272727272727274"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.2558349525376934; expected=0.2558349525376934"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.17857873788576012; expected=0.17857873788576012"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.29131113984055157; expected=0.29131113984055157"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7812479561799245; expected=0.7812479561799245"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7781164803858658; expected=0.7781164803858658"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7144522144522145; expected=0.7144522144522145"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2028/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.2608187991665365; expected=0.2608187991665365"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.24546545599925554; expected=0.24546545599925554"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.36224412842059894; expected=0.36224412842059894"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.8781609592044127; expected=0.8781609592044127"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8839592584114451; expected=0.8839592584114451"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.890909090909091; expected=0.890909090909091"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2028/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.517908614007792; expected=0.517908614007792"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.633256225523789; expected=0.633256225523789"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5043872793872793; expected=0.5043872793872793"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9425878636667935; expected=0.9425878636667935"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9449078392073441; expected=0.9449078392073441"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8727272727272728; expected=0.8727272727272728"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.45802338954502825; expected=0.45802338954502825"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.5324929530148914; expected=0.5324929530148914"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5514715676480383; expected=0.5514715676480383"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.8384949416019538; expected=0.8384949416019538"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8362646673287681; expected=0.8362646673287681"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=1.0; expected=1.0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2029/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.4349788472334429; expected=0.4349788472334429"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6166253100812327; expected=0.6166253100812327"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4708438620203326; expected=0.4708438620203326"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.8950963762698864; expected=0.8950963762698864"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.893505336428437; expected=0.893505336428437"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8545454545454547; expected=0.8545454545454547"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2029/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.5407400829548777; expected=0.5407400829548777"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.5424984749532074; expected=0.5424984749532074"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5323676323676323; expected=0.5323676323676323"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9424457693048591; expected=0.9424457693048591"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9392090028971929; expected=0.9392090028971929"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.806060606060606; expected=0.806060606060606"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.475922445156325; expected=0.475922445156325"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.5011783129865715; expected=0.5011783129865715"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.49097569097569094; expected=0.49097569097569094"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.8463206611495648; expected=0.8463206611495648"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8316490616524168; expected=0.8316490616524168"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7606060606060607; expected=0.7606060606060607"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2030/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.2642642724884658; expected=0.2642642724884658"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.26571355073315833; expected=0.26571355073315833"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.39157509157509157; expected=0.39157509157509157"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.6163657225853737; expected=0.6163657225853737"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.5982393468215741; expected=0.5982393468215741"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.49633699633699624; expected=0.49633699633699624"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2030/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.5704877690945225; expected=0.5704877690945225"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6485960804330726; expected=0.6485960804330726"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4612137862137862; expected=0.4612137862137862"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9204666919638335; expected=0.9204666919638335"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9168244613604679; expected=0.9168244613604679"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.890909090909091; expected=0.890909090909091"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.2916430129142492; expected=0.2916430129142492"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.28075153876017533; expected=0.28075153876017533"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.46813186813186813; expected=0.46813186813186813"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7913711426124962; expected=0.7913711426124962"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7970960853109779; expected=0.7970960853109779"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.6195471195471196; expected=0.6195471195471196"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_BoT_IoT_v3/seed_2031/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.3570507805806853; expected=0.3570507805806853"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.3759818955098319; expected=0.3759818955098319"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4585581085581086; expected=0.4585581085581086"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=5; expected=5"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=10; expected=10"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.8071053538539475; expected=0.8071053538539475"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8195727813919741; expected=0.8195727813919741"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7272727272727273; expected=0.7272727272727273"
+    },
+    {
+      "check": "NF_BoT_IoT_v3/2031/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.6264829023011392; expected=0.6264829023011392"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6501322070382374; expected=0.6501322070382374"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4888679696372004; expected=0.4888679696372004"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9898759758186827; expected=0.9898759758186827"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9904577231208858; expected=0.9904577231208858"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8764568764568762; expected=0.8764568764568762"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.12126331596463731; expected=0.12126331596463731"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.0280967894631761; expected=0.0280967894631761"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.3031304350963793; expected=0.3031304350963793"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.724937172440206; expected=0.724937172440206"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7409810893248578; expected=0.7409810893248578"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5373558065865758; expected=0.5373558065865758"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2027/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.4421397220122976; expected=0.4421397220122976"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.48407381596227805; expected=0.48407381596227805"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.462495084101419; expected=0.462495084101419"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.6751708577655269; expected=0.6751708577655269"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6842432106236982; expected=0.6842432106236982"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7690514613591538; expected=0.7690514613591538"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2027/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.6171838413362988; expected=0.6171838413362988"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6424009156903427; expected=0.6424009156903427"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5228532151609073; expected=0.5228532151609073"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9887727197831202; expected=0.9887727197831202"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9895129016043873; expected=0.9895129016043873"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=1.0; expected=1.0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.16278654711937568; expected=0.16278654711937568"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.1662484311566028; expected=0.1662484311566028"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.22144725913480373; expected=0.22144725913480373"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.44096612648397593; expected=0.44096612648397593"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.4287165320019479; expected=0.4287165320019479"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.41068094801126476; expected=0.41068094801126476"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2028/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.3500109494743081; expected=0.3500109494743081"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.35839666042311347; expected=0.35839666042311347"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4572697915458097; expected=0.4572697915458097"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.5928364490350247; expected=0.5928364490350247"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.5937376004655875; expected=0.5937376004655875"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.6790687944534098; expected=0.6790687944534098"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2028/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.599298201453613; expected=0.599298201453613"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6288957394280826; expected=0.6288957394280826"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.428678975624677; expected=0.428678975624677"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9821558239440653; expected=0.9821558239440653"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9829790619090653; expected=0.9829790619090653"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8764568764568762; expected=0.8764568764568762"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.05936817190160301; expected=0.05936817190160301"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.03827628925021026; expected=0.03827628925021026"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.22410358686853088; expected=0.22410358686853088"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.5043638293678077; expected=0.5043638293678077"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.5060625320461603; expected=0.5060625320461603"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5704637243098782; expected=0.5704637243098782"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2029/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.3587531904632125; expected=0.3587531904632125"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.3538849404575154; expected=0.3538849404575154"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.38679945410714633; expected=0.38679945410714633"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7810903821729738; expected=0.7810903821729738"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7899611864101532; expected=0.7899611864101532"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8799533799533799; expected=0.8799533799533799"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2029/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.6674458514501207; expected=0.6674458514501207"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7065505733652255; expected=0.7065505733652255"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5103566619403724; expected=0.5103566619403724"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9778707199171074; expected=0.9778707199171074"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9778900435480267; expected=0.9778900435480267"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.9487179487179486; expected=0.9487179487179486"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.03862781572682669; expected=0.03862781572682669"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.029768502811287713; expected=0.029768502811287713"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.19487562727024502; expected=0.19487562727024502"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.5038260604888973; expected=0.5038260604888973"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.5262062210613303; expected=0.5262062210613303"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.536142276526892; expected=0.536142276526892"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2030/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.3152403822434074; expected=0.3152403822434074"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.3611096994388159; expected=0.3611096994388159"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4340662479802752; expected=0.4340662479802752"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.5690645085453301; expected=0.5690645085453301"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6095827228552861; expected=0.6095827228552861"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7235627620243006; expected=0.7235627620243006"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2030/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.6277051642381899; expected=0.6277051642381899"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6342455493276593; expected=0.6342455493276593"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5228820324974169; expected=0.5228820324974169"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9868308858553493; expected=0.9868308858553493"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9871647659109657; expected=0.9871647659109657"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8787878787878787; expected=0.8787878787878787"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.023175080184540262; expected=0.023175080184540262"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.04468747662594351; expected=0.04468747662594351"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.29273837353141946; expected=0.29273837353141946"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.5750783581966952; expected=0.5750783581966952"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.5964547136783787; expected=0.5964547136783787"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5997111862496478; expected=0.5997111862496478"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_CSE_CIC_IDS2018_v3/seed_2031/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.3623448208545598; expected=0.3623448208545598"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.41160261050559205; expected=0.41160261050559205"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4794786033473816; expected=0.4794786033473816"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=13; expected=13"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=78; expected=78"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.6475865884410312; expected=0.6475865884410312"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6650624953326216; expected=0.6650624953326216"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.744874783336322; expected=0.744874783336322"
+    },
+    {
+      "check": "NF_CSE_CIC_IDS2018_v3/2031/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.16174975065505334; expected=0.16174975065505334"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.17981689818779129; expected=0.17981689818779129"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.2554333449733715; expected=0.2554333449733715"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.894636794630391; expected=0.894636794630391"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9012298457587826; expected=0.9012298457587826"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7884195169909455; expected=0.7884195169909455"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.027466290184977024; expected=0.027466290184977024"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.007244465261622991; expected=0.007244465261622991"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.21473785195589706; expected=0.21473785195589706"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.8369542397038107; expected=0.8369542397038107"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8405684693413185; expected=0.8405684693413185"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5926406926406927; expected=0.5926406926406927"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2027/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.17531752438508727; expected=0.17531752438508727"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.1730824265560772; expected=0.1730824265560772"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.3303592303481733; expected=0.3303592303481733"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7722906160351437; expected=0.7722906160351437"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7819474550616139; expected=0.7819474550616139"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.6273583559297845; expected=0.6273583559297845"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2027/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.12818068930316182; expected=0.12818068930316182"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.12513670791639545; expected=0.12513670791639545"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.2525306159759942; expected=0.2525306159759942"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9118807538077728; expected=0.9118807538077728"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9147041601495254; expected=0.9147041601495254"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7296925296925297; expected=0.7296925296925297"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.13250622613143875; expected=0.13250622613143875"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.11283779298506241; expected=0.11283779298506241"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.25704488027575156; expected=0.25704488027575156"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.835070512025128; expected=0.835070512025128"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8388047419208282; expected=0.8388047419208282"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8130187273044417; expected=0.8130187273044417"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2028/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.14858065568490597; expected=0.14858065568490597"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.16089339261078023; expected=0.16089339261078023"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.3120818048726054; expected=0.3120818048726054"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.717733682083311; expected=0.717733682083311"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7226179621604724; expected=0.7226179621604724"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7251970251970252; expected=0.7251970251970252"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2028/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.14717737808792447; expected=0.14717737808792447"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.1383658571008379; expected=0.1383658571008379"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.24350491147262485; expected=0.24350491147262485"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9217612083665786; expected=0.9217612083665786"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9249269575571113; expected=0.9249269575571113"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.6764267478553192; expected=0.6764267478553192"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.12969935843178493; expected=0.12969935843178493"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.10470966495447831; expected=0.10470966495447831"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.2630727165114604; expected=0.2630727165114604"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.8248034847915776; expected=0.8248034847915776"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.827055435987089; expected=0.827055435987089"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7906839192553478; expected=0.7906839192553478"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2029/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.17880995697771365; expected=0.17880995697771365"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.16713863969866383; expected=0.16713863969866383"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.34969150421383943; expected=0.34969150421383943"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7801330495808951; expected=0.7801330495808951"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7783609080899604; expected=0.7783609080899604"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.782950382950383; expected=0.782950382950383"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2029/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.15708279532757544; expected=0.15708279532757544"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.15704030030353228; expected=0.15704030030353228"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.272709405195031; expected=0.272709405195031"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9105808217087691; expected=0.9105808217087691"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9180982622279759; expected=0.9180982622279759"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8343434343434345; expected=0.8343434343434345"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.12762123317510488; expected=0.12762123317510488"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.10537826223861538; expected=0.10537826223861538"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.2578203321569089; expected=0.2578203321569089"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7784707444397291; expected=0.7784707444397291"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7942496702147536; expected=0.7942496702147536"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7440448440448441; expected=0.7440448440448441"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2030/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.14851198010801975; expected=0.14851198010801975"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.15121829188604158; expected=0.15121829188604158"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.34209713288660654; expected=0.34209713288660654"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7145991199329729; expected=0.7145991199329729"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7122485327524787; expected=0.7122485327524787"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5761571761571762; expected=0.5761571761571762"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2030/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.16182943980288703; expected=0.16182943980288703"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.11935394828776605; expected=0.11935394828776605"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.25918179155684684; expected=0.25918179155684684"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9223692146934861; expected=0.9223692146934861"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9255507847084465; expected=0.9255507847084465"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.781030081030081; expected=0.781030081030081"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.15103040728606196; expected=0.15103040728606196"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.1339178037238692; expected=0.1339178037238692"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.2799755750662429; expected=0.2799755750662429"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7482964066026742; expected=0.7482964066026742"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7647128547035471; expected=0.7647128547035471"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7079666365380652; expected=0.7079666365380652"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_ToN_IoT_v3/seed_2031/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.19985681122529753; expected=0.19985681122529753"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.20637267521098457; expected=0.20637267521098457"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.32450574226337164; expected=0.32450574226337164"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=21; expected=21"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=210; expected=210"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7199961140481832; expected=0.7199961140481832"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.728354817207901; expected=0.728354817207901"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.6791113648256505; expected=0.6791113648256505"
+    },
+    {
+      "check": "NF_ToN_IoT_v3/2031/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9010336664061378; expected=0.9010336664061378"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9078469359275327; expected=0.9078469359275327"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8787878787878789; expected=0.8787878787878789"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9345425796861021; expected=0.9345425796861021"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9373011236409916; expected=0.9373011236409916"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8787878787878789; expected=0.8787878787878789"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7237244112200013; expected=0.7237244112200013"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7291518625151723; expected=0.7291518625151723"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.6958041958041958; expected=0.6958041958041958"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7406524862355726; expected=0.7406524862355726"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7544933903498712; expected=0.7544933903498712"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.721056721056721; expected=0.721056721056721"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2027/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.5951152790910262; expected=0.5951152790910262"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6424540010855517; expected=0.6424540010855517"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4806166056166055; expected=0.4806166056166055"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.5659587185743309; expected=0.5659587185743309"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.4995069032331044; expected=0.4995069032331044"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.40802987861811385; expected=0.40802987861811385"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2027/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9322233798247238; expected=0.9322233798247238"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9284438526186574; expected=0.9284438526186574"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8484848484848486; expected=0.8484848484848486"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9285809350100432; expected=0.9285809350100432"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.924489431927584; expected=0.924489431927584"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8484848484848486; expected=0.8484848484848486"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.8043036515586822; expected=0.8043036515586822"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8106257220376778; expected=0.8106257220376778"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=1.0; expected=1.0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7092616644145543; expected=0.7092616644145543"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6525932911828451; expected=0.6525932911828451"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=1.0; expected=1.0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2028/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.6580193267448756; expected=0.6580193267448756"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6304477253158545; expected=0.6304477253158545"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4936142289083465; expected=0.4936142289083465"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.5879769894476162; expected=0.5879769894476162"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.5990753155119137; expected=0.5990753155119137"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4734353337294514; expected=0.4734353337294514"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2028/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9263245432078236; expected=0.9263245432078236"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9350285127941551; expected=0.9350285127941551"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.797979797979798; expected=0.797979797979798"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9456309792319906; expected=0.9456309792319906"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.95345551439932; expected=0.95345551439932"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.7676767676767677; expected=0.7676767676767677"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.8487478431730616; expected=0.8487478431730616"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8465120026320467; expected=0.8465120026320467"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.6958041958041958; expected=0.6958041958041958"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7800011898613377; expected=0.7800011898613377"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8048830435775864; expected=0.8048830435775864"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.6239316239316238; expected=0.6239316239316238"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2029/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7830171491676264; expected=0.7830171491676264"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8021576007713003; expected=0.8021576007713003"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5881340881340881; expected=0.5881340881340881"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.8026720603684426; expected=0.8026720603684426"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.8026077641327019; expected=0.8026077641327019"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.6278166278166278; expected=0.6278166278166278"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2029/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9359461296602266; expected=0.9359461296602266"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9329876990404099; expected=0.9329876990404099"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8484848484848486; expected=0.8484848484848486"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9589687914170396; expected=0.9589687914170396"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9572536655169818; expected=0.9572536655169818"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8484848484848486; expected=0.8484848484848486"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.1051475805815252; expected=0.1051475805815252"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.10528790163908225; expected=0.10528790163908225"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8333333333333334; expected=0.8333333333333334"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.7569090331559277; expected=0.7569090331559277"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.7603081479459095; expected=0.7603081479459095"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.9090909090909092; expected=0.9090909090909092"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2030/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.6178148907742087; expected=0.6178148907742087"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6154071884588284; expected=0.6154071884588284"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5782828282828283; expected=0.5782828282828283"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.613316434579563; expected=0.613316434579563"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.6016767891608505; expected=0.6016767891608505"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.5782828282828284; expected=0.5782828282828284"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2030/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/LogisticRegression/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9327341823201117; expected=0.9327341823201117"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9333389299912749; expected=0.9333389299912749"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.8333333333333334; expected=0.8333333333333334"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.9119877154963665; expected=0.9119877154963665"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.9019203852002668; expected=0.9019203852002668"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.9090909090909092; expected=0.9090909090909092"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/LogisticRegression/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/RandomForest/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.11983897532251375; expected=0.11983897532251375"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.2194007688075606; expected=0.2194007688075606"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.43939393939393945; expected=0.43939393939393945"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.044863009006182446; expected=0.044863009006182446"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.07589680948862271; expected=0.07589680948862271"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.6060606060606061; expected=0.6060606060606061"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/RandomForest/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "Paper3_Source_Stability/NF_UNSW_NB15_v3/seed_2031/XGBoost/stability_complete.json 49 features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/environmental/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/environmental/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/environmental/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.3390892984130833; expected=0.3390892984130833"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/environmental/median_spearman",
+      "pass": true,
+      "detail": "observed=0.28354335996085983; expected=0.28354335996085983"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/environmental/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.3201871657754011; expected=0.3201871657754011"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/environmental/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/sampling/groups",
+      "pass": true,
+      "detail": "observed=4; expected=4"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/sampling/pairs",
+      "pass": true,
+      "detail": "observed=6; expected=6"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/sampling/mean_spearman",
+      "pass": true,
+      "detail": "observed=0.30675250041198854; expected=0.30675250041198854"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/sampling/median_spearman",
+      "pass": true,
+      "detail": "observed=0.26665575426467064; expected=0.26665575426467064"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/sampling/mean_top10_jaccard",
+      "pass": true,
+      "detail": "observed=0.4226190476190476; expected=0.4226190476190476"
+    },
+    {
+      "check": "NF_UNSW_NB15_v3/2031/XGBoost/sampling/undefined_spearman_pairs",
+      "pass": true,
+      "detail": "observed=0; expected=0"
+    }
+  ]
+}

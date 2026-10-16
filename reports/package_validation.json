@@ -1,0 +1,16 @@
+{
+  "original_archive_files_preserved": 221,
+  "separate_original_script_preserved": true,
+  "original_workbook_preserved": true,
+  "python_syntax": "PASS",
+  "artifact_integrity": "200/200 PASS",
+  "result_reanalysis": "36/36 PASS",
+  "bootstrap_replicates_per_predictor": 10000,
+  "permutations_per_predictor": 13824,
+  "raw_data_pipeline_reproduced": false,
+  "original_package_evidence_files_rechecked": 223,
+  "recovered_notebook_preserved": true,
+  "extracted_source_stage_cells": 11,
+  "notebook_code_cells_syntax": "20/20 PASS",
+  "recovered_source_and_stability_aggregation": "793/793 PASS"
+}

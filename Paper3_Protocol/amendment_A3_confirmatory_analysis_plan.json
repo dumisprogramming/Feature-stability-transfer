@@ -1,0 +1,75 @@
+{
+  "amendment_id": "P3_A3_CONFIRMATORY_ANALYSIS_PLAN",
+  "confirmatory_association": {
+    "alpha": 0.05,
+    "alternative": "positive one-sided association",
+    "baseline_inference": "Sampling-instability association is a prespecified comparator and is reported without inclusion in the primary Holm family.",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 53027,
+    "effect": "Spearman rank correlation",
+    "multiplicity": "Holm adjustment across the two primary warning predictors.",
+    "permutation": "Exact permutation of source-dataset assignments within each model; 4!^3 = 13,824 blocked permutations.",
+    "support_rule": "A primary association is supported only when rho > 0 and its Holm-adjusted one-sided p-value is below 0.05.",
+    "uncertainty": "Model-stratified source-dataset bootstrap percentile 95% interval."
+  },
+  "confirmatory_rules": {
+    "all_180_prediction_results_reported": true,
+    "negative_results_reported": true,
+    "no_model_selection_using_target_results": true,
+    "no_target_adaptation": true,
+    "no_threshold_change_using_target_results": true
+  },
+  "outcome": {
+    "formula": "source_test_balanced_accuracy - target_balanced_accuracy",
+    "negative_values": "Retained without clipping.",
+    "primary": "balanced_accuracy_loss",
+    "secondary": [
+      "target_balanced_accuracy",
+      "target_macro_f1",
+      "target_mcc",
+      "target_pr_auc_attack",
+      "target_benign_recall",
+      "target_attack_recall"
+    ]
+  },
+  "parent_amendment_A2_sha256": "2217078acfa10700f4fae29c6f32f171ce7a4e2ecb22d22ce5eabb6087e5aa5e",
+  "pre_label_target_prediction_seal_sha256": "7e9898212fda48e756b061529f46e9ca0d5c80512b2dc43c7da87f698ce7c618",
+  "predictive_validation": {
+    "comparison_rule": "Positive MAE improvement means lower MAE than the prespecified model-plus-sampling-instability baseline.",
+    "continuous_preprocessing": "Training-fold mean and population-standard-deviation scaling only.",
+    "cross_validation": "Four-fold leave-one-source-dataset-out; all seeds and models from the held-out source dataset remain exclusively in the test fold.",
+    "estimator": "Ordinary least squares with no tuning and no clipping.",
+    "known_covariate": "Fixed model-identity indicators; source-dataset identity excluded.",
+    "primary_score": "out-of-fold mean absolute error",
+    "secondary_scores": [
+      "out-of-fold root mean squared error",
+      "out-of-fold Spearman correlation"
+    ],
+    "specifications": [
+      "mean_only",
+      "model_only",
+      "model_plus_sampling_instability",
+      "model_plus_environmental_instability",
+      "model_plus_sampling_environment_gap",
+      "model_plus_primary_combined"
+    ]
+  },
+  "reporting_units": {
+    "confirmatory_association": "Twelve source-dataset-by-model units; outcome and warning scores are arithmetic means across five seeds, and outcomes are also averaged across the three eligible target datasets.",
+    "job_level": "All 180 source-target-seed-model results are reported.",
+    "predictive_validation": "Sixty source-dataset-by-seed-by-model units; each outcome is the arithmetic mean across the three eligible target datasets."
+  },
+  "scope_caution": "Inference is bounded to the four evaluated NetFlow-v3 datasets and three fixed model families; it is not universal deployment validation.",
+  "seal_sha256": "dd48b05318d8369ece3a98ca341774c30d7521e2aa655f1742271b104fca148b",
+  "secondary_analysis": "Secondary outcomes and direction/model summaries are descriptive; no additional confirmatory significance claims are made.",
+  "status": "FROZEN_BEFORE_TARGET_LABEL_JOIN",
+  "timing": "Frozen after all 180 label-blind target predictions were sealed and before any target label was joined to a prediction.",
+  "warning_scores": {
+    "baseline": "sampling_instability",
+    "baseline_formula": "1 - sampling_stability",
+    "primary": [
+      "environmental_instability",
+      "sampling_environment_gap"
+    ]
+  }
+}
