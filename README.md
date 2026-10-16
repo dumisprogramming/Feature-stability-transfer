@@ -80,7 +80,7 @@ The original evaluator freezes/verifies A3 and opens label vaults as part of its
 
 ## Data access and rights
 
-Raw datasets, trained estimators, per-flow labels and per-flow target predictions are excluded. Obtain raw datasets from their original providers; dataset rights are governed by those providers. See [dataset access](docs/DATASETS.md). No public repository URL or repository DOI exists in this package. Update the manuscript code-availability statement only after the repository is actually published.
+Raw datasets, trained estimators, per-flow labels and per-flow target predictions are excluded. Obtain raw datasets from their original providers; dataset rights are governed by those providers. See [dataset access](docs/DATASETS.md). Repository: https://github.com/dumisprogramming/Feature-stability-transfer No archival DOI has been assigned. Update the manuscript code-availability statement only after the repository is actually published.
 
 No software/data reuse license is assigned by this preparation step. The author should choose an appropriate license before a public release. A public GitHub repository without a license is not equivalent to an open-source license grant.
 
