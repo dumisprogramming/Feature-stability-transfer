@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T05:26:21.343122+00:00",
+  "dataset": "NF_CSE_CIC_IDS2018_v3",
+  "environmental_summary": {
+    "groups": 13,
+    "mean_spearman": 0.16278654711937568,
+    "mean_top10_jaccard": 0.22144725913480373,
+    "median_spearman": 0.1662484311566028,
+    "pairs": 78,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "RandomForest",
+  "pairwise_stability_sha256": "fbb47a69e4c0f81eab1e6ab6ab72a3775c2dbbb065c333291dff7a03437ae972",
+  "permutation_importance_sha256": "3a06015c669c52e1ae68f3c1924f55834e0eddce089cd5b15805709bdcd2809c",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 13,
+    "mean_spearman": 0.44096612648397593,
+    "mean_top10_jaccard": 0.41068094801126476,
+    "median_spearman": 0.4287165320019479,
+    "pairs": 78,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2028,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.4531056166056167,
+  "warning_scores": {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "environmental_groups": 13,
+    "environmental_instability": 0.8372134528806243,
+    "environmental_pairs": 78,
+    "environmental_stability": 0.16278654711937568,
+    "environmental_top10_jaccard": 0.22144725913480373,
+    "mean_environmental_baseline_ba": 0.8905000000000001,
+    "mean_sampling_baseline_ba": 0.8904999999999998,
+    "model": "RandomForest",
+    "sampling_environment_gap": 0.27817957936460025,
+    "sampling_groups": 13,
+    "sampling_pairs": 78,
+    "sampling_stability": 0.44096612648397593,
+    "sampling_top10_jaccard": 0.41068094801126476,
+    "seed": 2028,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}
