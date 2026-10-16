@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T08:24:20.318449+00:00",
+  "dataset": "NF_UNSW_NB15_v3",
+  "environmental_summary": {
+    "groups": 4,
+    "mean_spearman": 0.7830171491676264,
+    "mean_top10_jaccard": 0.5881340881340881,
+    "median_spearman": 0.8021576007713003,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "XGBoost",
+  "pairwise_stability_sha256": "efa515560ce09316ded41f4468250f02fdcb3db9c268487ff8942fc8a856d701",
+  "permutation_importance_sha256": "5da377b5c050605418e80e59de28d4c8a2e7b6d76f16b5b98b148d5f4d2ac4eb",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 4,
+    "mean_spearman": 0.8026720603684426,
+    "mean_top10_jaccard": 0.6278166278166278,
+    "median_spearman": 0.8026077641327019,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2029,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.9879280924797058,
+  "warning_scores": {
+    "dataset": "NF_UNSW_NB15_v3",
+    "environmental_groups": 4,
+    "environmental_instability": 0.21698285083237356,
+    "environmental_pairs": 6,
+    "environmental_stability": 0.7830171491676264,
+    "environmental_top10_jaccard": 0.5881340881340881,
+    "mean_environmental_baseline_ba": 0.9995624999999999,
+    "mean_sampling_baseline_ba": 0.9995624999999999,
+    "model": "XGBoost",
+    "sampling_environment_gap": 0.019654911200816194,
+    "sampling_groups": 4,
+    "sampling_pairs": 6,
+    "sampling_stability": 0.8026720603684426,
+    "sampling_top10_jaccard": 0.6278166278166278,
+    "seed": 2029,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

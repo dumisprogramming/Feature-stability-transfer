@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T08:32:39.585121+00:00",
+  "dataset": "NF_UNSW_NB15_v3",
+  "environmental_summary": {
+    "groups": 4,
+    "mean_spearman": 0.11983897532251375,
+    "mean_top10_jaccard": 0.43939393939393945,
+    "median_spearman": 0.2194007688075606,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "RandomForest",
+  "pairwise_stability_sha256": "4af62faa5b5e80b4e8d3fad1de722bfa45a4820866a69f3a31322087cffe8bed",
+  "permutation_importance_sha256": "e7f7a245e7bcbfbce55f736608114a44f15ebf6e6dacfb90fe65199d00a53f5b",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 4,
+    "mean_spearman": 0.044863009006182446,
+    "mean_top10_jaccard": 0.6060606060606061,
+    "median_spearman": 0.07589680948862271,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2031,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.533440174864829,
+  "warning_scores": {
+    "dataset": "NF_UNSW_NB15_v3",
+    "environmental_groups": 4,
+    "environmental_instability": 0.8801610246774862,
+    "environmental_pairs": 6,
+    "environmental_stability": 0.11983897532251375,
+    "environmental_top10_jaccard": 0.43939393939393945,
+    "mean_environmental_baseline_ba": 0.9995624999999999,
+    "mean_sampling_baseline_ba": 0.9995625000000002,
+    "model": "RandomForest",
+    "sampling_environment_gap": -0.0749759663163313,
+    "sampling_groups": 4,
+    "sampling_pairs": 6,
+    "sampling_stability": 0.044863009006182446,
+    "sampling_top10_jaccard": 0.6060606060606061,
+    "seed": 2031,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T08:29:42.416189+00:00",
+  "dataset": "NF_UNSW_NB15_v3",
+  "environmental_summary": {
+    "groups": 4,
+    "mean_spearman": 0.1051475805815252,
+    "mean_top10_jaccard": 0.8333333333333334,
+    "median_spearman": 0.10528790163908225,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "RandomForest",
+  "pairwise_stability_sha256": "72df396855170ae2191bc70f66e6bee6a5cb3ed8d3c02a4e2a7d89f6e0d82ff8",
+  "permutation_importance_sha256": "e016469614c25742e378cf1a8b157a40f16658d5d43f5cdc55ad8eecbf1d466e",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 4,
+    "mean_spearman": 0.7569090331559277,
+    "mean_top10_jaccard": 0.9090909090909092,
+    "median_spearman": 0.7603081479459095,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2030,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.48262177730504136,
+  "warning_scores": {
+    "dataset": "NF_UNSW_NB15_v3",
+    "environmental_groups": 4,
+    "environmental_instability": 0.8948524194184748,
+    "environmental_pairs": 6,
+    "environmental_stability": 0.1051475805815252,
+    "environmental_top10_jaccard": 0.8333333333333334,
+    "mean_environmental_baseline_ba": 0.9998125000000001,
+    "mean_sampling_baseline_ba": 0.9998125000000001,
+    "model": "RandomForest",
+    "sampling_environment_gap": 0.6517614525744025,
+    "sampling_groups": 4,
+    "sampling_pairs": 6,
+    "sampling_stability": 0.7569090331559277,
+    "sampling_top10_jaccard": 0.9090909090909092,
+    "seed": 2030,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

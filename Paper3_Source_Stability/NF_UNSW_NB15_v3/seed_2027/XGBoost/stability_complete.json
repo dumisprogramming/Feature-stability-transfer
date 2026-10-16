@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T08:18:17.079906+00:00",
+  "dataset": "NF_UNSW_NB15_v3",
+  "environmental_summary": {
+    "groups": 4,
+    "mean_spearman": 0.5951152790910262,
+    "mean_top10_jaccard": 0.4806166056166055,
+    "median_spearman": 0.6424540010855517,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "XGBoost",
+  "pairwise_stability_sha256": "87afc58fe51e6e64346859353e8e02b314d698e1682a76622b57e28c061e4f73",
+  "permutation_importance_sha256": "14e14f9b682fa03873cf77d40d7a0dbc9ba39502fc15f0a85999a876e12ce8b2",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 4,
+    "mean_spearman": 0.5659587185743309,
+    "mean_top10_jaccard": 0.40802987861811385,
+    "median_spearman": 0.4995069032331044,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2027,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.8259978890419006,
+  "warning_scores": {
+    "dataset": "NF_UNSW_NB15_v3",
+    "environmental_groups": 4,
+    "environmental_instability": 0.40488472090897376,
+    "environmental_pairs": 6,
+    "environmental_stability": 0.5951152790910262,
+    "environmental_top10_jaccard": 0.4806166056166055,
+    "mean_environmental_baseline_ba": 0.9997500000000004,
+    "mean_sampling_baseline_ba": 0.9997499999999998,
+    "model": "XGBoost",
+    "sampling_environment_gap": -0.02915656051669535,
+    "sampling_groups": 4,
+    "sampling_pairs": 6,
+    "sampling_stability": 0.5659587185743309,
+    "sampling_top10_jaccard": 0.40802987861811385,
+    "seed": 2027,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

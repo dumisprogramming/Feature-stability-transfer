@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T08:23:39.189278+00:00",
+  "dataset": "NF_UNSW_NB15_v3",
+  "environmental_summary": {
+    "groups": 4,
+    "mean_spearman": 0.8043036515586822,
+    "mean_top10_jaccard": 1.0,
+    "median_spearman": 0.8106257220376778,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "RandomForest",
+  "pairwise_stability_sha256": "778543e852a4d14fa5a6f4a099f6747b3c37f19949a03c4da5f40a71fd9df6f4",
+  "permutation_importance_sha256": "1a2dc7dd7854c09eb2134f9e9ad30e61608bfb27d12be1a0b11591b1166bef9f",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 4,
+    "mean_spearman": 0.7092616644145543,
+    "mean_top10_jaccard": 1.0,
+    "median_spearman": 0.6525932911828451,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2028,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.5675986120453459,
+  "warning_scores": {
+    "dataset": "NF_UNSW_NB15_v3",
+    "environmental_groups": 4,
+    "environmental_instability": 0.19569634844131778,
+    "environmental_pairs": 6,
+    "environmental_stability": 0.8043036515586822,
+    "environmental_top10_jaccard": 1.0,
+    "mean_environmental_baseline_ba": 0.9997500000000001,
+    "mean_sampling_baseline_ba": 0.9997499999999999,
+    "model": "RandomForest",
+    "sampling_environment_gap": -0.09504198714412793,
+    "sampling_groups": 4,
+    "sampling_pairs": 6,
+    "sampling_stability": 0.7092616644145543,
+    "sampling_top10_jaccard": 1.0,
+    "seed": 2028,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

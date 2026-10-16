@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T08:30:22.704865+00:00",
+  "dataset": "NF_UNSW_NB15_v3",
+  "environmental_summary": {
+    "groups": 4,
+    "mean_spearman": 0.3390892984130833,
+    "mean_top10_jaccard": 0.3201871657754011,
+    "median_spearman": 0.28354335996085983,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "XGBoost",
+  "pairwise_stability_sha256": "e5ce0abf4f04cde3c43be770e6fc31711953ce9654fef48d2e94bfd847fe059d",
+  "permutation_importance_sha256": "d747158f3e2e71bc37ef16fa85896c7878e95b5089c103fb7df8ac337b339644",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 4,
+    "mean_spearman": 0.30675250041198854,
+    "mean_top10_jaccard": 0.4226190476190476,
+    "median_spearman": 0.26665575426467064,
+    "pairs": 6,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2031,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.7811780571937561,
+  "warning_scores": {
+    "dataset": "NF_UNSW_NB15_v3",
+    "environmental_groups": 4,
+    "environmental_instability": 0.6609107015869167,
+    "environmental_pairs": 6,
+    "environmental_stability": 0.3390892984130833,
+    "environmental_top10_jaccard": 0.3201871657754011,
+    "mean_environmental_baseline_ba": 0.9997500000000002,
+    "mean_sampling_baseline_ba": 0.9997500000000001,
+    "model": "XGBoost",
+    "sampling_environment_gap": -0.032336798001094735,
+    "sampling_groups": 4,
+    "sampling_pairs": 6,
+    "sampling_stability": 0.30675250041198854,
+    "sampling_top10_jaccard": 0.4226190476190476,
+    "seed": 2031,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}
