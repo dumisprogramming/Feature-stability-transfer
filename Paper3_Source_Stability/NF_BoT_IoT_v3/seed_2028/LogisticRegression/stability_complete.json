@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T04:31:10.353199+00:00",
+  "dataset": "NF_BoT_IoT_v3",
+  "environmental_summary": {
+    "groups": 5,
+    "mean_spearman": 0.4864695396377498,
+    "mean_top10_jaccard": 0.5567765567765568,
+    "median_spearman": 0.546678620611805,
+    "pairs": 10,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "LogisticRegression",
+  "pairwise_stability_sha256": "be02e0d3aaa16cb28039879373f2aa8a8469ec3f4726902469eeb5a3ebfe65c8",
+  "permutation_importance_sha256": "6aa1d65b3bee9801013d35a8ece4e8b998ac393db940322e3aa34bc5152b4f4c",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 5,
+    "mean_spearman": 0.9091806809422861,
+    "mean_top10_jaccard": 0.9272727272727274,
+    "median_spearman": 0.9036166031509516,
+    "pairs": 10,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2028,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.4830503402800772,
+  "warning_scores": {
+    "dataset": "NF_BoT_IoT_v3",
+    "environmental_groups": 5,
+    "environmental_instability": 0.5135304603622501,
+    "environmental_pairs": 10,
+    "environmental_stability": 0.4864695396377498,
+    "environmental_top10_jaccard": 0.5567765567765568,
+    "mean_environmental_baseline_ba": 0.79065,
+    "mean_sampling_baseline_ba": 0.79065,
+    "model": "LogisticRegression",
+    "sampling_environment_gap": 0.4227111413045363,
+    "sampling_groups": 5,
+    "sampling_pairs": 10,
+    "sampling_stability": 0.9091806809422861,
+    "sampling_top10_jaccard": 0.9272727272727274,
+    "seed": 2028,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

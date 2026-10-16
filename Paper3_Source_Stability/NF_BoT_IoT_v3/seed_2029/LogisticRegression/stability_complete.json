@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T04:36:32.095935+00:00",
+  "dataset": "NF_BoT_IoT_v3",
+  "environmental_summary": {
+    "groups": 5,
+    "mean_spearman": 0.517908614007792,
+    "mean_top10_jaccard": 0.5043872793872793,
+    "median_spearman": 0.633256225523789,
+    "pairs": 10,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "LogisticRegression",
+  "pairwise_stability_sha256": "39a7cadb27c85b1660e4dcf176e4e0fc306f6be1059aa7d65ebbc8167619429f",
+  "permutation_importance_sha256": "614d4194e12c620d82a249e5dc9c34adbe86a276c3605bdd6fcedb0159f1e6b0",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 5,
+    "mean_spearman": 0.9425878636667935,
+    "mean_top10_jaccard": 0.8727272727272728,
+    "median_spearman": 0.9449078392073441,
+    "pairs": 10,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2029,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.4748677076144971,
+  "warning_scores": {
+    "dataset": "NF_BoT_IoT_v3",
+    "environmental_groups": 5,
+    "environmental_instability": 0.482091385992208,
+    "environmental_pairs": 10,
+    "environmental_stability": 0.517908614007792,
+    "environmental_top10_jaccard": 0.5043872793872793,
+    "mean_environmental_baseline_ba": 0.7942,
+    "mean_sampling_baseline_ba": 0.7942000000000001,
+    "model": "LogisticRegression",
+    "sampling_environment_gap": 0.4246792496590015,
+    "sampling_groups": 5,
+    "sampling_pairs": 10,
+    "sampling_stability": 0.9425878636667935,
+    "sampling_top10_jaccard": 0.8727272727272728,
+    "seed": 2029,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

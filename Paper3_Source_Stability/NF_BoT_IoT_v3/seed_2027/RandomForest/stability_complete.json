@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T04:31:06.404902+00:00",
+  "dataset": "NF_BoT_IoT_v3",
+  "environmental_summary": {
+    "groups": 5,
+    "mean_spearman": 0.3387799714037877,
+    "mean_top10_jaccard": 0.4886446886446887,
+    "median_spearman": 0.3405912478154469,
+    "pairs": 10,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "RandomForest",
+  "pairwise_stability_sha256": "eeeb11572288d3edf43c2ea3eab69c59cd1072b8935190001db9942fab0c7dc6",
+  "permutation_importance_sha256": "ba19fd920d0bd4368b33321b0f7cc9141b7671fb850e9f94b8f573b5f713e227",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 5,
+    "mean_spearman": 0.7380905916468297,
+    "mean_top10_jaccard": 0.5624042624042624,
+    "median_spearman": 0.7333354061319193,
+    "pairs": 10,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2027,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.3272797722164985,
+  "warning_scores": {
+    "dataset": "NF_BoT_IoT_v3",
+    "environmental_groups": 5,
+    "environmental_instability": 0.6612200285962123,
+    "environmental_pairs": 10,
+    "environmental_stability": 0.3387799714037877,
+    "environmental_top10_jaccard": 0.4886446886446887,
+    "mean_environmental_baseline_ba": 0.9363499999999998,
+    "mean_sampling_baseline_ba": 0.93635,
+    "model": "RandomForest",
+    "sampling_environment_gap": 0.399310620243042,
+    "sampling_groups": 5,
+    "sampling_pairs": 10,
+    "sampling_stability": 0.7380905916468297,
+    "sampling_top10_jaccard": 0.5624042624042624,
+    "seed": 2027,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}

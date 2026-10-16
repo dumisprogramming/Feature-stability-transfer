@@ -1,0 +1,52 @@
+{
+  "amendment_A1_sha256": "19c30a37d62d36f5b3c9bb795f64e10599dcef78a9c51bf96ca80b58d7db4b47",
+  "created_utc": "2026-09-04T04:46:59.556538+00:00",
+  "dataset": "NF_BoT_IoT_v3",
+  "environmental_summary": {
+    "groups": 5,
+    "mean_spearman": 0.475922445156325,
+    "mean_top10_jaccard": 0.49097569097569094,
+    "median_spearman": 0.5011783129865715,
+    "pairs": 10,
+    "undefined_spearman_pairs": 0
+  },
+  "feature_schema_sha256": "67d61eebb3377e3053f943f1e4c031237b3ef35dd06296d8538fe552b16be0c6",
+  "features": 49,
+  "model": "RandomForest",
+  "pairwise_stability_sha256": "f5784bda79187e2951d2377842c0d81c08c48e0b25008d84e26ebe43d080ea16",
+  "permutation_importance_sha256": "0f3e0061952d02be25973a372f178cd13ef85e5b38c462743f73eb1f2cdb9361",
+  "permutation_repeats": 3,
+  "protocol_sha256": "e39a5007a7f2cbdc348d5179ce593af5766bc6688f5baa3a46a56399f683a488",
+  "sampling_summary": {
+    "groups": 5,
+    "mean_spearman": 0.8463206611495648,
+    "mean_top10_jaccard": 0.7606060606060607,
+    "median_spearman": 0.8316490616524168,
+    "pairs": 10,
+    "undefined_spearman_pairs": 0
+  },
+  "seed": 2030,
+  "source_model_seal_sha256": "81eebf7b013fec0ca1802ebb54894fe73d7023b2c6450da09c72af3b3f5a3182",
+  "stability_gate_pass": true,
+  "status": "PASS",
+  "threshold": 0.33206123993210007,
+  "warning_scores": {
+    "dataset": "NF_BoT_IoT_v3",
+    "environmental_groups": 5,
+    "environmental_instability": 0.524077554843675,
+    "environmental_pairs": 10,
+    "environmental_stability": 0.475922445156325,
+    "environmental_top10_jaccard": 0.49097569097569094,
+    "mean_environmental_baseline_ba": 0.93735,
+    "mean_sampling_baseline_ba": 0.9373499999999998,
+    "model": "RandomForest",
+    "sampling_environment_gap": 0.37039821599323985,
+    "sampling_groups": 5,
+    "sampling_pairs": 10,
+    "sampling_stability": 0.8463206611495648,
+    "sampling_top10_jaccard": 0.7606060606060607,
+    "seed": 2030,
+    "undefined_environmental_pairs": 0,
+    "undefined_sampling_pairs": 0
+  }
+}
