@@ -1,0 +1,2306 @@
+[
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_only",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.732050807568878,
+    "scaling": {}
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.417275870292229,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.2484871487199272,
+        "training_population_sd_used": 0.19485249999887785
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.157224897336639,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6051038497565167,
+        "training_population_sd_used": 0.30233402222719863
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7371154117118635,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.35661670103658943,
+        "training_population_sd_used": 0.2949308023798079
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 7.203876073012553,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6051038497565167,
+        "training_population_sd_used": 0.30233402222719863
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.35661670103658943,
+        "training_population_sd_used": 0.2949308023798079
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "mean_only",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_only",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.732050807568878,
+    "scaling": {}
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.663365858074789,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.21046233845727583,
+        "training_population_sd_used": 0.16887992330651175
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.96631080593946,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5886522243130021,
+        "training_population_sd_used": 0.2786798410655527
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7336412735297353,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.37818988585572627,
+        "training_population_sd_used": 0.29395941951051896
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.330127085013328,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5886522243130021,
+        "training_population_sd_used": 0.2786798410655527
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.37818988585572627,
+        "training_population_sd_used": 0.29395941951051896
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_only",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.732050807568878,
+    "scaling": {}
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.2394091245333705,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.2404434563282676,
+        "training_population_sd_used": 0.19946293942060683
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.762542606107383,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5176209918695102,
+        "training_population_sd_used": 0.2581189897118957
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.74362597457561,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.2771775355412426,
+        "training_population_sd_used": 0.21934871712270212
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.653711310790968,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5176209918695102,
+        "training_population_sd_used": 0.2581189897118957
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.2771775355412426,
+        "training_population_sd_used": 0.21934871712270212
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "mean_only",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_only",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.732050807568878,
+    "scaling": {}
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.628081019396667,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.20263230798263723,
+        "training_population_sd_used": 0.1413689334243795
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.472544503793641,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6964578765517021,
+        "training_population_sd_used": 0.18623282089122115
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7379672490098956,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.49382556856906484,
+        "training_population_sd_used": 0.15896131870795305
+      }
+    }
+  },
+  {
+    "run": "all_seeds",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 45,
+    "test_units": 15,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.9171434819046915,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6964578765517021,
+        "training_population_sd_used": 0.18623282089122115
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.49382556856906484,
+        "training_population_sd_used": 0.15896131870795305
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.408357498189969,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.2588039203690692,
+        "training_population_sd_used": 0.20716939831352754
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.194377137194417,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6112212805906557,
+        "training_population_sd_used": 0.3045584044876995
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7395296848213393,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.3524173602215865,
+        "training_population_sd_used": 0.29174978249460815
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 7.026958130876852,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6112212805906557,
+        "training_population_sd_used": 0.3045584044876995
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.3524173602215865,
+        "training_population_sd_used": 0.29174978249460815
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.585411350073253,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.21384831850507047,
+        "training_population_sd_used": 0.18050032395176224
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.9735701219477804,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5908823225664527,
+        "training_population_sd_used": 0.28015708035916737
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7344471722272616,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.377034004061382,
+        "training_population_sd_used": 0.29336427852170005
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.043878185602235,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5908823225664527,
+        "training_population_sd_used": 0.28015708035916737
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.377034004061382,
+        "training_population_sd_used": 0.29336427852170005
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.135903588948485,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.24816089238978437,
+        "training_population_sd_used": 0.21250635692162625
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.80048008208219,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5250197368746699,
+        "training_population_sd_used": 0.26585037917361
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.744655591125448,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.27685884448488535,
+        "training_population_sd_used": 0.22060209377737364
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.4382141506180135,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5250197368746699,
+        "training_population_sd_used": 0.26585037917361
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.27685884448488535,
+        "training_population_sd_used": 0.22060209377737364
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.544917946697304,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.20819495323200587,
+        "training_population_sd_used": 0.149796964334125
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.454305455309994,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.697028626297075,
+        "training_population_sd_used": 0.18496053736758067
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7496713451177426,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.4888336730650691,
+        "training_population_sd_used": 0.15374662331631045
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2027",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.584672629533322,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.697028626297075,
+        "training_population_sd_used": 0.18496053736758067
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.4888336730650691,
+        "training_population_sd_used": 0.15374662331631045
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.260131136480379,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.247083375680202,
+        "training_population_sd_used": 0.19977999516057954
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.250470676563121,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6156519029505839,
+        "training_population_sd_used": 0.3017417574463082
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7325168072189543,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.3685685272703818,
+        "training_population_sd_used": 0.28995923053325995
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.971038024442581,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6156519029505839,
+        "training_population_sd_used": 0.3017417574463082
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.3685685272703818,
+        "training_population_sd_used": 0.28995923053325995
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.614416824034925,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.21471942676923503,
+        "training_population_sd_used": 0.18042609636502557
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.0091562313174345,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5915635365187463,
+        "training_population_sd_used": 0.2753010204702619
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.733318671558292,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.3768441097495111,
+        "training_population_sd_used": 0.2853287518009738
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.056676553383758,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5915635365187463,
+        "training_population_sd_used": 0.2753010204702619
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.3768441097495111,
+        "training_population_sd_used": 0.2853287518009738
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.149200543712424,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.23991500042424999,
+        "training_population_sd_used": 0.2048737460731174
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.9064745313792155,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5227943228202279,
+        "training_population_sd_used": 0.25938357944613466
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7556179649089216,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.2828793223959778,
+        "training_population_sd_used": 0.21196023085820984
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.5285601776699504,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5227943228202279,
+        "training_population_sd_used": 0.25938357944613466
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.2828793223959778,
+        "training_population_sd_used": 0.21196023085820984
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.8743294329286755,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.19928621385454537,
+        "training_population_sd_used": 0.13470883930395264
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.447979253904436,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6911937957005018,
+        "training_population_sd_used": 0.19132563911466743
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7353242931982003,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.49190758184595634,
+        "training_population_sd_used": 0.15437404003318264
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2028",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 7.287689061946532,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6911937957005018,
+        "training_population_sd_used": 0.19132563911466743
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.49190758184595634,
+        "training_population_sd_used": 0.15437404003318264
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.548825532470572,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.26401482500228873,
+        "training_population_sd_used": 0.20469611324465897
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.291587311189378,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6183574731085448,
+        "training_population_sd_used": 0.2950448141161986
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.736376288911275,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.354342648106256,
+        "training_population_sd_used": 0.29551632405776435
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 7.435660207450083,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6183574731085448,
+        "training_population_sd_used": 0.2950448141161986
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.354342648106256,
+        "training_population_sd_used": 0.29551632405776435
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.740262894865462,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.227832955119913,
+        "training_population_sd_used": 0.18197596826122273
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.082674471798329,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6087232548310361,
+        "training_population_sd_used": 0.2722525391716502
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7322895752526195,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.3808902997111228,
+        "training_population_sd_used": 0.29415401467642727
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.447627173910558,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6087232548310361,
+        "training_population_sd_used": 0.2722525391716502
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.3808902997111228,
+        "training_population_sd_used": 0.29415401467642727
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.410644542526761,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.25811247170159146,
+        "training_population_sd_used": 0.20876395670201423
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.144089973528236,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5355379051189212,
+        "training_population_sd_used": 0.25565254331196025
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7500381638414235,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.2774254334173296,
+        "training_population_sd_used": 0.2227571263696994
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 7.142267549077956,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5355379051189212,
+        "training_population_sd_used": 0.25565254331196025
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.2774254334173296,
+        "training_population_sd_used": 0.2227571263696994
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.902492701206024,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.2108039116383669,
+        "training_population_sd_used": 0.14218643582219428
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.586069670542858,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.7006839320257975,
+        "training_population_sd_used": 0.18653370704041738
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.736274818277407,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.4898800203874305,
+        "training_population_sd_used": 0.1638988275921424
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2029",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 7.3779146329470375,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.7006839320257975,
+        "training_population_sd_used": 0.18653370704041738
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.4898800203874305,
+        "training_population_sd_used": 0.1638988275921424
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.213426248502789,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.24904244240505724,
+        "training_population_sd_used": 0.20228520283748808
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.062181216402396,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5928642193913962,
+        "training_population_sd_used": 0.3020870376184897
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.747826308137407,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.34382177698633887,
+        "training_population_sd_used": 0.30125383092711544
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.7898015983336055,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5928642193913962,
+        "training_population_sd_used": 0.3020870376184897
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.34382177698633887,
+        "training_population_sd_used": 0.30125383092711544
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.50167157944065,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.2113550646903114,
+        "training_population_sd_used": 0.178386417999505
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.9210775403157085,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5795111528975396,
+        "training_population_sd_used": 0.28005117232285937
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.736988481702961,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.368156088207228,
+        "training_population_sd_used": 0.3021077462961714
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 5.974387010179856,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5795111528975396,
+        "training_population_sd_used": 0.28005117232285937
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.368156088207228,
+        "training_population_sd_used": 0.3021077462961714
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.052508443162077,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.23902897877543625,
+        "training_population_sd_used": 0.20536478192934354
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.59892225997765,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5070581690323317,
+        "training_population_sd_used": 0.25372970430296116
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.734503227704561,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.2680291902568954,
+        "training_population_sd_used": 0.22429197792693148
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.291209854118456,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5070581690323317,
+        "training_population_sd_used": 0.25372970430296116
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.2680291902568954,
+        "training_population_sd_used": 0.22429197792693148
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.57754059023549,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.19383327742475778,
+        "training_population_sd_used": 0.13431354173555388
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.481087796800989,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.69655725842937,
+        "training_population_sd_used": 0.18211898627330828
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7340472179769715,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.502723981004612,
+        "training_population_sd_used": 0.1582079164755132
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2030",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 7.019182575780967,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.69655725842937,
+        "training_population_sd_used": 0.18211898627330828
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.502723981004612,
+        "training_population_sd_used": 0.1582079164755132
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 6.306143816916302,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.22349118014301889,
+        "training_population_sd_used": 0.15235436904705874
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.044091287708809,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5874243727414025,
+        "training_population_sd_used": 0.30680720173810894
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.73494473041685,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.3639331925983836,
+        "training_population_sd_used": 0.2953979324766167
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_BoT_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 9.23118318495453,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5874243727414025,
+        "training_population_sd_used": 0.30680720173810894
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.3639331925983836,
+        "training_population_sd_used": 0.2953979324766167
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 6.002301929357123,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.18455592720184916,
+        "training_population_sd_used": 0.1073683707768146
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.884411053900009,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5725808547512363,
+        "training_population_sd_used": 0.28412212141999904
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.732845591057141,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.38802492754938706,
+        "training_population_sd_used": 0.29424834035917247
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 10.777400217699624,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.5725808547512363,
+        "training_population_sd_used": 0.28412212141999904
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.38802492754938706,
+        "training_population_sd_used": 0.29424834035917247
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.950620528125707,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.21699993835027584,
+        "training_population_sd_used": 0.158475243187829
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.503867311778774,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.49769482550140026,
+        "training_population_sd_used": 0.25401312410047266
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7410692648131016,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.2806948871511244,
+        "training_population_sd_used": 0.21661142441504674
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_ToN_IoT_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 7.848501182687969,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.49769482550140026,
+        "training_population_sd_used": 0.25401312410047266
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.2806948871511244,
+        "training_population_sd_used": 0.21661142441504674
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "mean_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 1,
+    "parameters_with_intercept": 1,
+    "rank_deficient": false,
+    "condition_number": 1.0,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_only",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 3,
+    "parameters_with_intercept": 3,
+    "rank_deficient": false,
+    "condition_number": 3.7320508075688763,
+    "scaling": {}
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 5.413091008291597,
+    "scaling": {
+      "sampling_instability": {
+        "training_mean": 0.20104318376351038,
+        "training_population_sd_used": 0.1445486147394557
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_environmental_instability",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 4.411085694770527,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6968257703057664,
+        "training_population_sd_used": 0.18598179272764467
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_sampling_environment_gap",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 4,
+    "parameters_with_intercept": 4,
+    "rank_deficient": false,
+    "condition_number": 3.7394314179606565,
+    "scaling": {
+      "sampling_environment_gap": {
+        "training_mean": 0.49578258654225593,
+        "training_population_sd_used": 0.16387308680944015
+      }
+    }
+  },
+  {
+    "run": "omit_seed:2031",
+    "held_out_dataset": "NF_UNSW_NB15_v3",
+    "specification": "model_plus_primary_combined",
+    "train_units": 36,
+    "test_units": 12,
+    "design_rank": 5,
+    "parameters_with_intercept": 5,
+    "rank_deficient": false,
+    "condition_number": 6.629331817130118,
+    "scaling": {
+      "environmental_instability": {
+        "training_mean": 0.6968257703057664,
+        "training_population_sd_used": 0.18598179272764467
+      },
+      "sampling_environment_gap": {
+        "training_mean": 0.49578258654225593,
+        "training_population_sd_used": 0.16387308680944015
+      }
+    }
+  }
+]

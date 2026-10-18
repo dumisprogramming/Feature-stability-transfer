@@ -1,0 +1,174 @@
+{
+  "started_utc": "2026-10-18T01:05:20.206717+00:00",
+  "analysis_status": "supplementary_after_original_results_known",
+  "input_hashes": {
+    "transfer_analysis_all_180.csv": "440ea72799ad3bf26ccb8e55d7896b2682ba8ec02deeb39a0190361d95599de6",
+    "amendment_A3_confirmatory_analysis_plan.json": "cbb13f6d63a9b556348effb5e635dda3a08603ce5f7deac354bfdc983e883648",
+    "Paper3_Supplementary_Validation_Plan.md": "3a6448e236a07dc2f57cf33b619e78e5e5cc232eb9071d0f5352f94fc0d95189",
+    "run_supplementary_validation.py": "2260cbcbefcdb3a026b393ee2f423451f7c1c23548c71e4938ed7a9f4f9d90c2"
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0"
+  },
+  "structural_checks": [
+    {
+      "omitted_seed": null,
+      "held_out_dataset": "NF_BoT_IoT_v3",
+      "train_units": 45,
+      "test_units": 15
+    },
+    {
+      "omitted_seed": null,
+      "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+      "train_units": 45,
+      "test_units": 15
+    },
+    {
+      "omitted_seed": null,
+      "held_out_dataset": "NF_ToN_IoT_v3",
+      "train_units": 45,
+      "test_units": 15
+    },
+    {
+      "omitted_seed": null,
+      "held_out_dataset": "NF_UNSW_NB15_v3",
+      "train_units": 45,
+      "test_units": 15
+    },
+    {
+      "omitted_seed": 2027,
+      "held_out_dataset": "NF_BoT_IoT_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2027,
+      "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2027,
+      "held_out_dataset": "NF_ToN_IoT_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2027,
+      "held_out_dataset": "NF_UNSW_NB15_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2028,
+      "held_out_dataset": "NF_BoT_IoT_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2028,
+      "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2028,
+      "held_out_dataset": "NF_ToN_IoT_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2028,
+      "held_out_dataset": "NF_UNSW_NB15_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2029,
+      "held_out_dataset": "NF_BoT_IoT_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2029,
+      "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2029,
+      "held_out_dataset": "NF_ToN_IoT_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2029,
+      "held_out_dataset": "NF_UNSW_NB15_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2030,
+      "held_out_dataset": "NF_BoT_IoT_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2030,
+      "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2030,
+      "held_out_dataset": "NF_ToN_IoT_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2030,
+      "held_out_dataset": "NF_UNSW_NB15_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2031,
+      "held_out_dataset": "NF_BoT_IoT_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2031,
+      "held_out_dataset": "NF_CSE_CIC_IDS2018_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2031,
+      "held_out_dataset": "NF_ToN_IoT_v3",
+      "train_units": 36,
+      "test_units": 12
+    },
+    {
+      "omitted_seed": 2031,
+      "held_out_dataset": "NF_UNSW_NB15_v3",
+      "train_units": 36,
+      "test_units": 12
+    }
+  ],
+  "deviations": [],
+  "completed_utc": "2026-10-18T01:05:20.819542+00:00",
+  "prediction_rows": 1800,
+  "rank_deficient_designs": 0,
+  "output_hashes": {
+    "scores.csv": "22da04f0c94f4bca778e21d8585fc70c76494729699c3095882e392bec128f05",
+    "predictions.csv": "9e6f175f03fa33b6d96abfba34f818c3e3ab9257af2f9451c7bdbf2778414aa5",
+    "design_diagnostics.json": "8d4b466980a0f9734dcd56cf7ccf8c2ba6525934088fca27c4833a32ba60b56d",
+    "association_sensitivity.csv": "6ee869e717c8917360769ada4cfb74d41471a83313ca14f79718447b77e533b6"
+  },
+  "validation_checks": "PASS"
+}

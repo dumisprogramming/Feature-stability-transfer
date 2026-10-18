@@ -1,0 +1,1009 @@
+{
+  "status": "PASS",
+  "checks_passed": 200,
+  "checks_total": 200,
+  "scope": "Checks byte integrity and supplied links only; does not independently establish chronology or verify absent raw predictions, labels, models or upstream code.",
+  "checks": [
+    {
+      "check": "paper3_protocol_frozen_v1",
+      "pass": true,
+      "detail": "Raw file SHA-256 compared with supplied sidecar"
+    },
+    {
+      "check": "amendment_A1_duplicate_group_disjoint",
+      "pass": true,
+      "detail": "Raw file SHA-256 compared with supplied sidecar"
+    },
+    {
+      "check": "amendment_A2_target_evaluation_plan",
+      "pass": true,
+      "detail": "Raw file SHA-256 compared with supplied sidecar"
+    },
+    {
+      "check": "A3 internal seal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Final-results internal seal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Result confirmatory_association_results.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Result direction_model_summary_36.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Result final_analysis_summary.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Result loso_model_scores.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Result loso_oof_predictions.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Result source_model_confirmatory_units_12.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Result source_seed_model_primary_units_60.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Result target_metrics_all_180.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Result transfer_analysis_all_180.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Source-stability manifest seal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2027/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2027/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2027/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2027/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2027/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2027/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2027/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2027/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2027/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2028/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2028/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2028/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2028/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2028/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2028/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2028/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2028/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2028/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2029/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2029/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2029/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2029/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2029/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2029/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2029/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2029/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2029/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2030/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2030/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2030/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2030/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2030/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2030/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2030/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2030/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2030/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2031/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2031/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2031/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2031/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2031/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2031/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2031/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2031/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_BoT_IoT_v3/seed_2031/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2027/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2027/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2027/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2027/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2027/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2027/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2027/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2027/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2027/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2028/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2028/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2028/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2028/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2028/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2028/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2028/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2028/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2028/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2029/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2029/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2029/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2029/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2029/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2029/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2029/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2029/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2029/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2030/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2030/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2030/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2030/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2030/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2030/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2030/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2030/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2030/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2031/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2031/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2031/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2031/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2031/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2031/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2031/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2031/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_CSE_CIC_IDS2018_v3/seed_2031/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2027/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2027/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2027/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2027/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2027/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2027/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2027/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2027/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2027/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2028/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2028/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2028/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2028/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2028/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2028/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2028/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2028/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2028/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2029/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2029/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2029/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2029/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2029/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2029/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2029/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2029/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2029/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2030/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2030/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2030/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2030/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2030/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2030/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2030/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2030/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2030/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2031/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2031/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2031/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2031/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2031/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2031/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2031/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2031/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_ToN_IoT_v3/seed_2031/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2027/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2027/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2027/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2027/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2027/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2027/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2027/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2027/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2027/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2028/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2028/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2028/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2028/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2028/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2028/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2028/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2028/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2028/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2029/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2029/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2029/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2029/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2029/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2029/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2029/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2029/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2029/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2030/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2030/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2030/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2030/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2030/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2030/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2030/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2030/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2030/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2031/LogisticRegression/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2031/LogisticRegression/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2031/LogisticRegression/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2031/RandomForest/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2031/RandomForest/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2031/RandomForest/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2031/XGBoost/pairwise_stability.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2031/XGBoost/permutation_importance.parquet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability NF_UNSW_NB15_v3/seed_2031/XGBoost/stability_complete.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Stability source_only_warning_scores.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Original script paper3_final_target_evaluation.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Original prediction script",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A3 parent A2 link",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A3 prediction-seal link",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "python": "3.12.14"
+}

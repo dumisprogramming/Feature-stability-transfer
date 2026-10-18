@@ -1,0 +1,15 @@
+{
+  "Paper3_Supplementary_Validation_Plan.md": "3a6448e236a07dc2f57cf33b619e78e5e5cc232eb9071d0f5352f94fc0d95189",
+  "README.md": "3faf7dfb4742a8c35dbd3549abc9b4b183fb612467538f214abb3d2c0a72f8c5",
+  "RESULTS_REPORT.md": "69b8b58812c4a77a788c2f31a7093c66eb52de32f8e1153c6b6875ec6f613350",
+  "independent_reference_check.py": "073ff991dd9ff0de494d64f45feae42eb80d2cecbfda8859b549a02c6188763d",
+  "pre_execution_artifact_verification.json": "942aa884f2ad4c097918cfb48d8781b0d65000324832c976794054cce326e598",
+  "requirements.txt": "37d25cd77b87c89e00af5b03238de7c03f15159335b36c24ee4c9d256a264f44",
+  "results/association_sensitivity.csv": "6ee869e717c8917360769ada4cfb74d41471a83313ca14f79718447b77e533b6",
+  "results/design_diagnostics.json": "8d4b466980a0f9734dcd56cf7ccf8c2ba6525934088fca27c4833a32ba60b56d",
+  "results/execution_manifest.json": "b7d1cdbdea00337b6cc39eeb1d8f785a8492dbb69e7ebbeaabadb6be1602c6ae",
+  "results/independent_check.json": "36ae49bda15b48f41ab9665579d842f29fd7296c7c89f831e75e24f31b12308c",
+  "results/predictions.csv": "9e6f175f03fa33b6d96abfba34f818c3e3ab9257af2f9451c7bdbf2778414aa5",
+  "results/scores.csv": "22da04f0c94f4bca778e21d8585fc70c76494729699c3095882e392bec128f05",
+  "run_supplementary_validation.py": "2260cbcbefcdb3a026b393ee2f423451f7c1c23548c71e4938ed7a9f4f9d90c2"
+}

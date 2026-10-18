@@ -1,0 +1,7 @@
+{
+  "reference": "Independent NumPy least-squares fit on unscaled covariates and independently grouped training data",
+  "fit_groups_checked": 144,
+  "predictions_checked": 1800,
+  "maximum_absolute_prediction_difference": 9.992007221626409e-16,
+  "status": "PASS"
+}
