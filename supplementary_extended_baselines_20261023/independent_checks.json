@@ -1,0 +1,8 @@
+{
+  "shared_predictions_checked": 600,
+  "maximum_difference_vs_earlier_analysis": 0.0,
+  "independent_heterogeneity_difference": 8.881784197001252e-16,
+  "source_test_metrics_recomputed": 60,
+  "source_test_environment_disjoint": true,
+  "checks": "PASS"
+}
