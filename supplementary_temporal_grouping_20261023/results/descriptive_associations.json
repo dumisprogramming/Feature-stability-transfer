@@ -1,0 +1,65 @@
+[
+  {
+    "hours": 6,
+    "warning": "sampling_instability",
+    "units": 12,
+    "spearman_rho": 0.3356643356643357,
+    "inference": "descriptive_only_no_p_value"
+  },
+  {
+    "hours": 6,
+    "warning": "environmental_instability",
+    "units": 12,
+    "spearman_rho": 0.2937062937062937,
+    "inference": "descriptive_only_no_p_value"
+  },
+  {
+    "hours": 6,
+    "warning": "sampling_environment_gap",
+    "units": 12,
+    "spearman_rho": 0.034965034965034975,
+    "inference": "descriptive_only_no_p_value"
+  },
+  {
+    "hours": 12,
+    "warning": "sampling_instability",
+    "units": 12,
+    "spearman_rho": 0.2377622377622378,
+    "inference": "descriptive_only_no_p_value"
+  },
+  {
+    "hours": 12,
+    "warning": "environmental_instability",
+    "units": 12,
+    "spearman_rho": 0.2517482517482518,
+    "inference": "descriptive_only_no_p_value"
+  },
+  {
+    "hours": 12,
+    "warning": "sampling_environment_gap",
+    "units": 12,
+    "spearman_rho": -0.013986013986013986,
+    "inference": "descriptive_only_no_p_value"
+  },
+  {
+    "hours": 24,
+    "warning": "sampling_instability",
+    "units": 12,
+    "spearman_rho": 0.22377622377622378,
+    "inference": "descriptive_only_no_p_value"
+  },
+  {
+    "hours": 24,
+    "warning": "environmental_instability",
+    "units": 12,
+    "spearman_rho": 0.2657342657342658,
+    "inference": "descriptive_only_no_p_value"
+  },
+  {
+    "hours": 24,
+    "warning": "sampling_environment_gap",
+    "units": 12,
+    "spearman_rho": 0.14685314685314685,
+    "inference": "descriptive_only_no_p_value"
+  }
+]

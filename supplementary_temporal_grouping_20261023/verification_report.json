@@ -1,0 +1,22 @@
+{
+  "verified_on": "2026-10-24",
+  "checks": "PASS",
+  "recorded_output_checksums_verified": 1211,
+  "compatibility_checks": 60,
+  "completed_group_references": 1440,
+  "unique_group_calculations": 1140,
+  "cache_reuses": 300,
+  "recomputed_new_warning_units": 120,
+  "warning_max_absolute_difference": 1.1102230246251565e-16,
+  "independently_reconstructed_predictions": 5400,
+  "prediction_max_absolute_difference": 1.1102230246251565e-15,
+  "full_rank_regression_fits": 432,
+  "original_main_tables_preserved": 9,
+  "original_images_preserved": 6,
+  "native_math_objects_preserved": 28,
+  "author_block_preserved": true,
+  "new_supplement_section": "S8",
+  "new_supplement_tables": 5,
+  "post_hoc": true,
+  "new_raw_data_window_sampling": false
+}
