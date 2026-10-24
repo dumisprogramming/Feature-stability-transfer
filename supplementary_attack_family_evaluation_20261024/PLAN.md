@@ -1,0 +1,8 @@
+Post hoc family-resolved transfer evaluation plan, recorded before computing these family results.
+Use all 180 original target jobs (four datasets, three source classifiers, five seeds, twelve transfer directions); no retraining, calibration, threshold changes or job selection.
+Use the verified raw-metadata recovery lookup and original candidate label vault. Keep exact attack family labels separate by target dataset; do not harmonise names or label attacks seen/unseen across collections.
+For each job and each raw target attack family report n, detected, missed and recall TP_family/n_family. Retain n=0 with undefined recall, not zero. Retain small families; flag n<50 only as a descriptive display aid, not an inferential threshold.
+Reproduce original target confusion counts, binary attack/benign recalls and balanced accuracy before accepting a job. Independently check group counts with NumPy.
+Summaries use equal-weight mean/min/max recall over jobs with support and state numbers of jobs, smallest/largest family sample counts, zero-support and small-support jobs. Sum-of-job observations are repeated evaluation counts, not unique flows; no pooled independent-flow confidence interval is calculated.
+Report every family for every transfer/model/seed, including negative and unsupported results. No p values, superiority tests, family-specific warning calibration or new confirmatory claim.
+This evaluates a fixed binary detector's recall within target attack families. It is not family classification, leave-one-family-out training, open-set detection, natural-prevalence validation or proof that source stability predicts family-specific failure.

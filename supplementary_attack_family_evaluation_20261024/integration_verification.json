@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "family_jobs": 1620,
+  "binary_jobs_reproduced": 180,
+  "small_support_records": 270,
+  "zero_support_records": 0,
+  "source_main_tables_unchanged": 9,
+  "original_images_unchanged": 6,
+  "author_block_unchanged": true,
+  "equations_unchanged": true,
+  "new_section": "S9",
+  "new_tables": 5
+}

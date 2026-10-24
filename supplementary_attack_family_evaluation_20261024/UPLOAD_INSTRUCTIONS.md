@@ -1,0 +1,4 @@
+# Upload this support folder
+Upload supplementary_attack_family_evaluation_20261024 alongside the existing supplementary folders in the GitHub repository. Keep the two inner ZIP archives zipped. No per-row raw lookup, flow predictor data, model binaries or per-flow predictions are included.
+The original result ZIP contains complete CSVs and the exact plan/code. Extract it only for local inspection. The Colab evaluation notebook uses the original Paper 3 Drive layout and lookup checkpoint hashes; it is not a generic one-command raw-data rerun. The metadata recovery notebook can rebuild the lookup given the original four raw archives and saved source/candidate files. Preserve all historical inputs.
+This package does not change GitHub automatically. The reviewer response includes author actions that should be resolved before submission.

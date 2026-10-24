@@ -1,0 +1,5 @@
+# Post hoc target family recall
+Use family_recall_per_job.csv for every job/family, including n=0 and n<50. Recall is missing when no attack row from that family occurs; it is not zero. All small families are retained. The 50-row flag is a descriptive aid only.
+The direction/model table averages supported seed jobs equally (up to five). The target/model table averages supported source/seed jobs equally (up to fifteen). These are descriptive job averages, not pooled independent-flow estimates or confidence intervals. Do not interpret repeated rows across jobs/seeds as unique flows.
+Family names are exact target dataset labels. This is binary attack detection within each family, not multiclass classification, a family-held-out experiment or evidence that a source-only warning predicts family-specific failure. Balanced original panels remain balanced. No new operational prevalence evaluation is performed.
+Original models, predictions and thresholds are unchanged. Reproduction checks compare counts and recalls to all 180 original target jobs. Recovered label alignment does not replay all 49 raw feature values.

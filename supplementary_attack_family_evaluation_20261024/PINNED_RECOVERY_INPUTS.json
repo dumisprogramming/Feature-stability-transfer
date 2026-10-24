@@ -1,0 +1,30 @@
+{
+  "NF_BoT_IoT_v3": {
+    "complete_sha256": "f705142b2ab51d9c1ec549e3ebaba4b5a7018a51bc578acf156d3e2835110602",
+    "lookup_relative_path": "attempt_20261024_001733_300411/saved_row_metadata.parquet",
+    "lookup_sha256": "87cc87a342c865e1221c64e2df36a6396a4bb0606ccc9558a8ca709271377b6c",
+    "raw_family_relative_path": "attempt_20261024_001733_300411/raw_family_counts.csv",
+    "raw_family_sha256": "9a9b1cd5b560f80cc781f4e5d246c9bfb15836118cdc2fb16801557c930cc908"
+  },
+  "NF_CSE_CIC_IDS2018_v3": {
+    "complete_sha256": "ed227b582cd0c2f3280a806e360ecd88aab60c79e8dad1b5666c92a219a53970",
+    "lookup_relative_path": "attempt_20261024_001929_957898/saved_row_metadata.parquet",
+    "lookup_sha256": "414053c4b5dbbbabf5a8913dbe05a050b51fa2da7b46b0d2c469a9fc810b66a4",
+    "raw_family_relative_path": "attempt_20261024_001929_957898/raw_family_counts.csv",
+    "raw_family_sha256": "c9ff45c486ec6a2cabb8b72d6165370e24093824d87c27f32a33b4ca4ebd1617"
+  },
+  "NF_ToN_IoT_v3": {
+    "complete_sha256": "8ad7fa9d74427dba1edc5e3d6164521fe524e0de52b121cdb04d7dad5e831d05",
+    "lookup_relative_path": "attempt_20261024_002148_810517/saved_row_metadata.parquet",
+    "lookup_sha256": "29b65ee2fa145c6a73c34f20640d497f48ef56cf13231d96993ac356d7bf2218",
+    "raw_family_relative_path": "attempt_20261024_002148_810517/raw_family_counts.csv",
+    "raw_family_sha256": "9f9734ba26f5db166a9704e7a86b7f8fce4c3849045bbd0243161077ea8a8f71"
+  },
+  "NF_UNSW_NB15_v3": {
+    "complete_sha256": "023f40a0d43ab8c31bdbd6e6527169cdd51dd8015de673af036922a9a9a99bdc",
+    "lookup_relative_path": "attempt_20261024_002432_955014/saved_row_metadata.parquet",
+    "lookup_sha256": "944e9d10b254469ae08c18ef999c79ec3bec5262b713730c15379d7f940580c6",
+    "raw_family_relative_path": "attempt_20261024_002432_955014/raw_family_counts.csv",
+    "raw_family_sha256": "d1ae4b7b70185e3c78ae5acbbef42d8b0102196117386e04ff12a5ae95eafbc5"
+  }
+}
