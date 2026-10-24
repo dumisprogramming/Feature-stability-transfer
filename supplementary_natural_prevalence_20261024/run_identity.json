@@ -1,0 +1,32 @@
+{
+  "software": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "xgboost": "3.4.1",
+    "joblib": "1.6.0",
+    "scipy": "1.16.3",
+    "pyarrow": "21.0.0"
+  },
+  "target_rows": 100000,
+  "pool_rows": 200000,
+  "chunk_size": 100000,
+  "seeds": [
+    2027,
+    2028,
+    2029,
+    2030,
+    2031
+  ],
+  "datasets": [
+    "NF_UNSW_NB15_v3",
+    "NF_BoT_IoT_v3",
+    "NF_CSE_CIC_IDS2018_v3",
+    "NF_ToN_IoT_v3"
+  ],
+  "code_sha256": "d4e31c16df9ece30d3bff2b8f4735104308340e17755a999cdfe534925eb6f0a",
+  "plan_sha256": "921a5559510b50b47d613a437ac0295bbeea55562611f87a113f6a8c3f9a7d9a",
+  "raw_info_sha256": "b07ba55ae11ea44d824b421a70224400186a1993914e41a9eb2b884dc4f21c7c",
+  "pinned_inputs_sha256": "bcc9eae296a1043017d7caa027b6dca7993e31f01f74c55354f6a71fa3cf61b6"
+}

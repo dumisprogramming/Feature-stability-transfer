@@ -1,0 +1,422 @@
+[
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2027,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2027,
+    "model": "RandomForest",
+    "maximum_probability_difference": 1.1102230246251565e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2027,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2028,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2028,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2028,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2029,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2029,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2029,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2030,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2030,
+    "model": "RandomForest",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2030,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2031,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2031,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_UNSW_NB15_v3",
+    "seed": 2031,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2027,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2027,
+    "model": "RandomForest",
+    "maximum_probability_difference": 1.1102230246251565e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2027,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2028,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2028,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2028,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2029,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2029,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2029,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2030,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2030,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2030,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2031,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2031,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_BoT_IoT_v3",
+    "seed": 2031,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2027,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2027,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2027,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2028,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2028,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2028,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2029,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2029,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2029,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2030,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2030,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2030,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2031,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2031,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2031,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2027,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2027,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2027,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2028,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2028,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2028,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2029,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2029,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2029,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2030,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2030,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2030,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2031,
+    "model": "LogisticRegression",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2031,
+    "model": "RandomForest",
+    "maximum_probability_difference": 2.220446049250313e-16,
+    "binary_predictions_match": true
+  },
+  {
+    "source": "NF_ToN_IoT_v3",
+    "seed": 2031,
+    "model": "XGBoost",
+    "maximum_probability_difference": 0.0,
+    "binary_predictions_match": true
+  }
+]

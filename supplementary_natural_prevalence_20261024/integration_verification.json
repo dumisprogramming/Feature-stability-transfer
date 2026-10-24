@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "report_sha256": "4092a82521f57c8fe24c539bcd4467bdad660585e75ee5fdc273f886f7b9b195",
+  "report_files_hash_checked": 10,
+  "jobs": 180,
+  "panels": 60,
+  "source_model_replays": 60,
+  "maximum_source_replay_probability_difference": 2.220446049250313e-16,
+  "count_derived_metrics_recomputed": true,
+  "target_probabilities_independently_replayed": false,
+  "average_precision_independently_recomputed": false,
+  "document_preservation": {
+    "manuscript": {
+      "old_tables": 9,
+      "new_tables": 9,
+      "media_preserved": 6
+    },
+    "supplement": {
+      "old_tables": 18,
+      "new_tables": 21,
+      "media_preserved": 0
+    }
+  }
+}

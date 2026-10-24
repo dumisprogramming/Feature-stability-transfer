@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-24T01:26:58.743334+00:00",
+  "completed_jobs": 180,
+  "errors": [],
+  "model_load_warnings": [],
+  "panels": 60,
+  "source_model_replays": 60,
+  "detector_retraining": false,
+  "threshold_changes": false,
+  "natural_capture_sampling": true,
+  "production_prevalence_claim": false,
+  "completed_utc": "2026-10-24T01:56:52.448386+00:00"
+}
