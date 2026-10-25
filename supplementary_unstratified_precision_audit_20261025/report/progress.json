@@ -1,0 +1,12 @@
+{
+  "status": "RUNNING",
+  "started_utc": "2026-10-25T14:47:43.428935+00:00",
+  "checked_panels": 60,
+  "new_model_fits": 0,
+  "new_model_predictions": 0,
+  "raw_archive_scans": 0,
+  "original_files_modified": false,
+  "cross_dataset_row_ids_are_not_compared": true,
+  "raw_global_bottom_k_not_independently_replayed": true,
+  "pool_hashes_newly_recorded_not_historically_pinned": true
+}

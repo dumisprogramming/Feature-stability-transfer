@@ -1,0 +1,9 @@
+{
+  "README.md": "5f98ce3cb9b1554bfaa767391a501cd2cbc518da72b7172f6841281397e9a2f3",
+  "requirements.txt": "28111f212ed1cf30a3b76e1f60e4f5e59a12b58e5bd4607c7e66bd6cccc5cae6",
+  "reproduce.py": "01fffd610cdf9a52ddc9ee23ec7983524ed25f4a45d5b3bf4fc7aacb902fcf0c",
+  "strict_analysis.py": "76746c558a39d15e34e6a839b11515ee0d734eb0149aabf318a8dd927e71f00f",
+  "inputs/final_report.zip": "95a683f84b04fc14638596bb0d541833020f104788de0b11f28760a8ffd1edc6",
+  "inputs/original_superseded_temporal_report.zip": "c9f64c4070f6985aa648a8fc4d23e98a4a042d43050c353191b29d23b97ed62e",
+  "inputs/previous_corrected_report.zip": "d4d6572ff6e93d5c84502a8509ea9eada58905ec870c34088420700e673f9906"
+}

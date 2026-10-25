@@ -1,0 +1,182 @@
+[
+  {
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": 2027,
+    "pool_marker_sha256": "bfc9c0249edfc0b24200426529144f80e51c25c5464fd07055fc7411093d908b",
+    "pool_sha256": "f129ccdb1873ac3f0328011b9cff3a61ae0072cafbace3c398d4ce12829df55b",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": 2027,
+    "pool_marker_sha256": "2474e20de53557f28d5acf43368c09230cc7cdf16475e83be52e34060c65b189",
+    "pool_sha256": "369eb95269b4479104fc36f695cb1ccac1100cdce0e76d0be396719df7211262",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2027,
+    "pool_marker_sha256": "294a604c110d9c51810afabc3cd7a0f75c4f3173eabfabfe11894f36ba8a8da1",
+    "pool_sha256": "899f1f9dfa0458d36bcf0bff258835a47424dbf0fade7563b90074c604d56f33",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": 2027,
+    "pool_marker_sha256": "bc4de4cae50d21f440f527ad4e4e83749eabe7395ceee43672cd759ce5e6ee8a",
+    "pool_sha256": "232c8ad07887fd254e208fe1cac1629cb44ef8905ad7dae0c9542ee92de5afbc",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": 2028,
+    "pool_marker_sha256": "bfc9c0249edfc0b24200426529144f80e51c25c5464fd07055fc7411093d908b",
+    "pool_sha256": "bbbfc11d8df3da3a2baee4d8da4028ddcff02a0919700f51e2987fdf90046d0b",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": 2028,
+    "pool_marker_sha256": "2474e20de53557f28d5acf43368c09230cc7cdf16475e83be52e34060c65b189",
+    "pool_sha256": "d67f1927bd04e8787482e5b0e86068e2560b984fe5f22113ad66be8fba51897a",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2028,
+    "pool_marker_sha256": "294a604c110d9c51810afabc3cd7a0f75c4f3173eabfabfe11894f36ba8a8da1",
+    "pool_sha256": "4c3522e3e4e046bcc9acf7b90b6eea0ba27d9df4e9ef21991eddced9f7e3bde2",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": 2028,
+    "pool_marker_sha256": "bc4de4cae50d21f440f527ad4e4e83749eabe7395ceee43672cd759ce5e6ee8a",
+    "pool_sha256": "08139665bd87934c2fa522485804f20432c5554e8b0770ef5defcf84ea13a405",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": 2029,
+    "pool_marker_sha256": "bfc9c0249edfc0b24200426529144f80e51c25c5464fd07055fc7411093d908b",
+    "pool_sha256": "6639550a7733b4011dfce994a75966d2c01261f925dbdf8d6eeb51158cc9fe36",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": 2029,
+    "pool_marker_sha256": "2474e20de53557f28d5acf43368c09230cc7cdf16475e83be52e34060c65b189",
+    "pool_sha256": "71150bb3a4357d3af4c98f8425ed9006a96e1621ee2e37edbdf44da6c27378fb",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2029,
+    "pool_marker_sha256": "294a604c110d9c51810afabc3cd7a0f75c4f3173eabfabfe11894f36ba8a8da1",
+    "pool_sha256": "e87b608ed3ec54c0f75c13956038674a8d1e002af4045cfef5790176e4018034",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": 2029,
+    "pool_marker_sha256": "bc4de4cae50d21f440f527ad4e4e83749eabe7395ceee43672cd759ce5e6ee8a",
+    "pool_sha256": "25da363c368527dc819aabb89a44f8402722043fac8b8d7887912beed18fc9b9",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": 2030,
+    "pool_marker_sha256": "bfc9c0249edfc0b24200426529144f80e51c25c5464fd07055fc7411093d908b",
+    "pool_sha256": "99a6d4557f2133ac089e3800f293ff920683244118ef21b6f380f036f1f96ccb",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": 2030,
+    "pool_marker_sha256": "2474e20de53557f28d5acf43368c09230cc7cdf16475e83be52e34060c65b189",
+    "pool_sha256": "1ba9aa52b82f1749ac6c12c7625a8d8cc14a233d46a4b92723f607ca8de5d9b1",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2030,
+    "pool_marker_sha256": "294a604c110d9c51810afabc3cd7a0f75c4f3173eabfabfe11894f36ba8a8da1",
+    "pool_sha256": "29bad0ebd322a88979c4323e11297ae9581275d8b4828a4673bd59c01deeb213",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": 2030,
+    "pool_marker_sha256": "bc4de4cae50d21f440f527ad4e4e83749eabe7395ceee43672cd759ce5e6ee8a",
+    "pool_sha256": "6496fd529ed23752c6b232915ad3da176fe3b229e1266abad719fadfb0e45f91",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": 2031,
+    "pool_marker_sha256": "bfc9c0249edfc0b24200426529144f80e51c25c5464fd07055fc7411093d908b",
+    "pool_sha256": "65fd9944480d6feccdb32e529bff5f90839e0a865aabc6340e920170a019ade3",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": 2031,
+    "pool_marker_sha256": "2474e20de53557f28d5acf43368c09230cc7cdf16475e83be52e34060c65b189",
+    "pool_sha256": "a095c46143b9a177ab8bb1f255cc432783a6c16fb474dbbae8f71ecd006b26f9",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2031,
+    "pool_marker_sha256": "294a604c110d9c51810afabc3cd7a0f75c4f3173eabfabfe11894f36ba8a8da1",
+    "pool_sha256": "ead890155b2734d3bd3f8f9a215add831ded4cc95a73a71bdb61fe2495f84be8",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  },
+  {
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": 2031,
+    "pool_marker_sha256": "bc4de4cae50d21f440f527ad4e4e83749eabe7395ceee43672cd759ce5e6ee8a",
+    "pool_sha256": "b47ba929b256239ba7ed23c9bdd01ed1c04ecfdaa901c02b6cf31bc772633fac",
+    "rows": 200000,
+    "metadata_identity_matches": true,
+    "historical_pool_hash_in_received_report": false
+  }
+]

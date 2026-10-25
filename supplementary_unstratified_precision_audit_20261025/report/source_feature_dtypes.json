@@ -1,0 +1,482 @@
+[
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2027,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2027,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2027,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2027,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2027,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2027,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2027,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2027,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2027,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2027,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2027,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2027,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2027,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2027,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2027,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2027,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2028,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2028,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2028,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2028,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2028,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2028,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2028,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2028,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2028,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2028,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2028,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2028,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2028,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2028,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2028,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2028,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2029,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2029,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2029,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2029,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2029,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2029,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2029,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2029,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2029,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2029,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2029,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2029,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2029,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2029,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2029,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2029,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2030,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2030,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2030,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2030,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2030,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2030,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2030,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2030,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2030,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2030,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2030,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2030,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2030,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2030,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2030,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2030,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2031,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2031,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2031,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_UNSW_NB15_v3",
+    "seed": 2031,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2031,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2031,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2031,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_BoT_IoT_v3",
+    "seed": 2031,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2031,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2031,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2031,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": 2031,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2031,
+    "partition": "train",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2031,
+    "partition": "calibration",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2031,
+    "partition": "source_test",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  },
+  {
+    "dataset": "NF_ToN_IoT_v3",
+    "seed": 2031,
+    "partition": "environment",
+    "feature_dtypes": "{'float32': np.int64(49)}"
+  }
+]
