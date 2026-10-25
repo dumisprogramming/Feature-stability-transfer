@@ -1,0 +1,1802 @@
+[
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 89092,
+    "fp": 5459,
+    "fn": 3634,
+    "tp": 1815
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 24153,
+    "fp": 70398,
+    "fn": 2023,
+    "tp": 3426
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 54722,
+    "fp": 39829,
+    "fn": 3614,
+    "tp": 1835
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 88301,
+    "fp": 6168,
+    "fn": 3151,
+    "tp": 2380
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 29242,
+    "fp": 65227,
+    "fn": 3923,
+    "tp": 1608
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 80728,
+    "fp": 13741,
+    "fn": 4394,
+    "tp": 1137
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 93266,
+    "fp": 1217,
+    "fn": 3883,
+    "tp": 1634
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 83701,
+    "fp": 10782,
+    "fn": 5303,
+    "tp": 214
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 82797,
+    "fp": 11686,
+    "fn": 4657,
+    "tp": 860
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 91749,
+    "fp": 2785,
+    "fn": 3827,
+    "tp": 1639
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 29320,
+    "fp": 65214,
+    "fn": 3473,
+    "tp": 1993
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 66814,
+    "fp": 27720,
+    "fn": 4027,
+    "tp": 1439
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 84171,
+    "fp": 10399,
+    "fn": 3197,
+    "tp": 2233
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 31815,
+    "fp": 62755,
+    "fn": 2372,
+    "tp": 3058
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 65852,
+    "fp": 28718,
+    "fn": 3747,
+    "tp": 1683
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 78016,
+    "fp": 16535,
+    "fn": 4665,
+    "tp": 784
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 90025,
+    "fp": 4526,
+    "fn": 5340,
+    "tp": 109
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 80779,
+    "fp": 13772,
+    "fn": 5358,
+    "tp": 91
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 73411,
+    "fp": 21058,
+    "fn": 4718,
+    "tp": 813
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 76208,
+    "fp": 18261,
+    "fn": 5188,
+    "tp": 343
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 88481,
+    "fp": 5988,
+    "fn": 5477,
+    "tp": 54
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 80582,
+    "fp": 13901,
+    "fn": 4692,
+    "tp": 825
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 85469,
+    "fp": 9014,
+    "fn": 5360,
+    "tp": 157
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 89537,
+    "fp": 4946,
+    "fn": 5501,
+    "tp": 16
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 72372,
+    "fp": 22162,
+    "fn": 4545,
+    "tp": 921
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 90700,
+    "fp": 3834,
+    "fn": 5464,
+    "tp": 2
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 88623,
+    "fp": 5911,
+    "fn": 5442,
+    "tp": 24
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 77225,
+    "fp": 17345,
+    "fn": 4614,
+    "tp": 816
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 89631,
+    "fp": 4939,
+    "fn": 5391,
+    "tp": 39
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 83690,
+    "fp": 10880,
+    "fn": 5395,
+    "tp": 35
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 38246,
+    "fp": 56305,
+    "fn": 866,
+    "tp": 4583
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 84679,
+    "fp": 9872,
+    "fn": 4825,
+    "tp": 624
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 80864,
+    "fp": 13687,
+    "fn": 3788,
+    "tp": 1661
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 17576,
+    "fp": 76893,
+    "fn": 566,
+    "tp": 4965
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 66255,
+    "fp": 28214,
+    "fn": 3809,
+    "tp": 1722
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 79905,
+    "fp": 14564,
+    "fn": 3414,
+    "tp": 2117
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 35263,
+    "fp": 59220,
+    "fn": 651,
+    "tp": 4866
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 87597,
+    "fp": 6886,
+    "fn": 5233,
+    "tp": 284
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 64414,
+    "fp": 30069,
+    "fn": 2983,
+    "tp": 2534
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 11788,
+    "fp": 82746,
+    "fn": 437,
+    "tp": 5029
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 93691,
+    "fp": 843,
+    "fn": 5219,
+    "tp": 247
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 73383,
+    "fp": 21151,
+    "fn": 3341,
+    "tp": 2125
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 34576,
+    "fp": 59994,
+    "fn": 692,
+    "tp": 4738
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 90255,
+    "fp": 4315,
+    "fn": 5163,
+    "tp": 267
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_UNSW_NB15_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 72996,
+    "fp": 21574,
+    "fn": 3242,
+    "tp": 2188
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 261,
+    "fp": 48,
+    "fn": 22134,
+    "tp": 77557
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 273,
+    "fp": 36,
+    "fn": 46689,
+    "tp": 53002
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 232,
+    "fp": 77,
+    "fn": 11321,
+    "tp": 88370
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 268,
+    "fp": 32,
+    "fn": 68149,
+    "tp": 31551
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 25,
+    "fp": 275,
+    "fn": 2530,
+    "tp": 97170
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 36,
+    "fp": 264,
+    "fn": 2029,
+    "tp": 97671
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 229,
+    "fp": 42,
+    "fn": 56980,
+    "tp": 42749
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 240,
+    "fp": 31,
+    "fn": 83721,
+    "tp": 16008
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 218,
+    "fp": 53,
+    "fn": 40428,
+    "tp": 59301
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 241,
+    "fp": 37,
+    "fn": 53300,
+    "tp": 46422
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 19,
+    "fp": 259,
+    "fn": 57,
+    "tp": 99665
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 164,
+    "fp": 114,
+    "fn": 8997,
+    "tp": 90725
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 243,
+    "fp": 29,
+    "fn": 76248,
+    "tp": 23480
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 155,
+    "fp": 117,
+    "fn": 10508,
+    "tp": 89220
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 174,
+    "fp": 98,
+    "fn": 10607,
+    "tp": 89121
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 256,
+    "fp": 53,
+    "fn": 83721,
+    "tp": 15970
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 302,
+    "fp": 7,
+    "fn": 90663,
+    "tp": 9028
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 233,
+    "fp": 76,
+    "fn": 86724,
+    "tp": 12967
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 241,
+    "fp": 59,
+    "fn": 83300,
+    "tp": 16400
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 261,
+    "fp": 39,
+    "fn": 89537,
+    "tp": 10163
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 256,
+    "fp": 44,
+    "fn": 90154,
+    "tp": 9546
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 206,
+    "fp": 65,
+    "fn": 84371,
+    "tp": 15358
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 183,
+    "fp": 88,
+    "fn": 90244,
+    "tp": 9485
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 237,
+    "fp": 34,
+    "fn": 90712,
+    "tp": 9017
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 220,
+    "fp": 58,
+    "fn": 83759,
+    "tp": 15963
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 264,
+    "fp": 14,
+    "fn": 90698,
+    "tp": 9024
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 165,
+    "fp": 113,
+    "fn": 84667,
+    "tp": 15055
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 221,
+    "fp": 51,
+    "fn": 84789,
+    "tp": 14939
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 216,
+    "fp": 56,
+    "fn": 90589,
+    "tp": 9139
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 146,
+    "fp": 126,
+    "fn": 91668,
+    "tp": 8060
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 269,
+    "fp": 40,
+    "fn": 87253,
+    "tp": 12438
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 284,
+    "fp": 25,
+    "fn": 77938,
+    "tp": 21753
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 297,
+    "fp": 12,
+    "fn": 97375,
+    "tp": 2316
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 250,
+    "fp": 50,
+    "fn": 47293,
+    "tp": 52407
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 279,
+    "fp": 21,
+    "fn": 73398,
+    "tp": 26302
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 278,
+    "fp": 22,
+    "fn": 95960,
+    "tp": 3740
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 232,
+    "fp": 39,
+    "fn": 60806,
+    "tp": 38923
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 258,
+    "fp": 13,
+    "fn": 96221,
+    "tp": 3508
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 249,
+    "fp": 22,
+    "fn": 97570,
+    "tp": 2159
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 238,
+    "fp": 40,
+    "fn": 36606,
+    "tp": 63116
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 268,
+    "fp": 10,
+    "fn": 74236,
+    "tp": 25486
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 259,
+    "fp": 19,
+    "fn": 95032,
+    "tp": 4690
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 230,
+    "fp": 42,
+    "fn": 24080,
+    "tp": 75648
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 246,
+    "fp": 26,
+    "fn": 87230,
+    "tp": 12498
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_BoT_IoT_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 258,
+    "fp": 14,
+    "fn": 92764,
+    "tp": 6964
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 39325,
+    "fp": 47782,
+    "fn": 3314,
+    "tp": 9579
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 81596,
+    "fp": 5511,
+    "fn": 12815,
+    "tp": 78
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 38250,
+    "fp": 48857,
+    "fn": 3234,
+    "tp": 9659
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 38390,
+    "fp": 48637,
+    "fn": 3344,
+    "tp": 9629
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 30728,
+    "fp": 56299,
+    "fn": 558,
+    "tp": 12415
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 35502,
+    "fp": 51525,
+    "fn": 619,
+    "tp": 12354
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 54077,
+    "fp": 33033,
+    "fn": 3486,
+    "tp": 9404
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 74359,
+    "fp": 12751,
+    "fn": 5860,
+    "tp": 7030
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 43459,
+    "fp": 43651,
+    "fn": 3865,
+    "tp": 9025
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 34777,
+    "fp": 52295,
+    "fn": 3389,
+    "tp": 9539
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 30133,
+    "fp": 56939,
+    "fn": 468,
+    "tp": 12460
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 33942,
+    "fp": 53130,
+    "fn": 3224,
+    "tp": 9704
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 36271,
+    "fp": 50858,
+    "fn": 3410,
+    "tp": 9461
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 30420,
+    "fp": 56709,
+    "fn": 3224,
+    "tp": 9647
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 36424,
+    "fp": 50705,
+    "fn": 3316,
+    "tp": 9555
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 65674,
+    "fp": 21433,
+    "fn": 2261,
+    "tp": 10632
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 67309,
+    "fp": 19798,
+    "fn": 665,
+    "tp": 12228
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 73102,
+    "fp": 14005,
+    "fn": 949,
+    "tp": 11944
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 65246,
+    "fp": 21781,
+    "fn": 2323,
+    "tp": 10650
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 70497,
+    "fp": 16530,
+    "fn": 728,
+    "tp": 12245
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 77319,
+    "fp": 9708,
+    "fn": 3443,
+    "tp": 9530
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 74891,
+    "fp": 12219,
+    "fn": 4489,
+    "tp": 8401
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 78868,
+    "fp": 8242,
+    "fn": 2357,
+    "tp": 10533
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 72687,
+    "fp": 14423,
+    "fn": 2577,
+    "tp": 10313
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 64854,
+    "fp": 22218,
+    "fn": 2333,
+    "tp": 10595
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 66356,
+    "fp": 20716,
+    "fn": 752,
+    "tp": 12176
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 74545,
+    "fp": 12527,
+    "fn": 1470,
+    "tp": 11458
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 73139,
+    "fp": 13990,
+    "fn": 4722,
+    "tp": 8149
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 68283,
+    "fp": 18846,
+    "fn": 692,
+    "tp": 12179
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 72925,
+    "fp": 14204,
+    "fn": 1758,
+    "tp": 11113
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 9330,
+    "fp": 77740,
+    "fn": 1160,
+    "tp": 11770
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 64268,
+    "fp": 22802,
+    "fn": 8066,
+    "tp": 4864
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 56699,
+    "fp": 30371,
+    "fn": 7513,
+    "tp": 5417
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 9604,
+    "fp": 77416,
+    "fn": 1194,
+    "tp": 11786
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 58700,
+    "fp": 28320,
+    "fn": 7048,
+    "tp": 5932
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 61318,
+    "fp": 25702,
+    "fn": 8717,
+    "tp": 4263
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 8993,
+    "fp": 78086,
+    "fn": 1116,
+    "tp": 11805
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 71096,
+    "fp": 15983,
+    "fn": 10023,
+    "tp": 2898
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 57072,
+    "fp": 30007,
+    "fn": 7094,
+    "tp": 5827
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 12408,
+    "fp": 74627,
+    "fn": 1585,
+    "tp": 11380
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 77713,
+    "fp": 9322,
+    "fn": 10319,
+    "tp": 2646
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 63866,
+    "fp": 23169,
+    "fn": 8244,
+    "tp": 4721
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 8013,
+    "fp": 79073,
+    "fn": 255,
+    "tp": 12659
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 72823,
+    "fp": 14263,
+    "fn": 9288,
+    "tp": 3626
+  },
+  {
+    "source_dataset": "NF_ToN_IoT_v3",
+    "target_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 61749,
+    "fp": 25337,
+    "fn": 7377,
+    "tp": 5537
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 48127,
+    "fp": 12870,
+    "fn": 12506,
+    "tp": 26497
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 59833,
+    "fp": 1164,
+    "fn": 36865,
+    "tp": 2138
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 56760,
+    "fp": 4237,
+    "fn": 11553,
+    "tp": 27450
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 51988,
+    "fp": 8949,
+    "fn": 13419,
+    "tp": 25644
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 27697,
+    "fp": 33240,
+    "fn": 6178,
+    "tp": 32885
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 29616,
+    "fp": 31321,
+    "fn": 7654,
+    "tp": 31409
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 48658,
+    "fp": 12541,
+    "fn": 13635,
+    "tp": 25166
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 58960,
+    "fp": 2239,
+    "fn": 35162,
+    "tp": 3639
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 57767,
+    "fp": 3432,
+    "fn": 22066,
+    "tp": 16735
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 49902,
+    "fp": 11349,
+    "fn": 12775,
+    "tp": 25974
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 23296,
+    "fp": 37955,
+    "fn": 5382,
+    "tp": 33367
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 36126,
+    "fp": 25125,
+    "fn": 6790,
+    "tp": 31959
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 48254,
+    "fp": 12823,
+    "fn": 12234,
+    "tp": 26689
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 32216,
+    "fp": 28861,
+    "fn": 6718,
+    "tp": 32205
+  },
+  {
+    "source_dataset": "NF_UNSW_NB15_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 37538,
+    "fp": 23539,
+    "fn": 9383,
+    "tp": 29540
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 30369,
+    "fp": 30628,
+    "fn": 15677,
+    "tp": 23326
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 22522,
+    "fp": 38475,
+    "fn": 6167,
+    "tp": 32836
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 29937,
+    "fp": 31060,
+    "fn": 8981,
+    "tp": 30022
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 29994,
+    "fp": 30943,
+    "fn": 15327,
+    "tp": 23736
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 23021,
+    "fp": 37916,
+    "fn": 7271,
+    "tp": 31792
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 33446,
+    "fp": 27491,
+    "fn": 9604,
+    "tp": 29459
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 30209,
+    "fp": 30990,
+    "fn": 14979,
+    "tp": 23822
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 36040,
+    "fp": 25159,
+    "fn": 10925,
+    "tp": 27876
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 32292,
+    "fp": 28907,
+    "fn": 9226,
+    "tp": 29575
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 30242,
+    "fp": 31009,
+    "fn": 15703,
+    "tp": 23046
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 22605,
+    "fp": 38646,
+    "fn": 6183,
+    "tp": 32566
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 32033,
+    "fp": 29218,
+    "fn": 8419,
+    "tp": 30330
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 31256,
+    "fp": 29821,
+    "fn": 15335,
+    "tp": 23588
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 23350,
+    "fp": 37727,
+    "fn": 6471,
+    "tp": 32452
+  },
+  {
+    "source_dataset": "NF_BoT_IoT_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 27818,
+    "fp": 33259,
+    "fn": 8654,
+    "tp": 30269
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2027",
+    "model": "LogisticRegression",
+    "tn": 49863,
+    "fp": 11134,
+    "fn": 26725,
+    "tp": 12278
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2027",
+    "model": "RandomForest",
+    "tn": 53261,
+    "fp": 7736,
+    "fn": 31350,
+    "tp": 7653
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2027",
+    "model": "XGBoost",
+    "tn": 53080,
+    "fp": 7917,
+    "fn": 19967,
+    "tp": 19036
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2028",
+    "model": "LogisticRegression",
+    "tn": 51473,
+    "fp": 9460,
+    "fn": 27560,
+    "tp": 11507
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2028",
+    "model": "RandomForest",
+    "tn": 52920,
+    "fp": 8013,
+    "fn": 23980,
+    "tp": 15087
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2028",
+    "model": "XGBoost",
+    "tn": 53181,
+    "fp": 7752,
+    "fn": 19919,
+    "tp": 19148
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2029",
+    "model": "LogisticRegression",
+    "tn": 49167,
+    "fp": 12030,
+    "fn": 27210,
+    "tp": 11593
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2029",
+    "model": "RandomForest",
+    "tn": 53192,
+    "fp": 8005,
+    "fn": 25301,
+    "tp": 13502
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2029",
+    "model": "XGBoost",
+    "tn": 53453,
+    "fp": 7744,
+    "fn": 19908,
+    "tp": 18895
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2030",
+    "model": "LogisticRegression",
+    "tn": 51823,
+    "fp": 9427,
+    "fn": 27022,
+    "tp": 11728
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2030",
+    "model": "RandomForest",
+    "tn": 53528,
+    "fp": 7722,
+    "fn": 31554,
+    "tp": 7196
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2030",
+    "model": "XGBoost",
+    "tn": 53109,
+    "fp": 8141,
+    "fn": 19619,
+    "tp": 19131
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2031",
+    "model": "LogisticRegression",
+    "tn": 51128,
+    "fp": 9945,
+    "fn": 27828,
+    "tp": 11099
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2031",
+    "model": "RandomForest",
+    "tn": 53451,
+    "fp": 7622,
+    "fn": 32009,
+    "tp": 6918
+  },
+  {
+    "source_dataset": "NF_CSE_CIC_IDS2018_v3",
+    "target_dataset": "NF_ToN_IoT_v3",
+    "seed": "2031",
+    "model": "XGBoost",
+    "tn": 53188,
+    "fp": 7885,
+    "fn": 19998,
+    "tp": 18929
+  }
+]

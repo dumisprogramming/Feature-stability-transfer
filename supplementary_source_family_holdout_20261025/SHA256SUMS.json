@@ -1,0 +1,16 @@
+{
+  "PLAN.md": "e1f9896f08338f1644b79c472a1cfed3a0ab8a95fd26f56cdd4edabf53f9dc57",
+  "README.md": "f9afe5b297be46a2effb995deccd6ed3aff3b780c275072cc33649936d79d62a",
+  "verify_report.py": "09273e1cd84faeabd59e61bb2e3812d6702c142f8ada8d532798b274e99ec9ed",
+  "Paper3_Source_Family_Holdout_20261025.ipynb": "b0e90aca53d2b599a5e1816d3e4664ed0da16f5f077cf6e59cf9fe0246254ab7",
+  "verification/dataset_model_summary.csv": "56a55b1041053c9f60812de7371c0423bdeea834e8081e9f4dbadb3e6b0553e1",
+  "verification/verification.json": "7e5be0ed273c678af195e1e318fe0b87cfb32fe08de26b28feb4141c3d5eeeed",
+  "verification/dataset_family_summary_26.csv": "3f7f25919c45bf1d943e9295c2bf101112fbd47d5017ed9ac02aa8ac75428645",
+  "verification/held_family_pairs_390.csv": "846c6d18d189bacef20c049451fa15527bb94f3af7644f666a17015513d0cf19",
+  "verification/external_pairs_1170.csv": "145a2a822a1735be77fd23c67448e847782a3051c8a694484bd6a5c030403c89",
+  "inputs/recovery_report.zip": "a4c1ef851fddd7845dab4ec5f89ca5e8d7bbc4af63402d55e775a41d14a68584",
+  "inputs/natural_prevalence_report.zip": "4092a82521f57c8fe24c539bcd4467bdad660585e75ee5fdc273f886f7b9b195",
+  "inputs/family_report.zip": "8a6ea86bdc98ae6bb4e293a406974fb0e070537e270c7dfb0ca3da869816d329",
+  "planned/family_holdout_context.json": "f566cb1aafdbe1856b7649ba7a13382b364c64772d2f61b2871401a82f94d067",
+  "planned/paper3_source_family_holdout.py": "5adc2ae48d843058722e9b743df7c56982e798f6e2e358fb0f7030fc064dc095"
+}

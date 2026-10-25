@@ -1,0 +1,33 @@
+{
+  "status": "VERIFIED_SAVED_REPORT",
+  "report_sha256": "8a6ea86bdc98ae6bb4e293a406974fb0e070537e270c7dfb0ca3da869816d329",
+  "report_hashes_matched": 2261,
+  "fit_markers": 450,
+  "evaluation_markers": 1800,
+  "family_score_records": 4020,
+  "eligibility_records": 180,
+  "eligible_dataset_family_combinations": 26,
+  "excluded_fit_pairs": 390,
+  "external_pairs": 1170,
+  "prepared_code_and_context_match": true,
+  "recovery_support_counts_and_source_pins_checked": true,
+  "elapsed_seconds": 4500.928564,
+  "mean_held_family_reference_recall": 0.9297358669863436,
+  "mean_held_family_excluded_recall": 0.6715353095918668,
+  "mean_held_family_recall_change": -0.2582005573944768,
+  "held_family_lower": 241,
+  "held_family_higher": 7,
+  "held_family_unchanged": 142,
+  "mean_external_reference_ba": 0.575374200723386,
+  "mean_external_excluded_ba": 0.5684996215660589,
+  "mean_external_ba_change": -0.0068745791573269245,
+  "external_ba_lower": 607,
+  "external_ba_higher": 563,
+  "external_ba_unchanged": 0,
+  "original_reference_comparison": {
+    "jobs": 180,
+    "maximum_ba_difference": 0.0,
+    "jobs_with_different_confusion_counts": 0
+  },
+  "raw_training_or_predictions_independently_replayed": false
+}
