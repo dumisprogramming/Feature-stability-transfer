@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "recorded_file_hashes": 369,
+  "checkpoint_detail_digests": 182,
+  "included_checkpoint_output_checks": 182,
+  "omitted_binary_references": 45,
+  "importance_groups_rebuilt": 144,
+  "pairwise_correlations_recomputed": 504,
+  "confusion_metric_sets_checked": 18,
+  "family_recall_records_checked": 18,
+  "paired_contrasts_recomputed": 6,
+  "full_references_matching_pilot": 3,
+  "executed_code_matches_prepared": true,
+  "independent_raw_fit_or_prediction_replay": false
+}

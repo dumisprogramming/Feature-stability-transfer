@@ -1,0 +1,18 @@
+{
+  "status": "COMMON_FAMILY_EXCLUSION_COMPLETE",
+  "new_fits_this_session": 9,
+  "new_importance_groups_this_session": 144,
+  "new_evaluations_this_session": 18,
+  "prior_outcomes_known": true,
+  "semantic_equivalence_established": false,
+  "production_validation_completed": false,
+  "no_warning_predictive_utility_inference": true,
+  "fits_completed": 9,
+  "importance_groups_completed": 144,
+  "permutation_scores_completed": 2592,
+  "source_target_evaluations_completed": 18,
+  "family_condition_records": 9,
+  "paired_contrasts": 6,
+  "groups_per_family_condition": 8,
+  "session_elapsed_seconds": 15.233495857000008
+}

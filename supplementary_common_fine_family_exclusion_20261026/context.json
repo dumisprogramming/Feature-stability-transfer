@@ -1,0 +1,522 @@
+{
+  "manifest": {
+    "train": {
+      "rows": 20000,
+      "benign": 10000,
+      "attack": 10000,
+      "sha256": "f7ee0b82783e9887fbc6fa9642f0ca8183b5ca24c9fc14cb219398b3022b0cef",
+      "numeric_representation": "float64; complete valid integer-valued fields <=2^53-1"
+    },
+    "calibration": {
+      "rows": 4000,
+      "benign": 2000,
+      "attack": 2000,
+      "sha256": "14785511e6cb4699760ddfab7a1bca07e3e46f2a68ab10ae8e4932437c8f3200",
+      "numeric_representation": "float64; complete valid integer-valued fields <=2^53-1"
+    },
+    "source_test": {
+      "rows": 4000,
+      "benign": 2000,
+      "attack": 2000,
+      "sha256": "da3681f5c352e56671dd2a5427fe3bde8b6c15ffc6c36422b3bf8ceb3596775e",
+      "numeric_representation": "float64; complete valid integer-valued fields <=2^53-1"
+    },
+    "environment": {
+      "rows": 9000,
+      "benign": 4500,
+      "attack": 4500,
+      "sha256": "7f0d281ee2ed0fb7baf3367a5a8d4646fabdb922c703034291f6f77c8d132001",
+      "numeric_representation": "float64; complete valid integer-valued fields <=2^53-1"
+    },
+    "features": [
+      "destination_port",
+      "duration_us",
+      "fwd_packets",
+      "bwd_packets",
+      "fwd_packet_bytes",
+      "bwd_packet_bytes"
+    ],
+    "source_rows": 37000,
+    "source_roles_signature_disjoint": true,
+    "source_environment_groups": 9,
+    "source_inputs": [
+      {
+        "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/CSE-CIC-IDS2018/Friday-02-03-2018_TrafficForML_CICFlowMeter.csv",
+        "size_bytes": 352368373,
+        "mtime_ns": 1539273769000000000,
+        "header_prefix_sha256": "ccd8235aadb11f51388bb9d70172ab7b1ac51b32b6baabf81a0bcb4fc69d2927",
+        "sha256": "d96f38e7496aba83475031e6fb8c6fdf1abf6aa1b71325a917798f3c7de93de1",
+        "expected_rows": 1048575,
+        "expected_valid_benign": 762384,
+        "expected_valid_attack": 286191
+      },
+      {
+        "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/CSE-CIC-IDS2018/Friday-16-02-2018_TrafficForML_CICFlowMeter.csv",
+        "size_bytes": 333723605,
+        "mtime_ns": 1539273790000000000,
+        "header_prefix_sha256": "ccd8235aadb11f51388bb9d70172ab7b1ac51b32b6baabf81a0bcb4fc69d2927",
+        "sha256": "1a4919faa0c49c7af97230b0c2d076eba23ee6dd81103a3801d51ac316355d8b",
+        "expected_rows": 1048575,
+        "expected_valid_benign": 446772,
+        "expected_valid_attack": 601802
+      },
+      {
+        "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/CSE-CIC-IDS2018/Friday-23-02-2018_TrafficForML_CICFlowMeter.csv",
+        "size_bytes": 382840456,
+        "mtime_ns": 1539273813000000000,
+        "header_prefix_sha256": "ccd8235aadb11f51388bb9d70172ab7b1ac51b32b6baabf81a0bcb4fc69d2927",
+        "sha256": "d0a7f5059d9823b6e9b392b759e306481a3502d190dea7a1b5502ae079ea069b",
+        "expected_rows": 1048575,
+        "expected_valid_benign": 1048009,
+        "expected_valid_attack": 566
+      },
+      {
+        "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/CSE-CIC-IDS2018/Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv",
+        "size_bytes": 4054925350,
+        "mtime_ns": 1539273839000000000,
+        "header_prefix_sha256": "180b5630ea859041906eb87339082be5cc8d841df39f94bfc7017f44924e60ce",
+        "sha256": "7287a4d7740a1dddbf330ceb2beb6a4889d33ba63674558a68b5eb50d16711df",
+        "expected_rows": 7948748,
+        "expected_valid_benign": 7372557,
+        "expected_valid_attack": 576191
+      },
+      {
+        "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/CSE-CIC-IDS2018/Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv",
+        "size_bytes": 107842858,
+        "mtime_ns": 1539274118000000000,
+        "header_prefix_sha256": "ccd8235aadb11f51388bb9d70172ab7b1ac51b32b6baabf81a0bcb4fc69d2927",
+        "sha256": "b0534c5d7d8b41e03df71c6966c995d116a8ed28e61f377c8b14cdf5d28f4edf",
+        "expected_rows": 331125,
+        "expected_valid_benign": 238037,
+        "expected_valid_attack": 93063
+      },
+      {
+        "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/CSE-CIC-IDS2018/Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv",
+        "size_bytes": 375945899,
+        "mtime_ns": 1539274128000000000,
+        "header_prefix_sha256": "ccd8235aadb11f51388bb9d70172ab7b1ac51b32b6baabf81a0bcb4fc69d2927",
+        "sha256": "fa2947a8256d81ee9103ae16139d62d0e17aa23e696ee80d9e76fb51c01c9c4b",
+        "expected_rows": 1048575,
+        "expected_valid_benign": 996077,
+        "expected_valid_attack": 52498
+      },
+      {
+        "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/CSE-CIC-IDS2018/Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv",
+        "size_bytes": 382636202,
+        "mtime_ns": 1539274160000000000,
+        "header_prefix_sha256": "ccd8235aadb11f51388bb9d70172ab7b1ac51b32b6baabf81a0bcb4fc69d2927",
+        "sha256": "da33c927018274f9d49b145baa00e4ce0526c25b3b890b34c489e247b5e24544",
+        "expected_rows": 1048575,
+        "expected_valid_benign": 1048204,
+        "expected_valid_attack": 362
+      },
+      {
+        "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/CSE-CIC-IDS2018/Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv",
+        "size_bytes": 358223333,
+        "mtime_ns": 1539274184000000000,
+        "header_prefix_sha256": "ccd8235aadb11f51388bb9d70172ab7b1ac51b32b6baabf81a0bcb4fc69d2927",
+        "sha256": "acff8bc61376ee031d80878ee6099e0b1a87a1bd711d8068298421418c9f8147",
+        "expected_rows": 1048575,
+        "expected_valid_benign": 667621,
+        "expected_valid_attack": 380949
+      },
+      {
+        "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/CSE-CIC-IDS2018/Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv",
+        "size_bytes": 328893673,
+        "mtime_ns": 1539274212000000000,
+        "header_prefix_sha256": "ccd8235aadb11f51388bb9d70172ab7b1ac51b32b6baabf81a0bcb4fc69d2927",
+        "sha256": "a5f4a1c2689e0aa6566c03a58466de9c407c0be0cbd3cc69306544026611be04",
+        "expected_rows": 1048575,
+        "expected_valid_benign": 360833,
+        "expected_valid_attack": 687742
+      },
+      {
+        "path": "/content/drive/MyDrive/research/researchdata/NIDS_Research/CSE-CIC-IDS2018/Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv",
+        "size_bytes": 209249758,
+        "mtime_ns": 1539274233000000000,
+        "header_prefix_sha256": "ccd8235aadb11f51388bb9d70172ab7b1ac51b32b6baabf81a0bcb4fc69d2927",
+        "sha256": "f15e2a12304446058a0186c8ad67de2bd15735a9ba5c70c9a1f4c4242ab06771",
+        "expected_rows": 613104,
+        "expected_valid_benign": 544200,
+        "expected_valid_attack": 68871
+      }
+    ],
+    "target": {
+      "rows": 80000,
+      "benign": 40000,
+      "attack": 40000,
+      "sha256": "643f05c8483a8ae2cfc80a667cbb84d62e8449a902e9e125f7c4a37c5b84d8d1",
+      "numeric_representation": "float64; complete valid integer-valued fields <=2^53-1"
+    },
+    "target_archive_sha256": "c3f26274b36c837ccf28ffd2dbf4582941c30b3ee70a635c6e5b2f87c4727928",
+    "target_available_unique_by_class": [
+      1818941,
+      414462
+    ],
+    "zero_selected_source_target_signature_overlap": true
+  },
+  "manifest_sha256": "890f9a7cf2c7fdfd758cae9ae6f245c97ff8478d0b40bef2fd1f1566a36858f8",
+  "parent_identity_sha256": "8bade49373197887e23c36f3d05393bb93e9d902cbbc7a9ff455dc6d57e23d47",
+  "parent_partition_report": "partition_audit_report_20261026_133455_791766.zip",
+  "upstream_source_binary_conflict_groups": 93674,
+  "upstream_source_binary_conflict_row_occurrences": 2912761,
+  "upstream_target_binary_conflict_groups": 1562,
+  "upstream_target_binary_conflict_row_occurrences": 63873,
+  "upstream_target_groups_excluded_by_selected_source": 104,
+  "upstream_target_rows_excluded_by_selected_source": 113,
+  "selected_candidates": [
+    {
+      "candidate_tool_label_family": "GoldenEye",
+      "aliases": {
+        "source": [
+          "DoS_attacks-GoldenEye"
+        ],
+        "target": [
+          "DoS GoldenEye"
+        ]
+      },
+      "matched_original_labels": {
+        "train": [
+          "DoS attacks-GoldenEye"
+        ],
+        "calibration": [
+          "DoS attacks-GoldenEye"
+        ],
+        "source_test": [
+          "DoS attacks-GoldenEye"
+        ],
+        "environment": [
+          "DoS attacks-GoldenEye"
+        ],
+        "target": [
+          "DoS GoldenEye"
+        ]
+      },
+      "family_counts": {
+        "train": 380,
+        "calibration": 86,
+        "source_test": 96,
+        "environment": 413,
+        "target": 1038
+      },
+      "retained_environment_by_block": [
+        {
+          "block": "2018-02-14 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-02-15 06:00:00",
+          "benign": 500,
+          "retained_attack": 87,
+          "excluded_family": 413,
+          "maximum_balanced_rows_per_class": 87
+        },
+        {
+          "block": "2018-02-16 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-02-20 06:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-02-21 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-01 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-01 06:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-02 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-02 06:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        }
+      ],
+      "eligible_environment_groups_by_class_quota": {
+        "100": 8,
+        "250": 8,
+        "500": 8
+      },
+      "all_four_fitting_calibration_test_target_family_counts_at_least": {
+        "20": true,
+        "50": true,
+        "100": false
+      },
+      "semantic_equivalence_established": false,
+      "representative_labels_only": true
+    },
+    {
+      "candidate_tool_label_family": "Hulk",
+      "aliases": {
+        "source": [
+          "DoS_attacks-Hulk"
+        ],
+        "target": [
+          "DoS Hulk"
+        ]
+      },
+      "matched_original_labels": {
+        "train": [
+          "DoS attacks-Hulk"
+        ],
+        "calibration": [
+          "DoS attacks-Hulk"
+        ],
+        "source_test": [
+          "DoS attacks-Hulk"
+        ],
+        "environment": [
+          "DoS attacks-Hulk"
+        ],
+        "target": [
+          "DoS Hulk"
+        ]
+      },
+      "family_counts": {
+        "train": 1102,
+        "calibration": 208,
+        "source_test": 224,
+        "environment": 500,
+        "target": 16077
+      },
+      "retained_environment_by_block": [
+        {
+          "block": "2018-02-14 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-02-15 06:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-02-16 00:00:00",
+          "benign": 500,
+          "retained_attack": 0,
+          "excluded_family": 500,
+          "maximum_balanced_rows_per_class": 0
+        },
+        {
+          "block": "2018-02-20 06:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-02-21 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-01 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-01 06:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-02 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-02 06:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        }
+      ],
+      "eligible_environment_groups_by_class_quota": {
+        "100": 8,
+        "250": 8,
+        "500": 8
+      },
+      "all_four_fitting_calibration_test_target_family_counts_at_least": {
+        "20": true,
+        "50": true,
+        "100": true
+      },
+      "semantic_equivalence_established": false,
+      "representative_labels_only": true
+    },
+    {
+      "candidate_tool_label_family": "SSH Patator",
+      "aliases": {
+        "source": [
+          "SSH-Bruteforce"
+        ],
+        "target": [
+          "SSH-Patator"
+        ]
+      },
+      "matched_original_labels": {
+        "train": [
+          "SSH-Bruteforce"
+        ],
+        "calibration": [
+          "SSH-Bruteforce"
+        ],
+        "source_test": [
+          "SSH-Bruteforce"
+        ],
+        "environment": [
+          "SSH-Bruteforce"
+        ],
+        "target": [
+          "SSH-Patator"
+        ]
+      },
+      "family_counts": {
+        "train": 867,
+        "calibration": 174,
+        "source_test": 160,
+        "environment": 500,
+        "target": 285
+      },
+      "retained_environment_by_block": [
+        {
+          "block": "2018-02-14 00:00:00",
+          "benign": 500,
+          "retained_attack": 0,
+          "excluded_family": 500,
+          "maximum_balanced_rows_per_class": 0
+        },
+        {
+          "block": "2018-02-15 06:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-02-16 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-02-20 06:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-02-21 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-01 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-01 06:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-02 00:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        },
+        {
+          "block": "2018-03-02 06:00:00",
+          "benign": 500,
+          "retained_attack": 500,
+          "excluded_family": 0,
+          "maximum_balanced_rows_per_class": 500
+        }
+      ],
+      "eligible_environment_groups_by_class_quota": {
+        "100": 8,
+        "250": 8,
+        "500": 8
+      },
+      "all_four_fitting_calibration_test_target_family_counts_at_least": {
+        "20": true,
+        "50": true,
+        "100": true
+      },
+      "semantic_equivalence_established": false,
+      "representative_labels_only": true
+    }
+  ],
+  "family_support_audit_sha256": "732021713c74888661df439708f272709846aeaf14c36918f887f6c52f67c24e",
+  "family_support_report_zip_sha256": "3ba42d96970c60efdd22111f1b5131399f06076d6fa5a1ef068b42c607fb791d",
+  "full_reference": {
+    "threshold": 0.5517122332305565,
+    "source_test": {
+      "tn": 1263,
+      "fp": 737,
+      "fn": 344,
+      "tp": 1656
+    },
+    "target": {
+      "tn": 15895,
+      "fp": 24105,
+      "fn": 20775,
+      "tp": 19225
+    }
+  }
+}

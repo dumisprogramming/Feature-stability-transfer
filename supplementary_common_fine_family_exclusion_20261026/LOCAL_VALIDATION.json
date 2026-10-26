@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "real_experiment_run_here": false,
+  "synthetic_full_fits": 9,
+  "synthetic_importance_groups": 144,
+  "synthetic_panel_evaluations": 18,
+  "independent_checks": [
+    "brute-force source-calibration threshold",
+    "sklearn confusion-derived metrics and MCC",
+    "candidate-family recalls",
+    "SciPy pairwise rank correlations",
+    "exact class counts of size-matched controls",
+    "resume with zero new fits/groups/evaluations",
+    "tampered checkpoint-output rejection"
+  ],
+  "no_runtime_estimate_for_real_drive_run": true
+}
