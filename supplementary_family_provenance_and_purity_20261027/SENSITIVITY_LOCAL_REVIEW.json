@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "recorded_file_hashes": 346,
+  "checkpoint_detail_digests": 170,
+  "included_checkpoint_output_hashes": 170,
+  "omitted_binary_output_references": 45,
+  "omitted_unique_binary_outputs": 39,
+  "prepared_code_and_context_match": true,
+  "purity_rows_reconstructed": 117000,
+  "mixed_patterns_removed": 444,
+  "purified_panel_counts": {
+    "train": {
+      "rows": 19760,
+      "benign": 10000,
+      "attack": 9760
+    },
+    "calibration": {
+      "rows": 3963,
+      "benign": 2000,
+      "attack": 1963
+    },
+    "source_test": {
+      "rows": 3948,
+      "benign": 2000,
+      "attack": 1948
+    },
+    "environment": {
+      "rows": 8887,
+      "benign": 4500,
+      "attack": 4387
+    },
+    "target": {
+      "rows": 79998,
+      "benign": 40000,
+      "attack": 39998
+    }
+  },
+  "importance_group_means": 132,
+  "spearman_pair_correlations": 420,
+  "count_derived_metric_sets": 18,
+  "candidate_family_recall_sets": 18,
+  "paired_contrasts": 6,
+  "full_references_agree": true,
+  "raw_fits_predictions_and_selection_arrays_independently_replayed": false
+}

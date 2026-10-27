@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "recorded_file_hashes": 46,
+  "checkpoint_details": 19,
+  "checkpoint_output_hash_checks": 22,
+  "selected_patterns_reaggregated": 117000,
+  "representative_hit_records_checked": 117000,
+  "raw_file_member_records_checked": 18,
+  "source_raw_rows": 16233002,
+  "target_raw_rows": 2830743,
+  "candidate_role_summaries_recomputed": 15,
+  "original_raw_files_not_available_for_independent_replay_here": true
+}

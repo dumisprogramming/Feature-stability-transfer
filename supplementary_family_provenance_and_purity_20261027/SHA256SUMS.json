@@ -1,0 +1,15 @@
+{
+  "PLAN.md": "26c330873a13e5f95e71710131ecc3c4eaf67bd77ae56648401678764b425591",
+  "PROVENANCE_LOCAL_REVIEW.json": "390dda4e52443dec5f47bfc7bbc57bba555291f445345910a9e707a9ca341203",
+  "Paper3_Pure_Family_Sensitivity_20261026.ipynb": "00ac67962056c21c5b31c05ed89edc5910f4ad96b2c74e48d4fa377ec57897a9",
+  "README.md": "220d14a4f15bc76fe641c85bdc9bd16c354bb15b73a6a0b2ccd762feea8ee20c",
+  "SENSITIVITY_LOCAL_REVIEW.json": "bfbc08131a038ca7c5f603906882eacfb7c63b16205849d2d3e2f91f833e693e",
+  "context.json": "7fa3312c510264fcaddbe12a18176a00b5db7acfcc3c34f514a30e5639ec4158",
+  "engine.py": "e56ee70c907091c30fb010e697890ad0d5e84e0f02a30d48b8c545be85aa680a",
+  "family_provenance_report_20261026_155911_486150.zip": "8f8032fc08d909ec56f86be3b1c7c2be0e790548c16f580f4d26221667c13792",
+  "integration_checks.json": "3ba92bc0d5636c82e053c2fc898825512130bf6fd6106ab72b730be77ef71281",
+  "pure_family_sensitivity_report_20261026_235323_741929.zip": "f38a7e2b59f988f7468c7ff5542125c7703c96f85b6c28e33616e5fab6da9c52",
+  "sensitivity_results.csv": "e2865ecbd4f408c0af9a894d7dc725eb4618db0c26b16cf408031bebfa7fe3e4",
+  "verify_provenance.py": "3cce9130ec56205f7366bd79ed9e07fda7c4458414f7f3e135ea5146b63209f9",
+  "verify_sensitivity.py": "e0408f5a608303783dbde3bede8605f2d3a6c15fd0ac533beed5bbed6d476eb9"
+}
