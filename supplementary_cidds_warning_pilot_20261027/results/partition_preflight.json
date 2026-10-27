@@ -1,0 +1,32 @@
+[
+  {
+    "seed": 2027,
+    "cross_capture_role_checks": 96,
+    "different_role_nonzero": 0,
+    "same_role_shared_signature_pair_sum": 11265
+  },
+  {
+    "seed": 2028,
+    "cross_capture_role_checks": 96,
+    "different_role_nonzero": 0,
+    "same_role_shared_signature_pair_sum": 11091
+  },
+  {
+    "seed": 2029,
+    "cross_capture_role_checks": 96,
+    "different_role_nonzero": 0,
+    "same_role_shared_signature_pair_sum": 11004
+  },
+  {
+    "seed": 2030,
+    "cross_capture_role_checks": 96,
+    "different_role_nonzero": 0,
+    "same_role_shared_signature_pair_sum": 10821
+  },
+  {
+    "seed": 2031,
+    "cross_capture_role_checks": 96,
+    "different_role_nonzero": 0,
+    "same_role_shared_signature_pair_sum": 11153
+  }
+]

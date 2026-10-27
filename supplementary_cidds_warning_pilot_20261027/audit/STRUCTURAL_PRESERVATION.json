@@ -1,0 +1,20 @@
+{
+  "Paper3_Manuscript_With_Corrected_Temporal_20261025.docx": {
+    "old_tables": 9,
+    "new_tables": 9,
+    "original_table_xml_preserved": true,
+    "media_files_preserved": 6,
+    "native_math_elements_preserved": 28,
+    "existing_comments_preserved": true,
+    "original_reference_paragraphs_preserved": true
+  },
+  "Paper3_Supplement_With_Corrected_Temporal_20261025.docx": {
+    "old_tables": 53,
+    "new_tables": 56,
+    "original_table_xml_preserved": true,
+    "media_files_preserved": 0,
+    "native_math_elements_preserved": 0,
+    "existing_comments_preserved": true,
+    "original_reference_paragraphs_preserved": true
+  }
+}

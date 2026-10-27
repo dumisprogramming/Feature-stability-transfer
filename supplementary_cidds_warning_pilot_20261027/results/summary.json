@@ -1,0 +1,22 @@
+{
+  "status": "CIDDS_WARNING_PILOT_COMPLETE",
+  "errors": [],
+  "source_fits_completed": 10,
+  "source_tests": 10,
+  "external_evaluations": 30,
+  "warning_records": 10,
+  "fully_defined_warning_records": 10,
+  "mean_source_ba": 0.8461465549192898,
+  "mean_target_ba": 0.7488100782336495,
+  "mean_loss": 0.09733647668564012,
+  "degraded_external_jobs": 28,
+  "improved_external_jobs": 2,
+  "tied_external_jobs": 0,
+  "predictive_warning_utility_validation_performed": false,
+  "reason_no_warning_utility_inference": "Only two eligible related source periods; seeds do not increase independent source count. No correlation p-values, regression utility claims, or general warning-utility inference.",
+  "post_hoc_target_label_informed_cohort": true,
+  "independent_site_warning_validation_completed": false,
+  "measured_production_prevalence_established": false,
+  "fine_family_equivalence_certified": false,
+  "session_seconds": 89.37705097799994
+}

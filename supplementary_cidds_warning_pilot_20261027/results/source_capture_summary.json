@@ -1,0 +1,24 @@
+[
+  {
+    "source": "cidds-001_923a5831b178f03d",
+    "source_tests": 5,
+    "external_evaluations": 15,
+    "mean_source_ba": 0.8734597314334696,
+    "mean_target_ba": 0.7690819912769159,
+    "mean_loss": 0.10437774015655386,
+    "mean_environmental_instability": 0.19573920756347554,
+    "mean_sampling_instability": 0.06579534403187008,
+    "mean_sampling_environment_gap": 0.12994386353160545
+  },
+  {
+    "source": "cidds-001_b47bab0803f7b3b9",
+    "source_tests": 5,
+    "external_evaluations": 15,
+    "mean_source_ba": 0.8188333784051098,
+    "mean_target_ba": 0.7285381651903833,
+    "mean_loss": 0.09029521321472635,
+    "mean_environmental_instability": 0.37694865196974464,
+    "mean_sampling_instability": 0.047142857142857084,
+    "mean_sampling_environment_gap": 0.32980579482688765
+  }
+]

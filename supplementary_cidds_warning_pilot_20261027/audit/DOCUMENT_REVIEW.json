@@ -1,0 +1,31 @@
+{
+  "main": {
+    "pages": 28,
+    "text_outside_page_bounds": [],
+    "replacement_character_pages": []
+  },
+  "supplement": {
+    "pages": 46,
+    "text_outside_page_bounds": [],
+    "replacement_character_pages": []
+  },
+  "visual_review": {
+    "all_page_overviews_reviewed": true,
+    "main_changed_sections_reviewed_full_size": [
+      12,
+      22,
+      27,
+      28
+    ],
+    "supplement_new_pages_reviewed_full_size": [
+      44,
+      45,
+      46
+    ],
+    "final_short_spill_page_removed": true
+  },
+  "document_sha256": {
+    "Paper3_Supplement_With_Corrected_Temporal_20261025.docx": "76d9d1b5679f3898dd4b3decf03b51fadc723b687f75edc0b9b225f5dd1cccea",
+    "Paper3_Manuscript_With_Corrected_Temporal_20261025.docx": "e7e2d58594ce41422467010eb43c2ef7507a9feaf1bf87b62e681502c9b6029e"
+  }
+}

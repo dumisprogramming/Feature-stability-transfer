@@ -1,0 +1,27 @@
+{
+  "status": "CIDDS_PARTITION_QUALIFICATION_COMPLETE",
+  "errors": [],
+  "raw_rows_scanned": 34923436,
+  "captures_processed": 4,
+  "capture_seed_records": 20,
+  "source_eligible_records": 10,
+  "target_eligible_records": 20,
+  "sources_eligible_all_five_seeds": [
+    "cidds-001_923a5831b178f03d",
+    "cidds-001_b47bab0803f7b3b9"
+  ],
+  "selected_cohort_conflicting_signatures_removed": 4874,
+  "models_fitted": 0,
+  "feature_names": [
+    "duration_native",
+    "protocol_is_tcp",
+    "destination_port",
+    "unidirectional_packets"
+  ],
+  "cohort_scope": "bounded per-window feature-group samples; no full-dataset duplicate absence claim",
+  "target_label_informed_cohort_exclusion": true,
+  "independent_site_warning_validation_completed": false,
+  "measured_production_prevalence_established": false,
+  "fine_family_equivalence_certified": false,
+  "session_seconds": 510.7919964309999
+}

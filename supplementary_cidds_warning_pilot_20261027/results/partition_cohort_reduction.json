@@ -1,0 +1,46 @@
+[
+  {
+    "capture": "cidds-001_923a5831b178f03d",
+    "raw_rows": 8451520,
+    "window_class_sample_occurrences": 281443,
+    "selected_conflicting_occurrences_removed": 15552,
+    "retained_unique_candidate_groups": 154063,
+    "retained_binary_counts": {
+      "0": 145598,
+      "1": 8465
+    }
+  },
+  {
+    "capture": "cidds-001_b47bab0803f7b3b9",
+    "raw_rows": 10310733,
+    "window_class_sample_occurrences": 277404,
+    "selected_conflicting_occurrences_removed": 15755,
+    "retained_unique_candidate_groups": 150445,
+    "retained_binary_counts": {
+      "1": 4439,
+      "0": 146006
+    }
+  },
+  {
+    "capture": "cidds-002_e5cb80359d465eaf",
+    "raw_rows": 8185992,
+    "window_class_sample_occurrences": 226833,
+    "selected_conflicting_occurrences_removed": 13354,
+    "retained_unique_candidate_groups": 129961,
+    "retained_binary_counts": {
+      "0": 126943,
+      "1": 3018
+    }
+  },
+  {
+    "capture": "cidds-002_74a9b60395a50bed",
+    "raw_rows": 7975191,
+    "window_class_sample_occurrences": 213951,
+    "selected_conflicting_occurrences_removed": 14523,
+    "retained_unique_candidate_groups": 117173,
+    "retained_binary_counts": {
+      "0": 114033,
+      "1": 3140
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "pilot_status": "CIDDS_WARNING_PILOT_COMPLETE",
+  "file_hashes_verified": 662,
+  "nested_report_hash_counts": [
+    14,
+    22,
+    13,
+    65
+  ],
+  "checkpoints_verified": 294,
+  "calibration_optima_recomputed": 10,
+  "metric_sets_recomputed": 40,
+  "importance_groups_recomputed": 244,
+  "rank_pairs_recomputed": 1544,
+  "limits": "Saved-result arithmetic and hash continuity only; raw partitions, model fitting and feature permutations are not independently replayed."
+}

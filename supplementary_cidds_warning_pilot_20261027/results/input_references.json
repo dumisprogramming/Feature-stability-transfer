@@ -1,0 +1,142 @@
+[
+  {
+    "path": "partitions/cidds-001_923a5831b178f03d_seed_2027.npz",
+    "sha256": "cc9deb88b310edd957cd15a440dcd159509ddcd99de6a512d9e57d86d4f4a78c",
+    "bytes": 862529,
+    "capture": "cidds-001_923a5831b178f03d",
+    "seed": 2027
+  },
+  {
+    "path": "partitions/cidds-001_b47bab0803f7b3b9_seed_2027.npz",
+    "sha256": "5e0b2792829a5d2967a30ce430b74ccaa7c5d030bc37910d30c30bb2c8b68d60",
+    "bytes": 622284,
+    "capture": "cidds-001_b47bab0803f7b3b9",
+    "seed": 2027
+  },
+  {
+    "path": "partitions/cidds-002_e5cb80359d465eaf_seed_2027.npz",
+    "sha256": "53b0374d2c8eb518ede31948ae30a920075dd59126b82b87dd0cacfd86b6d818",
+    "bytes": 489349,
+    "capture": "cidds-002_e5cb80359d465eaf",
+    "seed": 2027
+  },
+  {
+    "path": "partitions/cidds-002_74a9b60395a50bed_seed_2027.npz",
+    "sha256": "dac49e10fb6cfcc3874f089f6dc3d1c9c45702752e92c27e711a1158d56fbcbb",
+    "bytes": 495230,
+    "capture": "cidds-002_74a9b60395a50bed",
+    "seed": 2027
+  },
+  {
+    "path": "partitions/cidds-001_923a5831b178f03d_seed_2028.npz",
+    "sha256": "3bbd3c42d45d654620f6b38630368afb46baccce8c8ee75f70bc8c372346f453",
+    "bytes": 882759,
+    "capture": "cidds-001_923a5831b178f03d",
+    "seed": 2028
+  },
+  {
+    "path": "partitions/cidds-001_b47bab0803f7b3b9_seed_2028.npz",
+    "sha256": "3394eb9195998fd3d00c41e0ced8d25044ad8683f42ed7037c2e5011b620f612",
+    "bytes": 623829,
+    "capture": "cidds-001_b47bab0803f7b3b9",
+    "seed": 2028
+  },
+  {
+    "path": "partitions/cidds-002_e5cb80359d465eaf_seed_2028.npz",
+    "sha256": "f83a21811a5a79daeaf9881cd76c539eb304901af74a8f03fd74adf4e926c6b4",
+    "bytes": 490715,
+    "capture": "cidds-002_e5cb80359d465eaf",
+    "seed": 2028
+  },
+  {
+    "path": "partitions/cidds-002_74a9b60395a50bed_seed_2028.npz",
+    "sha256": "bbbacc8f3bd0360f282080045f7c6d0288c036991417a8551b962c130bb012c2",
+    "bytes": 494984,
+    "capture": "cidds-002_74a9b60395a50bed",
+    "seed": 2028
+  },
+  {
+    "path": "partitions/cidds-001_923a5831b178f03d_seed_2029.npz",
+    "sha256": "dc93a49c079be267f8ce9f7ef15a6b5162b39e20adba45d22c2513157383cd38",
+    "bytes": 865630,
+    "capture": "cidds-001_923a5831b178f03d",
+    "seed": 2029
+  },
+  {
+    "path": "partitions/cidds-001_b47bab0803f7b3b9_seed_2029.npz",
+    "sha256": "ad34f845286d6e8881f64d95b753e0a4dece609b4469596313c711e14ef2de14",
+    "bytes": 618851,
+    "capture": "cidds-001_b47bab0803f7b3b9",
+    "seed": 2029
+  },
+  {
+    "path": "partitions/cidds-002_e5cb80359d465eaf_seed_2029.npz",
+    "sha256": "376f32f287c28ac09e8fd21c6f9995accb50b5904f5a9b46694413e9cede8962",
+    "bytes": 490697,
+    "capture": "cidds-002_e5cb80359d465eaf",
+    "seed": 2029
+  },
+  {
+    "path": "partitions/cidds-002_74a9b60395a50bed_seed_2029.npz",
+    "sha256": "0ced0004f9431a76d8d007b786fca3a6330a31d3ae7c27024229b6e2a909d7ec",
+    "bytes": 497217,
+    "capture": "cidds-002_74a9b60395a50bed",
+    "seed": 2029
+  },
+  {
+    "path": "partitions/cidds-001_923a5831b178f03d_seed_2030.npz",
+    "sha256": "e5437a72e5ca1a919485905e0bfe296c32b7cf3903b85c962f22e6b13b6aa6e9",
+    "bytes": 862901,
+    "capture": "cidds-001_923a5831b178f03d",
+    "seed": 2030
+  },
+  {
+    "path": "partitions/cidds-001_b47bab0803f7b3b9_seed_2030.npz",
+    "sha256": "1197e92aabcac9be934bdb0cd2256a4f3602fcc1b468959408f54c19196bdcce",
+    "bytes": 619268,
+    "capture": "cidds-001_b47bab0803f7b3b9",
+    "seed": 2030
+  },
+  {
+    "path": "partitions/cidds-002_e5cb80359d465eaf_seed_2030.npz",
+    "sha256": "f7beb7c70e7723c8c6556676c91688b94fd5efb538de69c240c71d1c9f110dd1",
+    "bytes": 488814,
+    "capture": "cidds-002_e5cb80359d465eaf",
+    "seed": 2030
+  },
+  {
+    "path": "partitions/cidds-002_74a9b60395a50bed_seed_2030.npz",
+    "sha256": "db60bd2381532b2a698b3a66fad97e01aed0475c23fad084c101822f0c064b87",
+    "bytes": 493771,
+    "capture": "cidds-002_74a9b60395a50bed",
+    "seed": 2030
+  },
+  {
+    "path": "partitions/cidds-001_923a5831b178f03d_seed_2031.npz",
+    "sha256": "cc86ecc570f01259e8b989f999853034d4fe198cb3db496c7e734ce95d59e2a7",
+    "bytes": 879096,
+    "capture": "cidds-001_923a5831b178f03d",
+    "seed": 2031
+  },
+  {
+    "path": "partitions/cidds-001_b47bab0803f7b3b9_seed_2031.npz",
+    "sha256": "0b9cceb00cf234c6c1d812e8d249ecbe29f9e8abad3d2cf65777918bd696a0ec",
+    "bytes": 623454,
+    "capture": "cidds-001_b47bab0803f7b3b9",
+    "seed": 2031
+  },
+  {
+    "path": "partitions/cidds-002_e5cb80359d465eaf_seed_2031.npz",
+    "sha256": "a304f4040b11154399f5c5b000f536db07e7afc36b1ddae66b14d27119881b77",
+    "bytes": 487714,
+    "capture": "cidds-002_e5cb80359d465eaf",
+    "seed": 2031
+  },
+  {
+    "path": "partitions/cidds-002_74a9b60395a50bed_seed_2031.npz",
+    "sha256": "2db103c1aac65f5178acd720375a53e6f599b955ab5ade6dacfdf91625a48666",
+    "bytes": 493915,
+    "capture": "cidds-002_74a9b60395a50bed",
+    "seed": 2031
+  }
+]

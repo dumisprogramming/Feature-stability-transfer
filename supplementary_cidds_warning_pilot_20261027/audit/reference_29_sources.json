@@ -1,0 +1,9 @@
+{
+  "checked_date": "2026-10-27",
+  "citation": "Ring M, Wunderlich S, Gr\u00fcdl D, Landes D, Hotho A. Flow-based benchmark data sets for intrusion detection. ECCWS 2017. pp. 361\u2013369.",
+  "primary_urls": [
+    "https://www.hs-coburg.de/forschen/cidds-coburg-intrusion-detection-data-sets/",
+    "https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho/pubs/"
+  ],
+  "note": "Conference title, authors, year and pages agree between official dataset site and author publication listing. No DOI invented."
+}
