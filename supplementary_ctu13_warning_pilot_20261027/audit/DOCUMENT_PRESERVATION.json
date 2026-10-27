@@ -1,0 +1,16 @@
+{
+  "Paper3_Manuscript_With_Corrected_Temporal_20261025.docx": {
+    "original_tables_preserved": 9,
+    "final_tables": 9,
+    "native_math_objects_preserved": 28,
+    "media_parts_preserved": 6,
+    "original_references_preserved": true
+  },
+  "Paper3_Supplement_With_Corrected_Temporal_20261025.docx": {
+    "original_tables_preserved": 50,
+    "final_tables": 53,
+    "native_math_objects_preserved": 0,
+    "media_parts_preserved": 0,
+    "original_references_preserved": true
+  }
+}

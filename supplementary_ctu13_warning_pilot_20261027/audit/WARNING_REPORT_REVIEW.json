@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "report_status": "CTU13_WARNING_PILOT_COMPLETE",
+  "file_hashes_checked": 2249,
+  "checkpoint_details_checked": 746,
+  "checkpoint_output_refs_checked": 1498,
+  "source_units_checked": 25,
+  "calibration_thresholds_checked": 25,
+  "evaluation_metric_sets_checked": 200,
+  "importance_group_arrays_checked": 494,
+  "rank_pairs_checked": 3240,
+  "strict_regression_fits_recomputed": 40,
+  "strict_predictions_recomputed": 250,
+  "raw_or_input_feature_predictions_independently_replayed": false
+}

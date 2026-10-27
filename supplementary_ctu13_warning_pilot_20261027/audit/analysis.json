@@ -1,0 +1,12 @@
+{
+  "source_units": 25,
+  "source_captures": 5,
+  "external_evaluations": 175,
+  "warnings_available": 25,
+  "warning_units_missing": 0,
+  "same_documented_binary_cases": 30,
+  "predictive_fits": 40,
+  "unavailable_prediction_folds": 0,
+  "models_fitted_total": 25,
+  "broader_research_requests_fully_closed": false
+}

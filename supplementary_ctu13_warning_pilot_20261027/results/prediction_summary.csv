@@ -1,0 +1,11 @@
+scheme,specification,source_captures,units,macro_mae,macro_rmse,mae_improvement_vs_intercept
+leave_source_capture_out,intercept_only,5,25,0.12214806377724467,0.12821591329850018,0.0
+leave_source_capture_out,source_error,5,25,0.1261583915721222,0.13466763382068017,-0.004010327794877519
+leave_source_capture_out,environment_only,5,25,0.1361936168292876,0.14235466713263145,-0.014045553052042928
+leave_source_capture_out,gap_only,5,25,0.12707161193731803,0.1355072994249319,-0.004923548160073357
+leave_source_capture_out,environment_and_gap,5,25,0.1365408067152734,0.14481041244574328,-0.014392742938028738
+leave_documented_specimen_group_out,intercept_only,5,25,0.12298821632259807,0.12802763184741928,0.0
+leave_documented_specimen_group_out,source_error,5,25,0.2763498578620393,0.2834563952036201,-0.15336164153944123
+leave_documented_specimen_group_out,environment_only,5,25,0.33589465082996817,0.3804072134409106,-0.2129064345073701
+leave_documented_specimen_group_out,gap_only,5,25,0.25065656678321,0.2751595916559233,-0.12766835046061195
+leave_documented_specimen_group_out,environment_and_gap,5,25,0.2732505550127674,0.3089812552686852,-0.15026233869016933

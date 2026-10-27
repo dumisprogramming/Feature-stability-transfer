@@ -1,0 +1,40 @@
+{
+  "inventory": {
+    "file_hashes": 348,
+    "checkpoint_details": 268,
+    "included_output_refs": 59,
+    "omitted_output_refs": 248,
+    "label_counts_recomputed": {
+      "parsed_rows": 19976700,
+      "benign": 355078,
+      "attack": 444699,
+      "unknown": 19176923
+    }
+  },
+  "qualification": {
+    "file_hashes": 196,
+    "checkpoint_details": 95,
+    "included_output_refs": 95,
+    "omitted_output_refs": 287,
+    "records_reconstructed": 65
+  },
+  "pilot": {
+    "status": "PASS",
+    "report_status": "CTU13_WARNING_PILOT_COMPLETE",
+    "file_hashes_checked": 2249,
+    "checkpoint_details_checked": 746,
+    "checkpoint_output_refs_checked": 1498,
+    "source_units_checked": 25,
+    "calibration_thresholds_checked": 25,
+    "evaluation_metric_sets_checked": 200,
+    "importance_group_arrays_checked": 494,
+    "rank_pairs_checked": 3240,
+    "strict_regression_fits_recomputed": 40,
+    "strict_predictions_recomputed": 250,
+    "raw_or_input_feature_predictions_independently_replayed": false
+  },
+  "derived_tables_match_archived_report": true,
+  "status": "PASS",
+  "raw_data_recovery_or_feature_predictions_replayed": false,
+  "input_array_intersections_independently_replayed": false
+}

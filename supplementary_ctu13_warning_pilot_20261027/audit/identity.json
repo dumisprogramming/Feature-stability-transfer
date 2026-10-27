@@ -1,0 +1,20 @@
+{
+  "code_sha256": "e294a9ccce51a22d735cc873feec319c3e548ec7f84e12bfca4311e401880d20",
+  "plan_sha256": "675a6f737bafe7c94512f4c20e6a5a73d4e2ef3921dcc6e901a5f1bdf0f3f76b",
+  "context_sha256": "df2424320720b928c36004ff6f91b45cf9ba692dc5f120c0151dfbced35ff216",
+  "config": {
+    "repeats": 5,
+    "C": 1.0,
+    "tol": 1e-08,
+    "max_iter": 5000,
+    "ridge_alpha": 1.0,
+    "synthetic_test": false
+  },
+  "python": "3.13.16",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "joblib": "1.5.3",
+  "threadpoolctl": "3.6.0",
+  "machine": "x86_64"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "CTU13_WARNING_PILOT_COMPLETE",
+  "errors": [],
+  "completed_fit_records_restored_this_session": 25,
+  "completed_warning_units_restored_this_session": 25,
+  "completed_test_records_restored_this_session": 200,
+  "fresh_fits_this_session": 25,
+  "models_planned": 25,
+  "external_evaluations_planned": 175,
+  "post_hoc_label_informed_cohort": true,
+  "general_independent_site_validation_completed": false,
+  "natural_production_prevalence_established": false,
+  "full_warning_utility_established": false,
+  "session_seconds": 198.757826045
+}

@@ -1,0 +1,250 @@
+{
+  "pinned_records": 196,
+  "panel_arrays_verified": 260,
+  "within_capture_role_pairs_checked": 390,
+  "cross_capture_role_pairs": [
+    {
+      "seed": 2027,
+      "roles": [
+        "train",
+        "calibration"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2027,
+      "roles": [
+        "train",
+        "test"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2027,
+      "roles": [
+        "train",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2027,
+      "roles": [
+        "calibration",
+        "test"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2027,
+      "roles": [
+        "calibration",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2027,
+      "roles": [
+        "test",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2028,
+      "roles": [
+        "train",
+        "calibration"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2028,
+      "roles": [
+        "train",
+        "test"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2028,
+      "roles": [
+        "train",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2028,
+      "roles": [
+        "calibration",
+        "test"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2028,
+      "roles": [
+        "calibration",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2028,
+      "roles": [
+        "test",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2029,
+      "roles": [
+        "train",
+        "calibration"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2029,
+      "roles": [
+        "train",
+        "test"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2029,
+      "roles": [
+        "train",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2029,
+      "roles": [
+        "calibration",
+        "test"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2029,
+      "roles": [
+        "calibration",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2029,
+      "roles": [
+        "test",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2030,
+      "roles": [
+        "train",
+        "calibration"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2030,
+      "roles": [
+        "train",
+        "test"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2030,
+      "roles": [
+        "train",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2030,
+      "roles": [
+        "calibration",
+        "test"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2030,
+      "roles": [
+        "calibration",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2030,
+      "roles": [
+        "test",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2031,
+      "roles": [
+        "train",
+        "calibration"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2031,
+      "roles": [
+        "train",
+        "test"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2031,
+      "roles": [
+        "train",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2031,
+      "roles": [
+        "calibration",
+        "test"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2031,
+      "roles": [
+        "calibration",
+        "environment"
+      ],
+      "intersection": 0
+    },
+    {
+      "seed": 2031,
+      "roles": [
+        "test",
+        "environment"
+      ],
+      "intersection": 0
+    }
+  ],
+  "raw_recovery_independently_replayed": false,
+  "unknown_used": 0,
+  "support_thresholds_relaxed": false
+}

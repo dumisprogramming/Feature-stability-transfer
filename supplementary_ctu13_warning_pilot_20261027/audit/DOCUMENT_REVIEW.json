@@ -1,0 +1,15 @@
+{
+  "manuscript_rendered_pages": 28,
+  "supplement_rendered_pages": 43,
+  "original_main_tables_preserved": 9,
+  "original_supplementary_tables_preserved": 50,
+  "new_s19_tables": 3,
+  "original_figure_binaries_preserved": 6,
+  "native_math_objects_preserved": 28,
+  "original_references_preserved": 27,
+  "new_ctu_reference": 28,
+  "compact_chain_verification": "PASS",
+  "raw_data_rerun_claimed": false,
+  "public_upload_performed": false,
+  "all_author_approval_asserted": false
+}
